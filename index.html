@@ -40,6 +40,33 @@
             font-size: 1.2em;
         }
 
+        /* Navegació en el banner */
+        nav {
+            margin-top: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
         /* Toggle de dia/nit */
         #dark-toggle {
             position: absolute;
@@ -79,14 +106,14 @@
         }
 
         h2 {
-            color: #4CAF50;
-            border-bottom: 2px solid #4CAF50;
+            color: #000000; /* Color negre per als títols */
+            border-bottom: 2px solid #000000;
             padding-bottom: 10px;
         }
 
         body.dark-mode h2 {
-            color: #81C784;
-            border-bottom-color: #81C784;
+            color: #ffffff; /* Blanc en mode fosc per contrast */
+            border-bottom-color: #ffffff;
         }
 
         ul {
@@ -112,6 +139,10 @@
             header h1 {
                 font-size: 2em;
             }
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
             main {
                 padding: 10px;
             }
@@ -122,6 +153,14 @@
     <header>
         <h1>Projectes i Guia per Tecnologia i Enginyeria Industrial II</h1>
         <p>Recursos i estratègies per preparar la PAU</p>
+        <nav>
+            <ul>
+                <li><a href="#introduccio">Introducció</a></li>
+                <li><a href="#projectes">Projectes</a></li>
+                <li><a href="#guia-pau">Guia PAU</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+            </ul>
+        </nav>
         <button id="dark-toggle" title="Canvia a mode fosc/clar">🌙</button>
     </header>
 
