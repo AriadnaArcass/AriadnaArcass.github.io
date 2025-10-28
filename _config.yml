@@ -1,6 +1,0 @@
-defaults:
-  - scope:
-      path: ""      # el path buit indica la carpeta arrel (root)
-      type: "pages" # aplica a pàgines (no posts)
-    values:
-      layout: "default"
