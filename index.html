@@ -40,31 +40,26 @@
             font-size: 1.2em;
         }
 
-        /* Navegació en el banner */
-        nav {
+        /* Botons per a subpàgines en el banner */
+        .subpage-buttons {
             margin-top: 20px;
         }
 
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-
-        nav a {
+        .subpage-buttons a {
+            display: inline-block;
             color: white;
             text-decoration: none;
             font-weight: bold;
-            padding: 10px 15px;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border: 2px solid white;
             border-radius: 5px;
-            transition: background-color 0.3s;
+            transition: background-color 0.3s, transform 0.2s;
         }
 
-        nav a:hover {
+        .subpage-buttons a:hover {
             background-color: rgba(255, 255, 255, 0.2);
+            transform: scale(1.05);
         }
 
         /* Toggle de dia/nit */
@@ -116,11 +111,6 @@
             border-bottom-color: #ffffff;
         }
 
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
-
         /* Peu de pàgina */
         footer {
             background-color: #f1f1f1;
@@ -139,9 +129,9 @@
             header h1 {
                 font-size: 2em;
             }
-            nav ul {
-                flex-direction: column;
-                gap: 10px;
+            .subpage-buttons a {
+                display: block;
+                margin: 10px 0;
             }
             main {
                 padding: 10px;
@@ -153,14 +143,11 @@
     <header>
         <h1>Projectes i Guia per Tecnologia i Enginyeria Industrial II</h1>
         <p>Recursos i estratègies per preparar la PAU</p>
-        <nav>
-            <ul>
-                <li><a href="#introduccio">Introducció</a></li>
-                <li><a href="#projectes">Projectes</a></li>
-                <li><a href="#guia-pau">Guia PAU</a></li>
-                <li><a href="#recursos">Recursos</a></li>
-            </ul>
-        </nav>
+        <div class="subpage-buttons">
+            <a href="projectes.html">Projectes</a>
+            <a href="guia-pau.html">Guia PAU</a>
+            <a href="recursos.html">Recursos</a>
+        </div>
         <button id="dark-toggle" title="Canvia a mode fosc/clar">🌙</button>
     </header>
 
@@ -168,42 +155,6 @@
         <section id="introduccio">
             <h2>Introducció</h2>
             <p>Benvingut a aquesta pàgina dedicada als projectes i a la guia per a la matèria de Tecnologia i Enginyeria Industrial II en preparació per a les Proves d'Accés a la Universitat (PAU). Aquí trobaràs recursos, exemples de projectes i consells per encaminar els teus estudis i assolir els millors resultats.</p>
-        </section>
-
-        <section id="projectes">
-            <h2>Exemples de Projectes</h2>
-            <p>La matèria de Tecnologia i Enginyeria Industrial II posa èmfasi en projectes pràctics que integren coneixements teòrics amb aplicacions reals. Alguns exemples inclouen:</p>
-            <ul>
-                <li><strong>Disseny d'un sistema de producció automatitzat:</strong> Utilitzant eines CAD i simulacions per optimitzar processos industrials.</li>
-                <li><strong>Anàlisi d'eficiència energètica:</strong> Estudi de màquines i sistemes per reduir el consum energètic en una fàbrica.</li>
-                <li><strong>Projecte de robòtica industrial:</strong> Disseny i programació de robots per a tasques de muntatge o control de qualitat.</li>
-                <li><strong>Estudi de materials i processos:</strong> Selecció de materials per a components industrials i anàlisi de processos de fabricació.</li>
-            </ul>
-            <p>Per a cada projecte, és important seguir una metodologia clara: definició del problema, recerca, disseny, implementació i avaluació.</p>
-        </section>
-
-        <section id="guia-pau">
-            <h2>Com Encaminar la Matèria per a la PAU</h2>
-            <p>Preparar Tecnologia i Enginyeria Industrial II per a la PAU requereix una combinació d'estudi teòric, pràctica i resolució de problemes. Aquí tens alguns consells:</p>
-            <ul>
-                <li><strong>Repassa els conceptes bàsics:</strong> Assegura't de dominar temes com mecànica, electrònica, materials i processos de producció.</li>
-                <li><strong>Practica amb exercicis:</strong> Resol problemes d'exàmens anteriors i simula situacions reals amb eines com MATLAB o software de simulació.</li>
-                <li><strong>Desenvolupa projectes personals:</strong> Crea projectes petits per aplicar el que has après, com un prototip simple o una anàlisi de cas.</li>
-                <li><strong>Estudia casos d'estudi:</strong> Analitza exemples reals d'indústries per entendre com s'apliquen els conceptes.</li>
-                <li><strong>Prepara't per a la part pràctica:</strong> La PAU pot incloure qüestions que requereixen càlculs, dibuixos o dissenys. Practica amb eines com AutoCAD o SolidWorks.</li>
-            </ul>
-            <p>Recorda que la clau és la constància i la integració de teoria amb pràctica. Si tens dubtes, consulta amb professors o utilitza recursos en línia com vídeos tutorials o fòrums especialitzats.</p>
-        </section>
-
-        <section id="recursos">
-            <h2>Recursos Addicionals</h2>
-            <p>Per aprofundir en la matèria, et recomanem:</p>
-            <ul>
-                <li>Llibres de text com "Tecnología Industrial" o manuals de PAU.</li>
-                <li>Plataformes en línia com Khan Academy, Coursera o edX per cursos gratuïts.</li>
-                <li>Eines de programari: FreeCAD per disseny, o simuladors com Simulink.</li>
-                <li>Comunitats: Fòrums com Reddit's r/engineering o grups de Facebook per estudiants de PAU.</li>
-            </ul>
         </section>
     </main>
 
