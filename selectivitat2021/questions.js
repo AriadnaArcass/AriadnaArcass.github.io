@@ -101,13 +101,14 @@ steps: `
 },
 {
 type: "questions", // Tipus de pregunta
-category: "energia",
-text: `Un rentaplats ha consumit \\(0{,}9 \\, \\text{kWh}\\) d’energia elèctrica per a escalfar \\(11 \\, \\text{L}\\) d’aigua des d’una temperatura ambient \\(T_{amb} = 10 \\, ^\\circ \\text{C}\\) a una temperatura \\(T = 70 \\, ^\\circ \\text{C}\\). La calor específica de l’aigua és \\(c_e = 4{,}18 \\, \\frac{\\text{J}}{\\text{g} \\cdot ^\\circ \\text{C}}\\). El rendiment del rentaplats és:`,
+category: "materialsiassaigs",
+text: `Es disposa d’una barra d’acer amb una longitud inicial \\(L= 800 mm)\\ a \\(20 °C)\\. El coeficient de dilatació lineal de l’acer és \\(α = 13 × 10–6 °C–1)\\. Quina serà la longitud final quan la temperatura hagi incrementat \\(400 °C)\\?
+`,
 options: [
-{ text: "11,74 %", value: "a" },
-{ text: "27,59 %", value: "b" },
-{ text: "76,63 %", value: "c" },
-{ text: "85,15 %", value: "d" }
+{ text: "804,16 mm", value: "a" },
+{ text: "803,95 mm", value: "b" },
+{ text: "800,01 mm", value: "c" },
+{ text: "800,30 mm, value: "d" },
 ],
 correctAnswer: "d",
 steps: `
