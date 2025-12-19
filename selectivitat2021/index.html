@@ -122,6 +122,8 @@ function renderQuiz() {
     const filtered = questions.map((q,i)=>({...q, originalIndex:i}))
         .filter(q => (selectedCategory==='tot' || q.category===selectedCategory)
                   && (selectedType==='totes' || q.type===selectedType));
+    
+    // El forEach simplemente usa los valores fijos calculados en initializeQuiz
 
     filtered.forEach(q => {
         const div = document.createElement("div");
