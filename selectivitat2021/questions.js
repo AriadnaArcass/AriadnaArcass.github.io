@@ -112,36 +112,27 @@ options: [
 ],
 correctAnswer: "a",
   steps: `
-<strong>Resolució de l'exercici:</strong>
-<br>
-Aquest és un problema de dilatació tèrmica lineal. La fórmula per calcular el canvi de longitud és:
-\\$
-\\Delta L = L \\times \\alpha \\times \\Delta T
-\\$
-On:
-- \\$L\\$ és la longitud inicial (\\$800 \\, \\text{mm}\\$).
-- \\$\\alpha\\$ és el coeficient de dilatació lineal (\\$13 \\times 10^{-6} \\, ^\\circ\\text{C}^{-1}\\$).
-- \\$\\Delta T\\$ és l'increment de temperatura (\\$400 \\, ^\\circ\\text{C}\\$).
-
-<strong>Pas 1:</strong> Calcula el producte \\$\\alpha \\times \\Delta T\\$.  
-\\$
-\\alpha \\times \\Delta T = 13 \\times 10^{-6} \\times 400 = (13 \\times 400) \\times 10^{-6} = 5200 \\times 10^{-6} = 5{,}2 \\times 10^{-3} \\quad (\\text{o } 0{,}0052)
-\\$
-
-<strong>Pas 2:</strong> Calcula \\$\\Delta L\\$ multiplicant \\$L\\$ per aquest valor.  
-\\$
-\\Delta L = 800 \\times 0{,}0052 = 4{,}16 \\, \\text{mm}
-\\$
-
-<strong>Pas 3:</strong> Calcula la longitud final sumant \\$\\Delta L\\$ a \\$L\\$.  
-\\$
-\\text{Longitud final} = 800 + 4{,}16 = 804{,}16 \\, \\text{mm}
-\\$
-
-<strong>Resposta correcta:</strong> a) 804,16 mm  
-
-Aquesta resposta es basa en la fórmula estàndard de dilatació tèrmica, que és una llei física fonamental (la llei de dilatació lineal de Charles). Els càlculs són precisos i coincideixen amb les opcions donades.
-
+<strong>a) Càlcul del canvi de longitud \\$\\Delta L\\$:</strong>
+           <br>
+           - La fórmula de dilatació tèrmica lineal és:
+           \\[
+           \\Delta L = L \\times \\alpha \\times \\Delta T
+           \\]
+           - Substituint els valors:
+           \\[
+           \\Delta L = 800 \\, \\text{mm} \\times 13 \\times 10^{-6} \\, ^\\circ\\text{C}^{-1} \\times 400 \\, ^\\circ\\text{C} = 4{,}16 \\, \\text{mm}
+           \\]
+           <br>
+           <strong>b) Càlcul de la longitud final:</strong>
+           <br>
+           - La longitud final és la suma de la longitud inicial i el canvi:
+           \\[
+           L_{\\text{final}} = L + \\Delta L = 800 \\, \\text{mm} + 4{,}16 \\, \\text{mm} = 804{,}16 \\, \\text{mm}
+           \\]
+           <br>
+           <strong>c) Verificació i resposta:</strong>
+           <br>
+           - La resposta correcta és l'opció a) 804,16 mm, ja que es basa en la fórmula estàndard de dilatació tèrmica.
            <br><br>
            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
 images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
