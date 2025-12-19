@@ -188,11 +188,7 @@ steps: `
            <br><br>
            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
 images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
-    }
-];
-
-    },
-    // Afegint l'exercici addicional de la pàgina (exercici 4 de l'examen PAU 2021 Juny serie 2 Tecnologia Industrial)
+},
     {
         type: "questions", // Tipus de pregunta
         category: "energia",
