@@ -108,7 +108,7 @@ options: [
 { text: "804,16 mm", value: "a" },
 { text: "803,95 mm", value: "b" },
 { text: "800,01 mm", value: "c" },
-{ text: "800,30 mm, value: "d" }
+{ text: "800,30 mm", value: "d" }
 ],
 correctAnswer: "d",
 steps: `
