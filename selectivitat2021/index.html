@@ -117,7 +117,9 @@ function renderQuiz() {
     const selectedType = document.getElementById("type-select").value;
 
     quizContainer.innerHTML = '';
-
+window.questions = [
+  { text: "...", type: "questions", category: "energia" }
+];
     const filtered = questions.map((q,i)=>({...q, originalIndex:i}))
         .filter(q => (selectedCategory==='tot' || q.category===selectedCategory)
                   && (selectedType==='totes' || q.type===selectedType));
