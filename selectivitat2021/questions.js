@@ -110,32 +110,38 @@ options: [
 { text: "800,01 mm", value: "c" },
 { text: "800,30 mm", value: "d" }
 ],
-correctAnswer: "d",
-steps: `
-           \\[
-           <strong>Pas 1:</strong> Calcula el producte \$\alpha \times \Delta T\$. \$ \alpha \times \Delta T = 13 \times 10^{-6} \times 400 = (13 \times 400) \times 10^{-6} = 5200 \times 10^{-6} = 5{,}2 \times 10^{-3} \quad (\text{o } 0{,}0052) \$
-           \\]
-           \\[
-           \\Delta T = 70 \\, ^\\circ \\text{C} - 10 \\, ^\\circ \\text{C} = 60 \\, ^\\circ \\text{C}
-           \\]
-           \\[
-           Q = m \\times c_e \\times \\Delta T
-           \\]
-           \\[
-           Q = 11000 \\, \\text{g} \\times 4{,}18 \\, \\frac{\\text{J}}{\\text{g} \\cdot ^\\circ \\text{C}} \\times 60 \\, ^\\circ \\text{C}
-           \\]
-           \\[
-           Q = 11000 \\times 4{,}18 \\times 60 = 2{,}7588 \\times 10^6 \\, \\text{J}
-           \\]
-           \\[
-           W = 0{,}9 \\, \\text{kWh} \\times 3600000 \\, \\text{J/kWh} = 3240000 \\, \\text{J}
-           \\]
-           \\[
-           \\eta = \\frac{Q}{W} \\times 100
-           \\]
-           \\[
-           \\eta = \\frac{2{,}7588 \\times 10^6}{3{,}24 \\times 10^6} \\times 100 = 85{,}15 \\, \\%
-           \\]
+correctAnswer: "a",
+  steps: `
+<strong>Resolució de l'exercici:</strong>
+<br>
+Aquest és un problema de dilatació tèrmica lineal. La fórmula per calcular el canvi de longitud és:
+\\$
+\\Delta L = L \\times \\alpha \\times \\Delta T
+\\$
+On:
+- \\$L\\$ és la longitud inicial (\\$800 \\, \\text{mm}\\$).
+- \\$\\alpha\\$ és el coeficient de dilatació lineal (\\$13 \\times 10^{-6} \\, ^\\circ\\text{C}^{-1}\\$).
+- \\$\\Delta T\\$ és l'increment de temperatura (\\$400 \\, ^\\circ\\text{C}\\$).
+
+<strong>Pas 1:</strong> Calcula el producte \\$\\alpha \\times \\Delta T\\$.  
+\\$
+\\alpha \\times \\Delta T = 13 \\times 10^{-6} \\times 400 = (13 \\times 400) \\times 10^{-6} = 5200 \\times 10^{-6} = 5{,}2 \\times 10^{-3} \\quad (\\text{o } 0{,}0052)
+\\$
+
+<strong>Pas 2:</strong> Calcula \\$\\Delta L\\$ multiplicant \\$L\\$ per aquest valor.  
+\\$
+\\Delta L = 800 \\times 0{,}0052 = 4{,}16 \\, \\text{mm}
+\\$
+
+<strong>Pas 3:</strong> Calcula la longitud final sumant \\$\\Delta L\\$ a \\$L\\$.  
+\\$
+\\text{Longitud final} = 800 + 4{,}16 = 804{,}16 \\, \\text{mm}
+\\$
+
+<strong>Resposta correcta:</strong> a) 804,16 mm  
+
+Aquesta resposta es basa en la fórmula estàndard de dilatació tèrmica, que és una llei física fonamental (la llei de dilatació lineal de Charles). Els càlculs són precisos i coincideixen amb les opcions donades.
+`
            <br><br>
            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
 images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
