@@ -112,7 +112,7 @@ options: [
 ],
 correctAnswer: "a",
   steps: `
-<strong>a) Càlcul del canvi de longitud \\[\\Delta L\\]:</strong>
+<strong>a) Càlcul del canvi de longitud [\\Delta L\\]:</strong>
            <br>
            - La fórmula de dilatació tèrmica lineal és:
            \\[
