@@ -119,7 +119,7 @@ steps: `
            \\Delta T = 70 \\, ^\\circ \\text{C} - 10 \\, ^\\circ \\text{C} = 60 \\, ^\\circ \\text{C}
            \\]
            \\[
-           \\text{Longuitud final} Q = m \\times c_e \\times \\Delta T
+           \\text{Longuitud final} Q = m \\times c_e \\times \\Delta T\\, \\text{J}
            \\]
            \\[
            \\text{Longuitud final}Q = 11000 \\, \\text{g} \\times 4{,}18 \\, \\frac{\\text{J}}{\\text{g} \\cdot ^\\circ \\text{C}} \\times 60 \\, ^\\circ \\text{C}
