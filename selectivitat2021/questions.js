@@ -141,7 +141,7 @@ On:
 <strong>Resposta correcta:</strong> a) 804,16 mm  
 
 Aquesta resposta es basa en la fórmula estàndard de dilatació tèrmica, que és una llei física fonamental (la llei de dilatació lineal de Charles). Els càlculs són precisos i coincideixen amb les opcions donades.
-`
+
            <br><br>
            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
 images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
