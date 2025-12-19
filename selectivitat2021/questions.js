@@ -113,7 +113,6 @@ options: [
 correctAnswer: "a",
   steps: `
 <strong>a) Càlcul del canvi de longitud \\ΔL\\:</strong>
-           <br>
            - La fórmula de dilatació tèrmica lineal és: 
            \\[
            \\Delta L = L \\times \\alpha \\times \\Delta T
@@ -122,7 +121,6 @@ correctAnswer: "a",
            \\[
            \\Delta L = 800 \\, \\text{mm} \\times 13 \\times 10^{-6} \\, ^\\circ\\text{C}^{-1} \\times 400 \\, ^\\circ\\text{C} = 4{,}16 \\, \\text{mm}
            \\]
-           <br>
            <strong>b) Càlcul de la longitud final:</strong>
            <br>
            - La longitud final és la suma de la longitud inicial i el canvi:
