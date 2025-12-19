@@ -112,7 +112,7 @@ options: [
 ],
 correctAnswer: "a",
   steps: `
-<strong>a) Càlcul del canvi de longitud \\$\\Delta L\\$:</strong>
+<strong>a) Càlcul del canvi de longitud \\[\\Delta L\\]:</strong>
            <br>
            - La fórmula de dilatació tèrmica lineal és:
            \\[
@@ -129,10 +129,6 @@ correctAnswer: "a",
            \\[
            L_{\\text{final}} = L + \\Delta L = 800 \\, \\text{mm} + 4{,}16 \\, \\text{mm} = 804{,}16 \\, \\text{mm}
            \\]
-           <br>
-           <strong>c) Verificació i resposta:</strong>
-           <br>
-           - La resposta correcta és l'opció a) 804,16 mm, ja que es basa en la fórmula estàndard de dilatació tèrmica.
            <br><br>
            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
 images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
