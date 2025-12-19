@@ -16,7 +16,7 @@
 <label for="type-select">Tipus de preguntes:</label>
 <select id="type-select" onchange="renderQuiz()">
     <option value="totes">Totes</option>
-    <option value="questions">Qüestions</option>
+    <option value="questions">Questions</option>
     <option value="exercicis">Exercicis</option>
 </select>
 
@@ -48,7 +48,6 @@ body { font-family: Arial, sans-serif; transition: background-color 0.3s, color 
 .question-images { margin: 10px 0; }
 ul { padding-left: 20px; }
 </style>
-<div id="load-time" style="margin-top:20px; font-style:italic; color: #555;"></div>
 
 <div id="load-time" style="margin-top:20px; font-style:italic; color: #555;"></div>
 
@@ -123,8 +122,7 @@ function renderQuiz() {
         .filter(q => (selectedCategory==='tot' || q.category===selectedCategory)
                   && (selectedType==='totes' || q.type===selectedType));
     
-    // El forEach simplemente usa los valores fijos calculados en initializeQuiz
-
+    
     filtered.forEach(q => {
         const div = document.createElement("div");
         div.innerHTML = `
@@ -153,7 +151,7 @@ function checkAnswer(selected, correct, answerId, stepsId, resultId) {
     r.classList.add('visible');
     const btn = r.previousElementSibling;
     if(btn && btn.classList.contains('solution-button')) btn.style.display='block';
-    MathJax.typesetPromise();
+    if (window.MathJax) MathJax.typesetPromise();
 }
 
 /* ----------------- Toggle solució ----------------- */
