@@ -113,7 +113,7 @@ options: [
 correctAnswer: "d",
 steps: `
            \\[
-           m = 11 \\, \\text{L} \\times 1000 \\, \\text{g/L} = 11000 \\, \\text{g}
+           <strong>Pas 1:</strong> Calcula el producte \$\alpha \times \Delta T\$. \$ \alpha \times \Delta T = 13 \times 10^{-6} \times 400 = (13 \times 400) \times 10^{-6} = 5200 \times 10^{-6} = 5{,}2 \times 10^{-3} \quad (\text{o } 0{,}0052) \$
            \\]
            \\[
            \\Delta T = 70 \\, ^\\circ \\text{C} - 10 \\, ^\\circ \\text{C} = 60 \\, ^\\circ \\text{C}
