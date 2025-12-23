@@ -135,49 +135,36 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
 },
 {
 type: "questions", // Tipus de pregunta
-category: "materials",
-text: `Una família que anualment generava 525 kg d’envasos, en un any ha aconseguit reduir aquesta quantitat un 60 %. Quina reducció en emissions de GEH ha obtingut respecte a l’any anterior, tenint en compte que el factor d’emissió dels envasos és de 120,09 g CO2eq/kg residu?`,
+category: "sistemes pneumatics i oleohidraulics",
+text: `Quina és la velocitat de rotació d’un cargol de pas (avanç per volta) \\(p = 2 mm\\) que té una velocitat d’avanç de \\(15 mm/s\\)?`,
 options: [
-{ text: "25,22 kg CO2eq", value: "a" },
-{ text: "37,83 kg CO2eq", value: "b" },
-{ text: "63,05 kg CO2eq", value: "c" },
-{ text: "88,27 kg CO2eq", value: "d" }
+{ text: "480 min–1", value: "a" },
+{ text: "7,5 min–1", value: "b" },
+{ text: "450 min–1", value: "c" },
+{ text: "8 min–1", value: "d" }
 ],
-correctAnswer: "b",
+correctAnswer: "c",
 steps: `
-           \\[
-           \\text{Quantitat inicial d’envasos} = 525 \\, \\text{kg}
-           \\]
-           \\[
-           \\text{Percentatge de reducció} = 60\\%
-           \\]
-           \\[
-           \\text{Quantitat reduïda} = 525 \\, \\text{kg} \\times 0{,}60 = 315 \\, \\text{kg}
-           \\]
-           \\[
-           \\text{Quantitat de residu restant} = 525 \\, \\text{kg} - 315 \\, \\text{kg} = 210 \\, \\text{kg}
-           \\]
-           \\[
-           \\text{Emissions inicials} = 525 \, \\text{kg} \\times 120{,}09 \, \\text{g CO2eq/kg}
-           \\]
-           \\[
-           \\text{Emissions inicials} = 63047,25 \, \\text{g CO2eq}
-           \\]
-           \\[
-           \\text{Emissions inicials} = 63{,}05 \, \\text{kg CO2eq}
-           \\]
-           \\[
-           \\text{Emissions després de la reducció} = 210 \, \\text{kg} \\times 120{,}09 \, \\text{g CO2eq/kg}
-           \\]
-           \\[
-           \\text{Emissions després de la reducció} = 25218{,}9 \, \\text{g CO2eq}
-           \\]
-           \\[
-           \\text{Emissions després de la reducció} = 25{,}22 \, \\text{kg CO2eq}
-           \\]
-           \\[
-           \\text{Reducció en emissions} = 63{,}05 \, \\text{kg CO2eq} - 25{,}22 \, \\text{kg CO2eq} = 37{,}83 \, \\text{kg CO2eq}
-           \\]
+          <strong>Càlcul de la velocitat de rotació del cargol:</strong>
+            <br>
+            - Fórmula utilitzada:
+            \\[
+            v = n \\times p
+            \\]
+            - On:
+            \\[
+            v = 15 \\, \\text{mm/s} \\quad (\\text{velocitat d'avanç})
+            \\]
+            \\[
+            p = 2 \\, \\text{mm/rev} \\quad (\\text{pas del cargol})
+            \\]
+            \\[
+            n = \\frac{v}{p} = \\frac{15 \\, \\text{mm/s}}{2 \\, \\text{mm/rev}} = 7{,}5 \\, \\text{rev/s}
+            \\]
+            - Convertir a revolucions per minut:
+            \\[
+            n_{\\text{min}^{-1}} = 7{,}5 \\, \\text{rev/s} \\times 60 \\, \\text{s/min} = 450 \\, \\text{min}^{-1}
+            \\]
            <br><br>
            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
 images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
