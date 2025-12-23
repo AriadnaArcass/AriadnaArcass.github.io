@@ -98,5 +98,46 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
             <br><br>
            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
 images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
+ },
+  {
+        type: "questions", // Tipus de pregunta
+        category: "principidelesmaquines",
+        text: `Un bloc de massa \\(m = 3 kg\\) està unit mitjançant un cable al centre d’una politja de radi \\(R1 = 300 mm\\). Una corda ideal subjectada al sostre passa per la politja de la qual penja el bloc, i per una altra politja de radi \\(R2 = 150 mm\\) articulada al sostre pel seu punt mitjà. Quina força F cal fer per a mantenir el bloc en repòs? `,
+        options: [
+            { text: "14,71 N", value: "a" },
+            { text: "29,42 N", value: "b" },
+            { text: "7,355 N", value: "c" },
+            { text: "3,678 N", value: "d" }
+        ],
+        correctAnswer: "a",
+        steps: `
+           steps:
+    \\[
+    \\text{Massa del bloc} = 3 \\, \\text{kg} 
+    \\]
+    \\[
+    \\text{Acceleració de la gravetat} = 9{,}81 \\, \\text{m/s}^2 
+    \\]
+    \\[
+    \\text{Pes del bloc} = m \\cdot g = 3 \\cdot 9{,}81 = 29{,}42 \\, \\text{N} 
+    \\]
+    \\[
+    \\text{La politja mòbil està sostinguda per dos trams de corda} 
+    \\]
+    \\[
+    \\text{Condició d'equilibri: } 2T = P 
+    \\]
+    \\[
+    2T = 29{,}42 \\Rightarrow T = \\frac{29{,}42}{2} = 14{,}71 \\, \\text{N} 
+    \\]
+    \\[
+    \\text{La politja superior és fixa, per tant } F = T 
+    \\]
+    \\[
+    \\boxed{F = 14{,}71 \\, \\text{N}} 
+    \\]
+           <br><br>
+           <img src="ruta/a/js2ex1q4.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
+images: `<img src="ruta/a/js2ex1q4.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
   }
 ];
