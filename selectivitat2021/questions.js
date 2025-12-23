@@ -172,7 +172,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
 {
         type: "questions", // Tipus de pregunta
         category: "energia",
-        text: `Un trajecte interurbà circular d’autobús té una longitud de 12 km i un total de 6 parades. La freqüència de pas de l’autobús és de 15 minuts durant 12 hores al dia, 270 dies l’any. L’Oficina Catalana del Canvi Climàtic estima un factor d’emissió FE = 1 155,52 g de CO2 /km per a aquest tipus d’autobús. Quina petjada de carboni deixa l’autobús al cap de l’any?`,
+        text: `Un trajecte interurbà circular d’autobús té una \\(longitud de 12 km\\) i un total de \\(6 parades\\). La freqüència de pas de l’autobús és de \\(15 minuts durant 12 hores al dia, 270 dies l’any\\). L’Oficina Catalana del Canvi Climàtic estima un factor d’emissió \\(FE = 1 155,52 g de CO2 /km\\) per a aquest tipus d’autobús. Quina petjada de carboni deixa l’autobús al cap de l’any?`,
         options: [
             { text: "11,23 tones de CO2", value: "a" },
             { text: "179,71 tones de CO2", value: "b" },
