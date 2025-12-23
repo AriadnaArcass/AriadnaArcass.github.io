@@ -1,7 +1,7 @@
 const questions = [
 {
 type: "questions", // Tipus de pregunta
-category: "materials i assaigs",
+category: "materialsiassaigs",
 text: `Es disposa d’una barra d’acer amb una longitud inicial \\(L= 800 mm\\) a \\(20 °C\\). El coeficient de dilatació lineal de l’acer és \\(α = 13 × 10–6 °C–1\\). Quina serà la longitud final quan la temperatura hagi incrementat \\(400 °C\\)?
 `,
 options: [
@@ -35,7 +35,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
 },
 {
 type: "questions", // Tipus de pregunta
-category: "sistemes pneumatics i oleohidraulics",
+category: "sistemespneumaticsioleohidraulics",
 text: `Quina és la velocitat de rotació d’un cargol de pas (avanç per volta) \\(p = 2 mm\\) que té una velocitat d’avanç de \\(15 mm/s\\)?`,
 options: [
 { text: "480 min–1", value: "a" },
@@ -101,7 +101,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
  },
   {
         type: "questions", // Tipus de pregunta
-        category: "principi de les maquines",
+        category: "principidelesmaquines",
         text: `Un bloc de massa \\(m = 3 kg\\) està unit mitjançant un cable al centre d’una politja de radi \\(R1 = 300 mm\\). Una corda ideal subjectada al sostre passa per la politja de la qual penja el bloc, i per una altra politja de radi \\(R2 = 150 mm\\) articulada al sostre pel seu punt mitjà. Quina força F cal fer per a mantenir el bloc en repòs? `,
         options: [
             { text: "14,71 N", value: "a" },
