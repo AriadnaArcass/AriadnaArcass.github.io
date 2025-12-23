@@ -101,7 +101,7 @@ steps: `
 },
 {
 type: "questions", // Tipus de pregunta
-category: "materials i assaigs",
+category: "materialsiassaigs",
 text: `Es disposa d’una barra d’acer amb una longitud inicial \\(L= 800 mm\\) a \\(20 °C\\). El coeficient de dilatació lineal de l’acer és \\(α = 13 × 10–6 °C–1\\). Quina serà la longitud final quan la temperatura hagi incrementat \\(400 °C\\)?
 `,
 options: [
@@ -135,7 +135,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
 },
 {
 type: "questions", // Tipus de pregunta
-category: "sistemes pneumatics i oleohidraulics",
+category: "sistemespneumaticsioleohidraulics",
 text: `Quina és la velocitat de rotació d’un cargol de pas (avanç per volta) \\(p = 2 mm\\) que té una velocitat d’avanç de \\(15 mm/s\\)?`,
 options: [
 { text: "480 min–1", value: "a" },
@@ -169,5 +169,32 @@ steps: `
            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
 images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
     },
+{
+        type: "questions", // Tipus de pregunta
+        category: "energia",
+        text: `Un trajecte interurbà circular d’autobús té una longitud de 12 km i un total de 6 parades. La freqüència de pas de l’autobús és de 15 minuts durant 12 hores al dia, 270 dies l’any. L’Oficina Catalana del Canvi Climàtic estima un factor d’emissió FE = 1 155,52 g de CO2 /km per a aquest tipus d’autobús. Quina petjada de carboni deixa l’autobús al cap de l’any?`,
+        options: [
+            { text: "11,23 tones de CO2", value: "a" },
+            { text: "179,71 tones de CO2", value: "b" },
+            { text: "6,739 tones de CO2", value: "c" },
+            { text: "242,94 tones de CO2", value: "d" }
+        ],
+        correctAnswer: "b",
+        steps: `
+            <strong>Càlcul de la petjada de carboni de l'autobús:</strong>
+            <br>
+            - Fórmula utilitzada:
+            \\[
+            \\text{Emissions totals} = \\text{Distància total} \\times \\text{FE}
+            \\]
+            - On:
+            \\[
+            \\text{FE} = 1155{,}52 \\, \\text{g CO}_2/\\text{km}
+            \\]
+            - Nombre de viatges per dia:
+            \\[
+            \\text{Viatges/dia} = \\frac{12 \\, \\text{h} \\times 60 \\, \\text{min/h}}{15 \\, \\text{min/viatge}}
+            \\]
+ }
 ];
     
