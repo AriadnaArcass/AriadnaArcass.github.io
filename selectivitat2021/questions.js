@@ -12,23 +12,22 @@ options: [
 ],
 correctAnswer: "a",
   steps: `
-<strong>a) Càlcul del canvi de longitud ΔL: </strong>
-
-           
-           - La fórmula de dilatació tèrmica lineal és: 
-           \\[
-           \\Delta L = L \\times \\alpha \\times \\Delta T
-           \\]
-           - Substituint els valors:
-           \\[
-           \\Delta L = 800 \\, \\text{mm} \\times 13 \\times 10^{-6} \\, ^\\circ\\text{C}^{-1} \\times 400 \\, ^\\circ\\text{C} = 4{,}16 \\, \\text{mm}
-           \\]
-           <strong>b) Càlcul de la longitud final:</strong>
-           <br>
-           - La longitud final és la suma de la longitud inicial i el canvi:
-           \\[
-           L_{\\text{final}} = L + \\Delta L = 800 \\, \\text{mm} + 4{,}16 \\, \\text{mm} = 804{,}16 \\, \\text{mm}
-           \\]
+  Ens demanen la longitud final d'una barra d'acer després d'escalfar-se.
+  - Dades: 
+   Longitud inicial \\(L_0 = 800 mm\\)
+   Coeficient de dilatació \\(alpha = 13 \\times 10^{-6} \\ ^ \\circ C^{-1}\\) 
+   Increment de temperatura \\(Delta T) = $400 \\ ^\\circ C$\\) 
+  - Fórmula: 
+   La llei de la dilatació lineal: 
+   \\[
+   \\Delta L = L_0 \\cdot \\alpha \\cdot \\Delta T
+   \\L_f = L_0 + \\Delta L
+   \\]
+   - Càlcul: 
+   \\[
+   \\Delta L = 800 \\text{ mm} \\cdot 13 \\cdot 10^{-6} \\ ^\\circ C^{-1} \\cdot 400 \\ ^\\circ C = 4,16 \\text{ mm}
+   \\L_f = 800 + 4,16 = 804,16 \\text{ mm}
+   \\]
            <br><br>
            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
 images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
