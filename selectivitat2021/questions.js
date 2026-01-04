@@ -88,12 +88,12 @@ steps: `
 \\]    
 <p>-Càlcul emissions:</p>
 \\[
-\\
+\\text{Massa } CO_2 = 155.520 \\text{ km} \\cdot 1.155,52 \\frac{\\text{g}}{km} \\approx 179.706.470 \\text{ g}
 \\]
-         
-
-        
-        
+<p>Passem a tones \\( 1\\,\\text{t} = 10^{6}\\,\\text{g} \\):</p>
+\\[
+179,71 \text{ tones}
+\\]
             <br><br>
            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
 images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
@@ -101,7 +101,8 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
   {
         type: "questions", // Tipus de pregunta
         category: "principidelesmaquines",
-        text: `Un bloc de massa \\(m = 3 kg\\) està unit mitjançant un cable al centre d’una politja de radi \\(R1 = 300 mm\\). Una corda ideal subjectada al sostre passa per la politja de la qual penja el bloc, i per una altra politja de radi \\(R2 = 150 mm\\) articulada al sostre pel seu punt mitjà. Quina força F cal fer per a mantenir el bloc en repòs? `,
+        text: `Un bloc de massa \\(m = 3 kg\\) està unit mitjançant un cable al centre d’una politja de radi \\(R1 = 300 mm\\). Una corda ideal subjectada al sostre passa per la politja de la qual penja el bloc, i per una altra politja de radi \\(R2 = 150 mm\\) articulada al sostre pel seu punt mitjà. Quina força F cal fer per a mantenir el bloc en repòs? 
+        <img src="https://ariadnaarcass.github.io/selectivitat/2021/js2ex1q4.png" alt="Imatge relacionada amb la pregunta" width="900">`,
         options: [
             { text: "14,71 N", value: "a" },
             { text: "29,42 N", value: "b" },
@@ -110,33 +111,23 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         ],
         correctAnswer: "a",
         steps: `
-      
-    \\[
-    \\text{Massa del bloc} = 3 \\, \\text{kg} 
-    \\]
-    \\[
-    \\text{Acceleració de la gravetat} = 9{,}81 \\, \\text{m/s}^2 
-    \\]
-    \\[
-    \\text{Pes del bloc} = m \\cdot g = 3 \\cdot 9{,}81 = 29{,}42 \\, \\text{N} 
-    \\]
-    \\[
-    \\text{La politja mòbil està sostinguda per dos trams de corda} 
-    \\]
-    \\[
-    \\text{Condició d'equilibri: } 2T = P 
-    \\]
-    \\[
-    2T = 29{,}42 \\Rightarrow T = \\frac{29{,}42}{2} = 14{,}71 \\, \\text{N} 
-    \\]
-    \\[
-    \\text{La politja superior és fixa, per tant } F = T 
-    \\]
-    \\[
-    \\boxed{F = 14{,}71 \\, \\text{N}} 
-    \\]
+        <p>Ens demanen la força \\(F\\) per mantenir l'equilibri.</p>
+        <p>-Anàlisi:</p>
+        <p>Tenim una politja mòbil \\(R_1\\) que suporta la massa \\(m\\). La corda passa per sota, de manera que dues seccions de corda aguanten el pes. La tensió de la corda és igual a la força \\(F\\) que apliquem a l'extrem.</p>
+        <p>-Fórmula:</p>
+        <p>Equilibri de forces a la politja mòbil:</p>
+        \\[
+        2 \\cdot T = m \\cdot g \\quad (\\\text{on } T = F)
+        \\]
+        \\[
+        2F = m \\cdot g \\quad \\rightarrow \\quad F = \\frac{m \\cdot g}{2}
+        \\]
+        <p>-Càlcul:</p>
+        \\[
+        F = \\frac{3 \\text{ kg} \\cdot 9,81 \\text{ m/s}^2}{2} = 14,715 \\text{ N}
+        \\]
            <br><br>
-           <img src="ruta/a/js2ex1q4.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
-images: `<img src="ruta/a/js2ex1q4.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
+            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
+images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
   }
 ];
