@@ -24,7 +24,7 @@ correctAnswer: "a",
    \\Delta L = L_0 \\cdot \\alpha \\cdot \\Delta T
    \\]
    \\[
-   \\L_f = L_0 + \\Delta L
+   L_f = L_0 + \\Delta L
    \\]
    
 
@@ -33,7 +33,7 @@ correctAnswer: "a",
    \\Delta L = 800 \\text{ mm} \\cdot 13 \\cdot 10^{-6} \\ ^\\circ C^{-1} \\cdot 400 \\ ^\\circ C = 4,16 \\text{ mm}
    \\]
    \\[
-   \\L_f = 800 + 4,16 = 804,16 \\text{ mm}
+   L_f = 800 + 4,16 = 804,16 \\text{ mm}
    \\]
    
            <br><br>
