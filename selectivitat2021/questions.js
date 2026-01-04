@@ -214,12 +214,21 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         t = (m_1 + m_2) \\cdot (p_1 + p_2)
         \\]
         <strong>c)Esquema de portes lògiques</strong>
-        function circuit(m1, m2, p1, p2) {
-        const orM = m1 || m2;   // OR entre m1 i m2
-        const orP = p1 || p2;   // OR entre p1 i p2
-        const t = orM && orP;   // AND final
-        return t;
-        }
+        function calcularSortida(m1, m2, p1, p2) {
+    // Porta OR superior: p1 o p2
+    const orSuperior = p1 || p2;
+
+    // Porta OR inferior: m1 o m2
+    const orInferior = m1 || m2;
+
+    // Porta AND final: (p1 o p2) I (m1 o m2)
+    const t = orSuperior && orInferior;
+
+    return t;
+}
+
+// Exemple d'ús:
+console.log(calcularSortida(true, false, false, true)); // Retorna true
            <br><br>
             <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
 images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
