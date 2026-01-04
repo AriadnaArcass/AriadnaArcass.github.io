@@ -161,14 +161,11 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         type: "exercicis", // Tipus de pregunta
         category: "control",
         text: `En una línia de producció hi ha una estació de treball on es realitzen operacions de tallat. El sistema de seguretat vol evitar que l’operari es trobi prop de l’eina de tall; amb aquesta finalitat, s’han instaŀlat quatre polsadors: dos de situats a mitja altura (que s’accionen amb les mans) i dos de situats al terra (que s’accionen amb els peus). Per a realitzar l’operació de tallat, cal que l’operari premi a la vegada almenys un polsador de mitja altura amb la mà i un del terra amb el peu. Responeu a les qüestions que hi ha a continuació utilitzant les variables d’estat següents:
-        <img src="https://ariadnaarcass.github.io/selectivitat2021/js2ex2.png" alt="Imatge relacionada amb la pregunta" width="900">`,
-        options: [
-            { text: "14,71 N", value: "a" },
-            { text: "29,42 N", value: "b" },
-            { text: "7,355 N", value: "c" },
-            { text: "3,678 N", value: "d" }
-        ],
-        correctAnswer: "a",
+        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/js2ex2.png" alt="Imatge relacionada amb la pregunta" width="900"><br>
+               <br><strong>a)</strong> Escriviu la taula de veritat del sistema. [0,5 punts]
+               <br><strong>b)</strong> Determineu la funció lògica entre aquestes variables i, si escau, simplifiqueu-la. [1 punt]
+               <br><strong>c)</strong> Dibuixeu l’esquema de portes lògiques equivalent. [0,5 punts]
+               <br>`,
         steps: `
         <p>Ens demanen la força \\(F\\) per mantenir l'equilibri.</p>
         <p>-Anàlisi:</p>
