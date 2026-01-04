@@ -224,11 +224,11 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         category: "motors",
         text: `Un bombo de maceració serveix per a barrejar la carn amb els productes que la conserven. Per a fer-lo funcionar, es fa girar el bombo (1) al voltant d’un eix horitzontal per mitjà d’una corretja (2) accionada per un motor reductor (3). El motor subministra una potència \\(Pmot = 0,55 kW\\) i gira a \\(nmot = 1 415 min–1\\). El reductor té un rendiment \\(ηred = 0,96\\) i una relació de transmissió \\(τ = ωred/ωmot = 68,9 × 10–3\\). L’eix del reductor fa girar la politja de diàmetre \\(d = 63 mm\\), la qual, mitjançant una corretja ideal que no llisca, fa girar la segona politja de diàmetre \\(D = 500 mm\\). L’eix d’aquesta última politja es connecta directament al bombo de maceració. Determineu:
         <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/js2ex3.png" alt="Imatge relacionada amb la pregunta" width="250"><br>
-               <br><strong>a)</strong> Parell a l'eix del motor \\Gamma_{mot}\\. [0,5 punts]
-               <br><strong>b)</strong> Parell a l'eix de sortida del reductor \\Gamma_{red}\\.  [0,5 punt]
-               <br><strong>c)</strong> Velocitat de la politja petita \\n_d\\. [0,5 punts]
-               <br><strong>d)</strong> Velocitat del bombo \\n_{bombo}\\. [0,5 punts]
-               <br><strong>e)</strong> Parell a l'eix del bombo \\T_{bombo}\\. [0,5 punts]
+<br><strong>a)</strong> Parell a l'eix del motor \\( \\Gamma_{mot} \\). [0,5 punts]
+<br><strong>b)</strong> Parell a l'eix de sortida del reductor \\( \\Gamma_{red} \\). [0,5 punts]
+<br><strong>c)</strong> Velocitat de la politja petita \\( n_d \\). [0,5 punts]
+<br><strong>d)</strong> Velocitat del bombo \\( n_{bombo} \\). [0,5 punts]
+<br><strong>e)</strong> Parell a l'eix del bombo \\( T_{bombo} \\). [0,5 punts]
                <br>`,
         steps: `
         <strong>a)Parell a l'eix del motor \\Gamma_{mot}\\ </strong>
