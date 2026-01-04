@@ -55,7 +55,7 @@ v_{av} = p \\cdot n \\quad \\rightarrow \\quad n = \\frac{v_{av}}{p}
    \\[
    n = \\frac{15 \\text{ mm/s}}{2 \\text{ mm/volta}} = 7,5 \\text{ voltes/s} (s^{-1})
    \\]
-   <p>Convertim a minuts \\min^{-1} o rpm:</p>
+   <p>Convertim a minuts \\(\\text{min}^{-1}\\) (rpm):</p>
    \\[
    n = 7,5 \\cdot 60 = 450 \\min^{-1}
    \\]
@@ -68,25 +68,29 @@ type: "questions", // Tipus de pregunta
 category: "energia",
 text: `Un trajecte interurbà circular d’autobús té una \\(longitud de 12 km\\) i un total de \\(6 parades\\). La freqüència de pas de l’autobús és de \\(15 minuts durant 12 hores al dia, 270 dies l’any\\). L’Oficina Catalana del Canvi Climàtic estima un factor d’emissió \\(FE = 1 155,52 g de CO2 /km\\) per a aquest tipus d’autobús. Quina petjada de carboni deixa l’autobús al cap de l’any?`,
 options: [
- { text: "11,23 tones de CO2", value: "a" },
- { text: "179,71 tones de CO2", value: "b" },
- { text: "6,739 tones de CO2", value: "c" },
-  { text: "242,94 tones de CO2", value: "d" }
-        ],
-        correctAnswer: "b",
-        steps: `
-        <p>Ens demanen les emissions totals de \\(CO_2\\) en un any.</p>
-        <p>Càlcul de distància total:</p>
-        \\[
-        \\text{Viatges diaris} = 4 \\frac{\\text{viatges}}{\\text{hora}} \\cdot 12 \\text{ hores} = 48 \\text{ viatges}
-        \\]
-        \\[
-        \\text{Km diaris} = 48 \\cdot 12 \\text{ km} = 576 \\text{ km}
-        \\]
-        \\[
-        \\text{Km anuals} = 576 \\cdot 270 = 155.520 \\text{ km}
-        \\]    
-        
+{ text: "11,23 tones de CO2", value: "a" },
+{ text: "179,71 tones de CO2", value: "b" },
+{ text: "6,739 tones de CO2", value: "c" },
+{ text: "242,94 tones de CO2", value: "d" }
+],
+correctAnswer: "b",
+steps: `
+<p>Ens demanen les emissions totals de \\(CO_2\\) en un any.</p>
+<p>-Càlcul de distància total:</p>
+\\[
+\\text{Viatges diaris} = 4 \\frac{\\text{viatges}}{\\text{hora}} \\cdot 12 \\text{ hores} = 48 \\text{ viatges}
+\\]
+\\[
+\\text{Km diaris} = 48 \\cdot 12 \\text{ km} = 576 \\text{ km}
+\\]
+\\[
+\\text{Km anuals} = 576 \\cdot 270 = 155.520 \\text{ km}
+\\]    
+<p>-Càlcul emissions:</p>
+\\[
+\\
+\\]
+         
 
         
         
