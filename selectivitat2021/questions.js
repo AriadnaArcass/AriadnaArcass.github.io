@@ -63,7 +63,7 @@ v_{av} = p \\cdot n \\quad \\rightarrow \\quad n = \\frac{v_{av}}{p}
    \\]
    <p>Convertim a minuts \\(min^{-1})\\ o rpm:</p>
    \\[
-   n = 7,5 \\cdot 60 = 450 \\ min^{-1}
+   n = 7,5 \\cdot 60 = 450 \\(min^{-1})\\
    \\]
 
            <br><br>
@@ -82,20 +82,9 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         ],
         correctAnswer: "b",
         steps: `
-            <strong>Càlcul de la petjada de carboni de l'autobús:</strong>
-            <br>
-            - Fórmula utilitzada:
-            \\[
-            \\text{Emissions totals} = \\text{Distància total} \\times \\text{FE}
-            \\]
-            - On:
-            \\[
-            \\text{FE} = 1155{,}52 \\, \\text{g CO}_2/\\text{km}
-            \\]
-            - Nombre de viatges per dia:
-            \\[
-            \\text{Viatges/dia} = \\frac{12 \\, \\text{h} \\times 60 \\, \\text{min/h}}{15 \\, \\text{min/viatge}}
-            \\]
+        <p>Ens demanen les emissions totals de \\(CO_2\\) en un any.</p>
+        
+        
             <br><br>
            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
 images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
