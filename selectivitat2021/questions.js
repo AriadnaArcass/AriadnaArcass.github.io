@@ -101,8 +101,9 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
   {
         type: "questions", // Tipus de pregunta
         category: "principi",
-        text: `Un bloc de massa \\(m = 3 kg\\) està unit mitjançant un cable al centre d’una politja de radi \\(R1 = 300 mm\\). Una corda ideal subjectada al sostre passa per la politja de la qual penja el bloc, i per una altra politja de radi \\(R2 = 150 mm\\) articulada al sostre pel seu punt mitjà. Quina força F cal fer per a mantenir el bloc en repòs?`,
-        image: `<img src="https://ariadnaarcass.github.io/selectivitat2021/js2ex1q4.png" alt="Imatge relacionada amb la pregunta" width="150">`,
+        text: `Un bloc de massa \\(m = 3 kg\\) està unit mitjançant un cable al centre d’una politja de radi \\(R1 = 300 mm\\). Una corda ideal subjectada al sostre passa per la politja de la qual penja el bloc, i per una altra politja de radi \\(R2 = 150 mm\\) articulada al sostre pel seu punt mitjà. Quina força F cal fer per a mantenir el bloc en repòs?
+        
+        <img src="https://ariadnaarcass.github.io/selectivitat2021/js2ex1q4.png" alt="Imatge relacionada amb la pregunta" width="150">`,
         options: [
             { text: "14,71 N", value: "a" },
             { text: "29,42 N", value: "b" },
@@ -214,10 +215,10 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         t = (m_1 + m_2) \\cdot (p_1 + p_2)
         \\]
         <strong>c)Esquema de portes lògiques</strong>
-        <img src="https://ariadnaarcass.github.io/selectivitat2021/js2ex2c.png" alt="Imatge relacionada amb la pregunta" width="150">
+        <img src="https://ariadnaarcass.github.io/selectivitat2021/js2ex2c.png" alt="Imatge relacionada amb la pregunta" width="300">
         
            <br><br>
            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
-images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
+images: `<img src="https://ariadnaarcass.github.io/selectivitat2021/js2ex2c.png" alt="Imatge relacionada amb la pregunta" width="300">`  // Imatge opcional al final de la pregunta
   }
 ];
