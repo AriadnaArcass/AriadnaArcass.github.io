@@ -53,17 +53,17 @@ steps: `
 <p>- Fórmula: </p>
 <p>La relació entre avanç, pas i velocitat angular:</p>
 \\[
-\\v_{av} = p \\cdot n \\quad \\rightarrow \\quad n = \\frac{v_{av}}{p} 
+v_{av} = p \\cdot n \\quad \\rightarrow \\quad n = \\frac{v_{av}}{p} 
 \\]
 
 
 - Càlcul: 
    \\[
-   \\n = \\frac{15 \\text{ mm/s}}{2 \\text{ mm/volta}} = 7,5 \\text{ voltes/s} (s^{-1})
+   n = \\frac{15 \\text{ mm/s}}{2 \\text{ mm/volta}} = 7,5 \\text{ voltes/s} (s^{-1})
    \\]
    <p>Convertim a minuts \\(min^{-1})\\ o rpm:</p>
    \\[
-   \\n = 7,5 \\cdot 60 = 450 \\ min^{-1}
+   n = 7,5 \\cdot 60 = 450 \\ min^{-1}
    \\]
 
            <br><br>
