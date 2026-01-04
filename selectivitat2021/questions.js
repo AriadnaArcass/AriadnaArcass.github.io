@@ -218,6 +218,85 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         <br><br>
         <img src="https://ariadnaarcass.github.io/selectivitat2021/js2ex2c.png" alt="Imatge relacionada amb la pregunta" width="300">
         <br>`,
-       
+       },
+  {
+        type: "exercicis", // Tipus de pregunta
+        category: "motors",
+        text: `Un bombo de maceració serveix per a barrejar la carn amb els productes que la conserven. Per a fer-lo funcionar, es fa girar el bombo (1) al voltant d’un eix horitzontal per mitjà d’una corretja (2) accionada per un motor reductor (3). El motor subministra una potència \\(Pmot = 0,55 kW\\) i gira a \\(nmot = 1 415 min–1\\). El reductor té un rendiment \\(ηred = 0,96\\) i una relació de transmissió \\(τ = ωred/ωmot = 68,9 × 10–3\\). L’eix del reductor fa girar la politja de diàmetre \\(d = 63 mm\\), la qual, mitjançant una corretja ideal que no llisca, fa girar la segona politja de diàmetre \\(D = 500 mm\\). L’eix d’aquesta última politja es connecta directament al bombo de maceració. Determineu:
+        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/js2ex2.png" alt="Imatge relacionada amb la pregunta" width="450"><br>
+               <br><strong>a)</strong> Parell a l'eix del motor (\\Gamma_{mot}\\). [0,5 punts]
+               <br><strong>b)</strong> Parell a l'eix de sortida del reductor (\\Gamma_{red}\\).  [0,5 punt]
+               <br><strong>c)</strong> Velocitat de la politja petita (\\n_d\\). [0,5 punts]
+               <br><strong>d)</strong> Velocitat del bombo (\\n_{bombo}\\). [0,5 punts]
+               <br><strong>e)</strong> Parell a l'eix del bombo (\\T_{bombo}\\). [0,5 punts]
+               <br>`,
+        steps: `
+        <strong>a)Parell a l'eix del motor (\\Gamma_{mot}\\)</strong>
+        <p>-Fórmula:</p>
+        \\[
+        P = \\Gamma \\cdot \\omega$. Cal passar \\(n\\) a rad/s.
+        \\]
+        <p>-Càlcul:</p>
+        \\[
+        \\omega_{mot} = 1415 \\frac{\\text{rev}}{\\text{min}} \\cdot \\frac{2\\pi}{60} \\approx 148,18 \\text{ rad/s}
+        \\]
+        \\[
+        \\Gamma_{mot} = \\frac{P_{mot}}{\\omega_{mot}} = \\frac{550}{148,18} = 3,71 \ºtext{ Nm}
+        \\]
+        <strong>b)Parell a l'eix de sortida del reductor (\\Gamma_{red}\\)</strong>
+        <p>El reductor augmenta el parell i redueix la velocitat, però perdem energia pel rendiment.</p>
+        <p>-Fórmules:</p>
+        \\[
+        \\omega_{red} = \\omega_{mot} \\cdot \ºtau_{red}
+        \\]
+        \\[
+        P_{red\\_sortida} = P_{mot} \\cdot \ºeta_{red}
+        \\]
+        \\[
+        \\Gamma_{red} = \\frac{P_{red\\_sortida}}{\\omega_{red}}
+        \\]
+        <p>-Càlcul:</p>
+        \\[
+        \\omega_{red} = 148,18 \\cdot 0,0689 = 10,21 \\text{ rad/s}
+        \\]
+        \\[
+        P_{red\\_sortida} = 550 \\cdot 0,96 = 528 \\text{ W}
+        \\]
+        \\[
+        \\Gamma_{red} = \\frac{528}{10,21} = 51,71 \\text{ Nm}
+        \\]
+        <strong>c)</strong> Velocitat de la politja petita (\\n_d\\)</strong>
+        <p>La politja petita està connectada directament a l'eix de sortida del reductor.</p>
+        <p>-Fórmula:</p>
+        \\[
+        n_d = n_{mot} \\cdot \\tau_{red} 
+        \\]
+        <p>-Càlcul:</p>
+        \\[
+        n_d = 1415 \\cdot 0,0689 = 97,49 \\text{ min}^{-1}
+        \\]
+        <strong>d)Velocitat del bombo (\\n_{bombo}\\)</strong>
+        <p>-Fórmula:</p>
+        <p>Relació de transmissió per politges:</p>
+        \\[
+        n_1 \\cdot d = n_2 \\cdot D
+        \\]
+        <p>-Càlcul:</p>
+        \\[
+        n_{bombo} = n_d \\cdot \\frac{d}{D} = 97,49 \\cdot \\frac{63}{500} = 12,28 \\text{ min}^{-1}
+        \\]
+        <strong>e)Parell a l'eix del bombo (\\T_{bombo}\\)</strong>
+        <p>Considerem la corretja ideal (sense pèrdues de potència entre politges)</p>
+        \\[
+        P_{bombo} = P_{red\\_sortida} = 528 \\text{ W}
+        \\]
+        <p>-Càlcul:</p>
+        \\[
+        \\omega_{bombo} = 12,28 \\cdot \\frac{2\\pi}{60} = 1,286 \\text{ rad/s}
+        \\]
+        \\[
+        T_{bombo} = \\frac{528}{1,286} = 410,57 \\text{ Nm}
+        \\]
+        
   }
 ];
