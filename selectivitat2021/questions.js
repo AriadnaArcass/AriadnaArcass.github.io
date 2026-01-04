@@ -215,10 +215,9 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         t = (m_1 + m_2) \\cdot (p_1 + p_2)
         \\]
         <strong>c)Esquema de portes lògiques</strong>
+        <br><br>
         <img src="https://ariadnaarcass.github.io/selectivitat2021/js2ex2c.png" alt="Imatge relacionada amb la pregunta" width="300">
-        
-           <br><br>
-           <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
-images: `<img src="https://ariadnaarcass.github.io/selectivitat2021/js2ex2c.png" alt="Imatge relacionada amb la pregunta" width="300">`  // Imatge opcional al final de la pregunta
+        <br>`,
+       
   }
 ];
