@@ -102,7 +102,65 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         type: "questions", // Tipus de pregunta
         category: "principi",
         text: `Un bloc de massa \\(m = 3 kg\\) està unit mitjançant un cable al centre d’una politja de radi \\(R1 = 300 mm\\). Una corda ideal subjectada al sostre passa per la politja de la qual penja el bloc, i per una altra politja de radi \\(R2 = 150 mm\\) articulada al sostre pel seu punt mitjà. Quina força F cal fer per a mantenir el bloc en repòs? 
-        <img src="https://ariadnaarcass.github.io/selectivitat/2021/js2ex1q4.png" alt="Imatge relacionada amb la pregunta" width="900">`,
+        <img src="https://ariadnaarcass.github.io/selectivitat2021/js2ex1q4.png" alt="Imatge relacionada amb la pregunta" width="900">`,
+        options: [
+            { text: "14,71 N", value: "a" },
+            { text: "29,42 N", value: "b" },
+            { text: "7,355 N", value: "c" },
+            { text: "3,678 N", value: "d" }
+        ],
+        correctAnswer: "a",
+        steps: `
+        <p>Ens demanen la força \\(F\\) per mantenir l'equilibri.</p>
+        <p>-Anàlisi:</p>
+        <p>Tenim una politja mòbil \\(R_1\\) que suporta la massa \\(m\\). La corda passa per sota, de manera que dues seccions de corda aguanten el pes. La tensió de la corda és igual a la força \\(F\\) que apliquem a l'extrem.</p>
+        <p>-Fórmula:</p>
+        <p>Equilibri de forces a la politja mòbil:</p>
+        \\[
+        2 \\cdot T = m \\cdot g \\quad (\\text{on } T = F)
+        \\]
+        \\[
+        2F = m \\cdot g \\quad \\rightarrow \\quad F = \\frac{m \\cdot g}{2}
+        \\]
+        <p>-Càlcul:</p>
+        \\[
+        F = \\frac{3 \\text{ kg} \\cdot 9,81 \\text{ m/s}^2}{2} = 14,715 \\text{ N}
+        \\]
+           <br><br>
+            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
+images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
+    },
+  {
+        type: "questions", // Tipus de pregunta
+        category: "sistemes",
+        text: `Una bombona de gas butà conté \\(12,5 kg\\) d’aquest gas en estat líquid a una pressió de \\(303)\\ kPa quan es troba a \\(20 °C)\\. Aquestes bombones estan dissenyades perquè, si la pressió arriba a \\(2 634 kPa)\\, salti la vàlvula de seguretat i surti el gas de l’interior. La bombona s’escalfa fins a \\(600 °C\\). Considerant el butà un gas ideal, es pot afirmar que`,
+        options: [
+            { text: "la bombona explotarà", value: "a" },
+            { text: "es dispararà la vàlvula de seguretat", value: "b" },
+            { text: "la pressió augmentarà fins a \\(902,8 kPa\\)", value: "c" },
+            { text: "la pressió a l’interior de la bombona no canviarà", value: "d" }
+        ],
+        correctAnswer: "c",
+        steps: `
+        <p>Ens demanen què passa dins la bombona en augmentar la temperatura a volum constant.</p>
+        <p>-Fórmula:</p>
+        <p>Llei de Gay-Lussac (Volum constant):</p>
+        \\[
+        \\frac{P_1}{T_1} = \\frac{P_2}{T_2} \\quad \\rightarrow \\quad P_2 = P_1 \\cdot \\frac{T_2}{T_1}
+        \\]
+        <p>-Càlcul:</p>
+        \\[
+        P_2 = 303 \\cdot \\frac{873}{293} \\approx 902,8 \\text{ kPa}
+        \\]
+        <p>La pressió final (902,8 kPa) és molt inferior al límit (2.634 kPa). No explota ni s'obre la vàlvula.</p>
+           <br><br>
+            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
+images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
+},
+  {
+        type: "exercicis", // Tipus de pregunta
+        category: "control",
+        text: `En una línia de producció hi ha una estació de treball on es realitzen operacions de tallat. El sistema de seguretat vol evitar que l’operari es trobi prop de l’eina de tall; amb aquesta finalitat, s’han instaŀlat quatre polsadors: dos de situats a mitja altura (que s’accionen amb les mans) i dos de situats al terra (que s’accionen amb els peus). Per a realitzar l’operació de tallat, cal que l’operari premi a la vegada almenys un polsador de mitja altura amb la mà i un del terra amb el peu. Responeu a les qüestions que hi ha a continuació utilitzant les variables d’estat següents:`,
         options: [
             { text: "14,71 N", value: "a" },
             { text: "29,42 N", value: "b" },
