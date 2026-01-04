@@ -39,7 +39,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
 },
 {
 type: "questions", // Tipus de pregunta
-category: "sistemespneumaticsioleohidraulics",
+category: "sistemes",
 text: `Quina és la velocitat de rotació d’un cargol de pas (avanç per volta) \\(p = 2 mm\\) que té una velocitat d’avanç de \\(15 mm/s\\)?`,
 options: [
 { text: "480 min–1", value: "a" },
@@ -49,26 +49,23 @@ options: [
 ],
 correctAnswer: "c",
 steps: `
-          <strong>Càlcul de la velocitat de rotació del cargol:</strong>
-            <br>
-            - Fórmula utilitzada:
-            \\[
-            v = n \\times p
-            \\]
-            - On:
-            \\[
-            v = 15 \\, \\text{mm/s} \\quad (\\text{velocitat d'avanç})
-            \\]
-            \\[
-            p = 2 \\, \\text{mm/rev} \\quad (\\text{pas del cargol})
-            \\]
-            \\[
-            n = \\frac{v}{p} = \\frac{15 \\, \\text{mm/s}}{2 \\, \\text{mm/rev}} = 7{,}5 \\, \\text{rev/s}
-            \\]
-            - Convertir a revolucions per minut:
-            \\[
-            n_{\\text{min}^{-1}} = 7{,}5 \\, \\text{rev/s} \\times 60 \\, \\text{s/min} = 450 \\, \\text{min}^{-1}
-            \\]
+<p>Ens demanen la velocitat de rotació \\(n)\\ donant l'avanç i el pas.</p>
+<p>- Fórmula: </p>
+<p>La relació entre avanç, pas i velocitat angular:</p>
+\\[
+\\v_{av} = p \\cdot n \\quad \\rightarrow \\quad n = \\frac{v_{av}}{p} 
+\\]
+
+
+- Càlcul: 
+   \\[
+   \\n = \\frac{15 \\text{ mm/s}}{2 \\text{ mm/volta}} = 7,5 \\text{ voltes/s} (s^{-1})
+   \\]
+   <p>Convertim a minuts \\(min^{-1})\\ o rpm:</p>
+   \\[
+   \\n = 7,5 \\cdot 60 = 450 \\ min^{-1}
+   \\]
+
            <br><br>
            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
 images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
