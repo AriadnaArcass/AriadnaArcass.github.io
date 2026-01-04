@@ -117,7 +117,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         <p>-Fórmula:</p>
         <p>Equilibri de forces a la politja mòbil:</p>
         \\[
-        2 \\cdot T = m \\cdot g \\quad (\\\text{on } T = F)
+        2 \\cdot T = m \\cdot g \\quad (\\text{on } T = F)
         \\]
         \\[
         2F = m \\cdot g \\quad \\rightarrow \\quad F = \\frac{m \\cdot g}{2}
