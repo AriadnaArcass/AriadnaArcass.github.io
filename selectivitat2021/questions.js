@@ -334,7 +334,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         \\eta = \\frac{P_{sortida}}{P_{entrada}}
         \\]
         <p>-Càlcul:</p>
-        <p>Potència solar rebuda (Entrada) = I_{rad} \\cdot A = 1000 \\text{ W/m}^2 \\cdot 1,45 \\text{ m}^2 = 1450 \\text{ W}</p>
+        <p>Potència solar rebuda (Entrada) = \\( I_{rad} \\cdot A = 1000\\,\\text{W/m}^2 \\cdot 1{,}45\\,\\text{m}^2 = 1450\\,\\text{W} \\)p>
         \\[
         \\eta = \\frac{194 \\text{ W}}{1450 \\text{ W}} = 0,1338 \\quad \\rightarrow \\quad 13,38\\%
         \\]
