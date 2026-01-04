@@ -231,12 +231,12 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
 <br><strong>e)</strong> Parell a l'eix del bombo \\( T_{bombo} \\). [0,5 punts]
                <br>`,
         steps: `
-        <strong>a)Parell a l'eix del motor \\Gamma_{mot}\\ </strong>
-        <p>-Fórmula:</p>
+        <strong>a) Parell a l'eix del motor \\( \\Gamma_{mot} \\)</strong>
+        <p>- Fórmula:</p>
         \\[
-        P = \\Gamma \\cdot \\omega. 
+        P = \\Gamma \\cdot \\omega
         \\]
-        <p>Cal passar \\n\\ a rad/s.</p>
+        <p>Cal passar \\( n \\) a rad/s.</p>
         <p>-Càlcul:</p>
         \\[
         \\omega_{mot} = 1415 \\frac{\\text{rev}}{\\text{min}} \\cdot \\frac{2\\pi}{60} \\approx 148,18 \\text{ rad/s}
