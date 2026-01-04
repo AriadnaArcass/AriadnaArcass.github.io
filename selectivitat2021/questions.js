@@ -167,7 +167,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
                <br><strong>c)</strong> Dibuixeu l’esquema de portes lògiques equivalent. [0,5 punts]
                <br>`,
         steps: `
-        <strong>a) Taula de verita</strong>
+        <strong>a)Taula de veritat</strong>
         <br>
         <table>
         <thead>
@@ -199,6 +199,30 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         </tbody>
         </table>
         <br>
+        <strong>b)Funció lògica</strong>
+        \\[
+        t = (m_1 + m_2 + p_1 + p_2) \\cdot (m_1 + m_2 + p_1 + \\( \\bar{p}_2 \\)) \\cdot (m_1 + m_2 + \\( \\bar{p}_1 \\) + p_2)
+        \\]
+        \\[
+        t = (m_1 + m_2 + \\( \\bar{p}_1 \\) + \\( \\bar{p}_2 \\)) \\cdot (m_1 + \\( \\bar{m}_2 \\) + p_1 + p_2)
+        \\]
+        \\[
+        t = (\\( \\bar{m}_1 \\) + m_2 + p_1 + p_2) \\cdot (\\( \\bar{m}_1 \\) + \\( \\bar{m}_2 \\) + p_1 + p_2)
+        \\]
+        <p>Simplifiquem:</p>
+        \\[
+        t = (m_1 + m_2) \\cdot (p_1 + p_2)
+        \\]
+        <strong>c)Esquema de portes lògiques</strong>
+
+m1 ──┐
+     ├─ OR ──┐
+m2 ──┘       │
+             ├─ AND ── t
+p1 ──┐       │
+     ├─ OR ──┘
+p2 ──┘
+
            <br><br>
             <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
 images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
