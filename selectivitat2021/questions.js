@@ -223,34 +223,35 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         type: "exercicis", // Tipus de pregunta
         category: "motors",
         text: `Un bombo de maceració serveix per a barrejar la carn amb els productes que la conserven. Per a fer-lo funcionar, es fa girar el bombo (1) al voltant d’un eix horitzontal per mitjà d’una corretja (2) accionada per un motor reductor (3). El motor subministra una potència \\(Pmot = 0,55 kW\\) i gira a \\(nmot = 1 415 min–1\\). El reductor té un rendiment \\(ηred = 0,96\\) i una relació de transmissió \\(τ = ωred/ωmot = 68,9 × 10–3\\). L’eix del reductor fa girar la politja de diàmetre \\(d = 63 mm\\), la qual, mitjançant una corretja ideal que no llisca, fa girar la segona politja de diàmetre \\(D = 500 mm\\). L’eix d’aquesta última politja es connecta directament al bombo de maceració. Determineu:
-        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/js2ex3.png" alt="Imatge relacionada amb la pregunta" width="450"><br>
-               <br><strong>a)</strong> Parell a l'eix del motor (\\Gamma_{mot}\\). [0,5 punts]
-               <br><strong>b)</strong> Parell a l'eix de sortida del reductor (\\Gamma_{red}\\).  [0,5 punt]
-               <br><strong>c)</strong> Velocitat de la politja petita (\\n_d\\). [0,5 punts]
-               <br><strong>d)</strong> Velocitat del bombo (\\n_{bombo}\\). [0,5 punts]
-               <br><strong>e)</strong> Parell a l'eix del bombo (\\T_{bombo}\\). [0,5 punts]
+        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/js2ex3.png" alt="Imatge relacionada amb la pregunta" width="250"><br>
+               <br><strong>a)</strong> Parell a l'eix del motor \\(Gamma_{mot}\\). [0,5 punts]
+               <br><strong>b)</strong> Parell a l'eix de sortida del reductor \\(Gamma_{red}\\).  [0,5 punt]
+               <br><strong>c)</strong> Velocitat de la politja petita \\(n_d\\). [0,5 punts]
+               <br><strong>d)</strong> Velocitat del bombo \\(n_{bombo}\\). [0,5 punts]
+               <br><strong>e)</strong> Parell a l'eix del bombo \\(T_{bombo}\\). [0,5 punts]
                <br>`,
         steps: `
-        <strong>a)Parell a l'eix del motor (\\Gamma_{mot}\\)</strong>
+        <strong>a)Parell a l'eix del motor \\(Gamma_{mot}\\)</strong>
         <p>-Fórmula:</p>
         \\[
-        P = \\Gamma \\cdot \\omega$. Cal passar \\(n\\) a rad/s.
+        P = \\Gamma \\cdot \\omega. 
+        <p>Cal passar \\n\\ a rad/s.</p>
         \\]
         <p>-Càlcul:</p>
         \\[
         \\omega_{mot} = 1415 \\frac{\\text{rev}}{\\text{min}} \\cdot \\frac{2\\pi}{60} \\approx 148,18 \\text{ rad/s}
         \\]
         \\[
-        \\Gamma_{mot} = \\frac{P_{mot}}{\\omega_{mot}} = \\frac{550}{148,18} = 3,71 \ºtext{ Nm}
+        \\Gamma_{mot} = \\frac{P_{mot}}{\\omega_{mot}} = \\frac{550}{148,18} = 3,71 \\text{ Nm}
         \\]
         <strong>b)Parell a l'eix de sortida del reductor (\\Gamma_{red}\\)</strong>
         <p>El reductor augmenta el parell i redueix la velocitat, però perdem energia pel rendiment.</p>
         <p>-Fórmules:</p>
         \\[
-        \\omega_{red} = \\omega_{mot} \\cdot \ºtau_{red}
+        \\omega_{red} = \\omega_{mot} \\cdot \\tau_{red}
         \\]
         \\[
-        P_{red\\_sortida} = P_{mot} \\cdot \ºeta_{red}
+        P_{red\\_sortida} = P_{mot} \\cdot \\eta_{red}
         \\]
         \\[
         \\Gamma_{red} = \\frac{P_{red\\_sortida}}{\\omega_{red}}
@@ -265,7 +266,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         \\[
         \\Gamma_{red} = \\frac{528}{10,21} = 51,71 \\text{ Nm}
         \\]
-        <strong>c)</strong> Velocitat de la politja petita (\\n_d\\)</strong>
+        <strong>c)Velocitat de la politja petita \\(n_d\\)</strong>
         <p>La politja petita està connectada directament a l'eix de sortida del reductor.</p>
         <p>-Fórmula:</p>
         \\[
@@ -275,7 +276,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         \\[
         n_d = 1415 \\cdot 0,0689 = 97,49 \\text{ min}^{-1}
         \\]
-        <strong>d)Velocitat del bombo (\\n_{bombo}\\)</strong>
+        <strong>d)Velocitat del bombo \\(n_{bombo}\\)</strong>
         <p>-Fórmula:</p>
         <p>Relació de transmissió per politges:</p>
         \\[
@@ -285,7 +286,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         \\[
         n_{bombo} = n_d \\cdot \\frac{d}{D} = 97,49 \\cdot \\frac{63}{500} = 12,28 \\text{ min}^{-1}
         \\]
-        <strong>e)Parell a l'eix del bombo (\\T_{bombo}\\)</strong>
+        <strong>e)Parell a l'eix del bombo \\(T_{bombo}\\)</strong>
         <p>Considerem la corretja ideal (sense pèrdues de potència entre politges)</p>
         \\[
         P_{bombo} = P_{red\\_sortida} = 528 \\text{ W}
@@ -303,9 +304,9 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         type: "exercicis", // Tipus de pregunta
         category: "energia",
         text: `L’Ajuntament d’un poble ha aprovat un pla de millora energètica i ambiental que inclou la instaŀlació de conjunts de plaques solars fotovoltaiques en un dels edificis municipals amb la finalitat de cobrir un \\(r = 15 %\\) de la demanda d’electricitat. La potència total instaŀlada en aquest edifici és \\(Pinst = 30 kW\\) i s’estima un consum mitjà \\(c = 75 %\\) durant \\(t = 12 h/dia\\). El factor d’emissió de la comercialitzadora elèctrica és \\(FE = 241 g CO2/(kW h)\\). L’Ajuntament ha escollit una placa que té una àrea efectiva \\(A = 1,45 m2\\) i que, en condicions normals (és a dir, a \\(20 °C\\) i amb una intensitat de radiació solar \\(Irad = 1 000 W/m2\\)) subministra una potència \\(Pplaca = 194 W\\). Determineu:
-               <br><strong>a)</strong> Energia total consumida a l'any (\\E_{cons}\\). [0,5 punts]
-               <br><strong>b)</strong> Potència que ha de subministrar la instal·lació (\\P_{foto}\\).  [0,5 punt]
-               <br><strong>c)</strong> Velocitat de la politja petita (\\n_d\\). [0,5 punts]
+               <br><strong>a)</strong> Energia total consumida a l'any \\(E_{cons}\\). [0,5 punts]
+               <br><strong>b)</strong> Potència que ha de subministrar la instal·lació \\(P_{foto}\\).  [0,5 punt]
+               <br><strong>c)</strong> Rendiment de la placa \\(\\eta_{placa}\\). [0,5 punts]
                <br><strong>d)</strong> Velocitat del bombo (\\n_{bombo}\\). [0,5 punts]
                <br><strong>e)</strong> Parell a l'eix del bombo (\\T_{bombo}\\). [0,5 punts]
                <br>`,
