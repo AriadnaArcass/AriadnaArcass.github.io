@@ -167,21 +167,38 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
                <br><strong>c)</strong> Dibuixeu l’esquema de portes lògiques equivalent. [0,5 punts]
                <br>`,
         steps: `
-        <p>Ens demanen la força \\(F\\) per mantenir l'equilibri.</p>
-        <p>-Anàlisi:</p>
-        <p>Tenim una politja mòbil \\(R_1\\) que suporta la massa \\(m\\). La corda passa per sota, de manera que dues seccions de corda aguanten el pes. La tensió de la corda és igual a la força \\(F\\) que apliquem a l'extrem.</p>
-        <p>-Fórmula:</p>
-        <p>Equilibri de forces a la politja mòbil:</p>
-        \\[
-        2 \\cdot T = m \\cdot g \\quad (\\text{on } T = F)
-        \\]
-        \\[
-        2F = m \\cdot g \\quad \\rightarrow \\quad F = \\frac{m \\cdot g}{2}
-        \\]
-        <p>-Càlcul:</p>
-        \\[
-        F = \\frac{3 \\text{ kg} \\cdot 9,81 \\text{ m/s}^2}{2} = 14,715 \\text{ N}
-        \\]
+        <strong>a) Taula de verita</strong>
+        <br>
+        <table>
+        <thead>
+        <tr>
+        <th>\\(m1\\)</th>
+        <th>\\(m2\\)</th>
+        <th>\\(p1\\)</th>
+        <th>\\(p2\\)</th>
+        <th>\\(t\\)</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr><td>0</td><td>0</td><td>0</td><td>0<td>0</td></tr>
+        <tr><td>0</td><td>0</td><td>0</td><td>0<td>1</td></tr>
+        <tr><td>0</td><td>0</td><td>1</td><td>0<td>0</td></tr>
+        <tr><td>0</td><td>0</td><td>1</td><td>1<td>0</td></tr>
+        <tr><td>0</td><td>1</td><td>0</td><td>0<td>0</td></tr>
+        <tr><td>0</td><td>1</td><td>0</td><td>1<td>1</td></tr>
+        <tr><td>0</td><td>1</td><td>1</td><td>0<td>1</td></tr>
+        <tr><td>0</td><td>1</td><td>1</td><td>1<td>1</td></tr>
+        <tr><td>1</td><td>0</td><td>0</td><td>0<td>0</td></tr>
+        <tr><td>1</td><td>0</td><td>0</td><td>1<td>1</td></tr>
+        <tr><td>1</td><td>0</td><td>1</td><td>0<td>1</td></tr>
+        <tr><td>1</td><td>0</td><td>1</td><td>1<td>1</td></tr>
+        <tr><td>1</td><td>1</td><td>0</td><td>0<td>0</td></tr>
+        <tr><td>1</td><td>1</td><td>0</td><td>1<td>1</td></tr>
+        <tr><td>1</td><td>1</td><td>1</td><td>0<td>1</td></tr>
+        <tr><td>1</td><td>1</td><td>1</td><td>1<td>1</td></tr>
+        </tbody>
+        </table>
+        <br>
            <br><br>
             <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
 images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
