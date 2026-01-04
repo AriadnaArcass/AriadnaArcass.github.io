@@ -13,8 +13,6 @@ options: [
 correctAnswer: "a",
   steps: `
   <p>Ens demanen la longitud final d'una barra d'acer després d'escalfar-se.</p>
-
-
   <p>- Fórmula: </p>
   <p> La llei de la dilatació lineal: </p>
    \\[
@@ -23,9 +21,7 @@ correctAnswer: "a",
    \\[
    L_f = L_0 + \\Delta L
    \\]
-   
-
-   - Càlcul: 
+   <p>- Càlcul:</p>
    \\[
    \\Delta L = 800 \\text{ mm} \\cdot 13 \\cdot 10^{-6} \\ ^\\circ C^{-1} \\cdot 400 \\ ^\\circ C = 4,16 \\text{ mm}
    \\]
@@ -55,34 +51,43 @@ steps: `
 \\[
 v_{av} = p \\cdot n \\quad \\rightarrow \\quad n = \\frac{v_{av}}{p} 
 \\]
-
-
-- Càlcul: 
+<p>- Càlcul:</p>
    \\[
    n = \\frac{15 \\text{ mm/s}}{2 \\text{ mm/volta}} = 7,5 \\text{ voltes/s} (s^{-1})
    \\]
-   <p>Convertim a minuts \\(min^{-1})\\ o rpm:</p>
+   <p>Convertim a minuts \\min^{-1} o rpm:</p>
    \\[
-   n = 7,5 \\cdot 60 = 450 \\(min^{-1})\\
+   n = 7,5 \\cdot 60 = 450 \\min^{-1}
    \\]
-
            <br><br>
            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
 images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
     },
 {
-        type: "questions", // Tipus de pregunta
-        category: "energia",
-        text: `Un trajecte interurbà circular d’autobús té una \\(longitud de 12 km\\) i un total de \\(6 parades\\). La freqüència de pas de l’autobús és de \\(15 minuts durant 12 hores al dia, 270 dies l’any\\). L’Oficina Catalana del Canvi Climàtic estima un factor d’emissió \\(FE = 1 155,52 g de CO2 /km\\) per a aquest tipus d’autobús. Quina petjada de carboni deixa l’autobús al cap de l’any?`,
-        options: [
-            { text: "11,23 tones de CO2", value: "a" },
-            { text: "179,71 tones de CO2", value: "b" },
-            { text: "6,739 tones de CO2", value: "c" },
-            { text: "242,94 tones de CO2", value: "d" }
+type: "questions", // Tipus de pregunta
+category: "energia",
+text: `Un trajecte interurbà circular d’autobús té una \\(longitud de 12 km\\) i un total de \\(6 parades\\). La freqüència de pas de l’autobús és de \\(15 minuts durant 12 hores al dia, 270 dies l’any\\). L’Oficina Catalana del Canvi Climàtic estima un factor d’emissió \\(FE = 1 155,52 g de CO2 /km\\) per a aquest tipus d’autobús. Quina petjada de carboni deixa l’autobús al cap de l’any?`,
+options: [
+ { text: "11,23 tones de CO2", value: "a" },
+ { text: "179,71 tones de CO2", value: "b" },
+ { text: "6,739 tones de CO2", value: "c" },
+  { text: "242,94 tones de CO2", value: "d" }
         ],
         correctAnswer: "b",
         steps: `
         <p>Ens demanen les emissions totals de \\(CO_2\\) en un any.</p>
+        <p>Càlcul de distància total:</p>
+        \\[
+        \\text{Viatges diaris} = 4 \\frac{\\text{viatges}}{\\text{hora}} \\cdot 12 \\text{ hores} = 48 \\text{ viatges}
+        \\]
+        \\[
+        \\text{Km diaris} = 48 \\cdot 12 \\text{ km} = 576 \\text{ km}
+        \\]
+        \\[
+        \\text{Km anuals} = 576 \\cdot 270 = 155.520 \\text{ km}
+        \\]    
+        
+
         
         
             <br><br>
