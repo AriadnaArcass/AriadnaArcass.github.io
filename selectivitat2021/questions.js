@@ -49,7 +49,7 @@ options: [
 ],
 correctAnswer: "c",
 steps: `
-<p>Ens demanen la velocitat de rotació \\(n)\\ donant l'avanç i el pas.</p>
+<p>Ens demanen la velocitat de rotació \\(n\\) donant l'avanç i el pas.</p>
 <p>- Fórmula: </p>
 <p>La relació entre avanç, pas i velocitat angular:</p>
 \\[
