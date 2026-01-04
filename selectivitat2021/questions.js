@@ -214,69 +214,10 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         t = (m_1 + m_2) \\cdot (p_1 + p_2)
         \\]
         <strong>c)Esquema de portes lògiques</strong>
-        /**
- * Objecte per emmagatzemar l'estat actual de les entrades
- */
-const estatEntrades = {
-    m1: false,
-    m2: false,
-    p1: false,
-    p2: false
-};
-
-/**
- * Funció principal per calcular la lògica i actualitzar la interfície
- */
-function actualitzarEsquema() {
-    // 1. Càlcul de la lògica booleana
-    // Porta OR superior: (p1 o p2)
-    const resultatOrSuperior = estatEntrades.p1 || estatEntrades.p2;
-    
-    // Porta OR inferior: (m1 o m2)
-    const resultatOrInferior = estatEntrades.m1 || estatEntrades.m2;
-    
-    // Porta AND final: (resultatOrSuperior i resultatOrInferior)
-    const sortidaT = resultatOrSuperior && resultatOrInferior;
-
-    // 2. Actualització visual dels cables (Cables d'entrada)
-    pintarElement('cable-m1', estatEntrades.m1);
-    pintarElement('cable-m2', estatEntrades.m2);
-    pintarElement('cable-p1', estatEntrades.p1);
-    pintarElement('cable-p2', estatEntrades.p2);
-
-    // 3. Actualització visual de les sortides de les portes
-    pintarElement('sortida-or-superior', resultatOrSuperior);
-    pintarElement('sortida-or-inferior', resultatOrInferior);
-    
-    // 4. Actualització de la sortida final
-    pintarElement('sortida-t', sortidaT);
-    
-    console.log(`Estat: m1:${estatEntrades.m1}, m2:${estatEntrades.m2}, p1:${estatEntrades.p1}, p2:${estatEntrades.p2}\nT: ${sortidaT}`);
-
-}
-
-/**
- * Funció auxiliar per canviar el color de les línies SVG
- * @param {string} id - L'ID de l'element SVG
- * @param {boolean} actiu - Si el senyal és 1 (true) o 0 (false)
- */
-function pintarElement(id, actiu) {
-    const el = document.getElementById(id);
-    if (el) {
-        // Apliquem un color verd si està actiu, o gris/negre si no
-        el.style.stroke = actiu ? "#2ecc71" : "#000000";
-        el.style.strokeWidth = actiu ? "3px" : "2px";
-    }
-}
-
-/**
- * Funció per commutar el valor d'una entrada (per fer servir amb botons)
- * @param {string} entrada - 'm1', 'm2', 'p1' o 'p2'
- */
-function toggleEntrada(entrada) {
-    estatEntrades[entrada] = !estatEntrades[entrada];
-    actualitzarEsquema();
-}
+        
+        
            <br><br>
+           <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
+images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
   }
 ];
