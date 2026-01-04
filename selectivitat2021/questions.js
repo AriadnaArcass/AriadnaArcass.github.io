@@ -231,7 +231,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
 <br><strong>e)</strong> Parell a l'eix del bombo \\( T_{bombo} \\). [0,5 punts]
                <br>`,
         steps: `
-        <strong>a) Parell a l'eix del motor \\( \\Gamma_{mot} \\)</strong>
+        <strong>a) Parell a l'eix del motor \\(\\Gamma_{mot}\\)</strong>
         <p>- Fórmula:</p>
         \\[
         P = \\Gamma \\cdot \\omega
@@ -244,7 +244,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         \\[
         \\Gamma_{mot} = \\frac{P_{mot}}{\\omega_{mot}} = \\frac{550}{148,18} = 3,71 \\text{ Nm}
         \\]
-        <strong>b)Parell a l'eix de sortida del reductor (\\Gamma_{red}\\)</strong>
+        <strong>b)Parell a l'eix de sortida del reductor \\(\\Gamma_{red}\\)</strong>
         <p>El reductor augmenta el parell i redueix la velocitat, però perdem energia pel rendiment.</p>
         <p>-Fórmules:</p>
         \\[
@@ -311,71 +311,53 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
                <br><strong>e)</strong> Estalvi d'emissions \\(\\Delta m\\). [0,5 punts]
                <br>`,
         steps: `
-        <strong>a)Parell a l'eix del motor (\\Gamma_{mot}\\)</strong>
+        <strong>a)Energia total consumida a l'any \\(E_{cons}\\)</strong>
+        <p>-Càlcul:</p>
+        \\[
+        P_{mitjana} = P_{inst} \\cdot c = 30 \\text{ kW} \\cdot 0,75 = 22,5 \\text{ kW}
+        \\]
+        \\[
+        E_{diaria} = 22,5 \\text{ kW} \\cdot 12 \\text{ h} = 270 \\text{ kWh/dia}
+        \\]
+        \\[
+        E_{anual} = 270 \\cdot 365 = 98.550 \\text{ kWh}
+        \\]
+        <strong>b)Potència que ha de subministrar la instal·lació \\(P_{foto}\\)</strong>
+        <p>L'enunciat diu "cobrir un 15% de la demanda". Això s'interpreta com el 15% de la potència mitjana de consum.</p>
+        <p>-Càlcul:</p>
+        \\[
+        P_{foto} = P_{mitjana} \\cdot 0,15 = 22,5 \\text{ kW} \\cdot 0,15 = 3,375 \\text{ kW} = 3.375 \\text{ W}
+        \\]
+        <strong>c)Rendiment de la placa \\(\\eta_{placa}\\)</strong>
         <p>-Fórmula:</p>
         \\[
-        P = \\Gamma \\cdot \\omega$. Cal passar \\(n\\) a rad/s.
+        \\eta = \\frac{P_{sortida}}{P_{entrada}}
         \\]
         <p>-Càlcul:</p>
+        <p>Potència solar rebuda (Entrada) = I_{rad} \\cdot A = 1000 \\text{ W/m}^2 \\cdot 1,45 \\text{ m}^2 = 1450 \\text{ W}</p>
         \\[
-        \\omega_{mot} = 1415 \\frac{\\text{rev}}{\\text{min}} \\cdot \\frac{2\\pi}{60} \\approx 148,18 \\text{ rad/s}
+        \\eta = \\frac{194 \\text{ W}}{1450 \\text{ W}} = 0,1338 \\quad \\rightarrow \\quad 13,38\\%
         \\]
-        \\[
-        \\Gamma_{mot} = \\frac{P_{mot}}{\\omega_{mot}} = \\frac{550}{148,18} = 3,71 \ºtext{ Nm}
-        \\]
-        <strong>b)Parell a l'eix de sortida del reductor (\\Gamma_{red}\\)</strong>
-        <p>El reductor augmenta el parell i redueix la velocitat, però perdem energia pel rendiment.</p>
-        <p>-Fórmules:</p>
-        \\[
-        \\omega_{red} = \\omega_{mot} \\cdot \ºtau_{red}
-        \\]
-        \\[
-        P_{red\\_sortida} = P_{mot} \\cdot \ºeta_{red}
-        \\]
-        \\[
-        \\Gamma_{red} = \\frac{P_{red\\_sortida}}{\\omega_{red}}
-        \\]
+        <strong>d)Nombre mínim de plaques \\(n_p\\)</strong>
         <p>-Càlcul:</p>
         \\[
-        \\omega_{red} = 148,18 \\cdot 0,0689 = 10,21 \\text{ rad/s}
+        n_p = \\frac{\\text{Potència necessària}}{\\text{Potència per placa}} = \\frac{3.375 \text{ W}}{194 \\text{ W}} = 17,39
         \\]
+        <p>Hem d'arrodonir cap amunt per garantir la potència.</p>
         \\[
-        P_{red\\_sortida} = 550 \\cdot 0,96 = 528 \\text{ W}
+        n_p = 18 \\text{ plaques}
         \\]
-        \\[
-        \\Gamma_{red} = \\frac{528}{10,21} = 51,71 \\text{ Nm}
-        \\]
-        <strong>c)</strong> Velocitat de la politja petita (\\n_d\\)</strong>
-        <p>La politja petita està connectada directament a l'eix de sortida del reductor.</p>
-        <p>-Fórmula:</p>
-        \\[
-        n_d = n_{mot} \\cdot \\tau_{red} 
-        \\]
+        <strong>e)Estalvi d'emissions \\(\\Delta m\\)</strong>
+        <p>Estalviem el 15% de l'energia anual.</p>
         <p>-Càlcul:</p>
         \\[
-        n_d = 1415 \\cdot 0,0689 = 97,49 \\text{ min}^{-1}
-        \\]
-        <strong>d)Velocitat del bombo (\\n_{bombo}\\)</strong>
-        <p>-Fórmula:</p>
-        <p>Relació de transmissió per politges:</p>
-        \\[
-        n_1 \\cdot d = n_2 \\cdot D
-        \\]
-        <p>-Càlcul:</p>
-        \\[
-        n_{bombo} = n_d \\cdot \\frac{d}{D} = 97,49 \\cdot \\frac{63}{500} = 12,28 \\text{ min}^{-1}
-        \\]
-        <strong>e)Parell a l'eix del bombo (\\T_{bombo}\\)</strong>
-        <p>Considerem la corretja ideal (sense pèrdues de potència entre politges)</p>
-        \\[
-        P_{bombo} = P_{red\\_sortida} = 528 \\text{ W}
-        \\]
-        <p>-Càlcul:</p>
-        \\[
-        \\omega_{bombo} = 12,28 \\cdot \\frac{2\\pi}{60} = 1,286 \\text{ rad/s}
+        E_{estalviada} = 98.550 \\text{ kWh} \\cdot 0,15 = 14.782,5 \\text{ kWh}
         \\]
         \\[
-        T_{bombo} = \\frac{528}{1,286} = 410,57 \\text{ Nm}
+        \\Delta m_{CO2} = 14.782,5 \\text{ kWh} \\cdot 241 \\frac{\\text{g}}{\\text{kWh}} = 3.562.582,5 \\text{ g}
+        \\]
+        \\[
+        \\Delta m \\approx 3.562,6 \\text{ kg de } CO_2 \\text{ (o } 3,56 \\text{ tones)}
         \\]
          <br>`,
     },
