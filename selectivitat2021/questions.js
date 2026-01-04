@@ -1,7 +1,7 @@
 const questions = [
 {
 type: "questions", // Tipus de pregunta
-category: "materialsiassaigs",
+category: "materials",
 text: `Es disposa d’una barra d’acer amb una longitud inicial \\(L= 800 mm\\) a \\(20 °C\\). El coeficient de dilatació lineal de l’acer és \\(α = 13 × 10–6 °C–1\\). Quina serà la longitud final quan la temperatura hagi incrementat \\(400 °C\\)?
 `,
 options: [
