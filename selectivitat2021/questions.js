@@ -100,7 +100,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
  },
   {
         type: "questions", // Tipus de pregunta
-        category: "principidelesmaquines",
+        category: "principi",
         text: `Un bloc de massa \\(m = 3 kg\\) està unit mitjançant un cable al centre d’una politja de radi \\(R1 = 300 mm\\). Una corda ideal subjectada al sostre passa per la politja de la qual penja el bloc, i per una altra politja de radi \\(R2 = 150 mm\\) articulada al sostre pel seu punt mitjà. Quina força F cal fer per a mantenir el bloc en repòs? 
         <img src="https://ariadnaarcass.github.io/selectivitat/2021/js2ex1q4.png" alt="Imatge relacionada amb la pregunta" width="900">`,
         options: [
