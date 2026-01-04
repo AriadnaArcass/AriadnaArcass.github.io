@@ -13,13 +13,11 @@ options: [
 correctAnswer: "a",
   steps: `
   Ens demanen la longitud final d'una barra d'acer després d'escalfar-se.
-  \\[
   - Dades: 
    Longitud inicial \\(L_0 = 800 mm\\)
    Coeficient de dilatació \\(alpha = 13 \\times 10^{-6} \\ ^ \\circ C^{-1}\\) 
    Increment de temperatura \\(Delta T) = 400 \\ ^\\circ C\\) 
-   \\]
-   \\[
+   
   - Fórmula: 
    La llei de la dilatació lineal: 
    \\[
@@ -28,8 +26,8 @@ correctAnswer: "a",
    \\[
    \\L_f = L_0 + \\Delta L
    \\]
-   \\]
-   \\[
+   
+
    - Càlcul: 
    \\[
    \\Delta L = 800 \\text{ mm} \\cdot 13 \\cdot 10^{-6} \\ ^\\circ C^{-1} \\cdot 400 \\ ^\\circ C = 4,16 \\text{ mm}
@@ -37,7 +35,7 @@ correctAnswer: "a",
    \\[
    \\L_f = 800 + 4,16 = 804,16 \\text{ mm}
    \\]
-   \\]
+   
            <br><br>
            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
 images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
