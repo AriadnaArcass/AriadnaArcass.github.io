@@ -12,11 +12,11 @@ options: [
 ],
 correctAnswer: "a",
   steps: `
-  Ens demanen la longitud final d'una barra d'acer després d'escalfar-se.
+  <p>Ens demanen la longitud final d'una barra d'acer després d'escalfar-se.</p>
 
 
-  - Fórmula: 
-   La llei de la dilatació lineal: 
+  <p>- Fórmula: </p>
+  <p> La llei de la dilatació lineal: </p>
    \\[
    \\Delta L = L_0 \\cdot \\alpha \\cdot \\Delta T
    \\]
