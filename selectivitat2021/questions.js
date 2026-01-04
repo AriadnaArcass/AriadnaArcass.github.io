@@ -137,7 +137,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         options: [
             { text: "la bombona explotarà", value: "a" },
             { text: "es dispararà la vàlvula de seguretat", value: "b" },
-            { text: "la pressió augmentarà fins a \\(902,8 kPa\\)", value: "c" },
+            { text: "la pressió augmentarà fins a 902,8 kPa", value: "c" },
             { text: "la pressió a l’interior de la bombona no canviarà", value: "d" }
         ],
         correctAnswer: "c",
@@ -201,13 +201,13 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         <br>
         <strong>b)Funció lògica</strong>
         \\[
-        t = (m_1 + m_2 + p_1 + p_2) \\cdot (m_1 + m_2 + p_1 + \\(bar{p}_2 \\)) \\cdot (m_1 + m_2 + \\(bar{p}_1 \\) + p_2)
+        t = (m_1 + m_2 + p_1 + p_2) \\cdot (m_1 + m_2 + p_1 + \\bar{p}_2) \\cdot (m_1 + m_2 + \\bar{p}_1 + p_2)
         \\]
         \\[
-        t = (m_1 + m_2 + \\(bar{p}_1\\) + \\(bar{p}_2 \\)) \\cdot (m_1 + \\(bar{m}_2 \\) + p_1 + p_2)
+        t = (m_1 + m_2 + \\bar{p}_1 + \\bar{p}_2) \\cdot (m_1 + \\bar{m}_2 + p_1 + p_2)
         \\]
         \\[
-        t = (\\(bar{m}_1 \\) + m_2 + p_1 + p_2) \\cdot (\\(bar{m}_1 \\) + \\(bar{m}_2 \\) + p_1 + p_2)
+        t = (\\bar{m}_1 + m_2 + p_1 + p_2) \\cdot (\\bar{m}_1 + \\bar{m}_2 + p_1 + p_2)
         \\]
         <p>Simplifiquem:</p>
         \\[
