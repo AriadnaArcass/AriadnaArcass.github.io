@@ -181,7 +181,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         </thead>
         <tbody>
         <tr><td>0</td><td>0</td><td>0</td><td>0<td>0</td></tr>
-        <tr><td>0</td><td>0</td><td>0</td><td>0<td>1</td></tr>
+        <tr><td>0</td><td>0</td><td>0</td><td>1<td>0</td></tr>
         <tr><td>0</td><td>0</td><td>1</td><td>0<td>0</td></tr>
         <tr><td>0</td><td>0</td><td>1</td><td>1<td>0</td></tr>
         <tr><td>0</td><td>1</td><td>0</td><td>0<td>0</td></tr>
