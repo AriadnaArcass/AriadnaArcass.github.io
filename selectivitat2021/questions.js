@@ -927,5 +927,54 @@ J_{min} = 12,000 - (12 - 0,006) = 0,006 mm = 6 \\mu m.
 <br><br>
            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
 images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
+  },
+{
+type: "questions", // Tipus de pregunta
+category: "materials",
+text: `L’aliatge de titani \\(Ti-6Al-4V\\) s’utilitza en la fabricació de pròtesis de maluc. Conté un \\(4,5 %\\) de vanadi (V), un \\(6,5 %\\) d’alumini (Al) i la resta és titani (Ti). En l’obtenció d’aquest aliatge, quina quantitat d’alumini cal per a aliar-lo amb \\(20 kg\\) de titani?`,
+options: [
+{ text: "1,3 kg", value: "a" },
+{ text: "1,461 kg", value: "b" },
+{ text: "1,011 kg", value: "c" },
+{ text: "14,61 kg", value: "d" }
+],
+correctAnswer: "b",
+steps: `
+<p>-Càlcul:</p>
+<p>Si el 89% de l'aliatge són 20 kg, quina és la massa total?</p>
+\\[
+m_{total} = \\frac{20 \\text{ kg}}{0,89} = 22,472 \\text{ kg}
+\\]
+<p>Ara calculem la massa d'Alumini (6,5% del total):</p>
+\\[
+m_{Al} = m_{total} \\cdot 0,065 = 22,472 \\cdot 0,065 \\approx 1,461 \\text{ kg}
+\\]
+<br><br>
+           <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
+images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
+   },
+{
+type: "questions", // Tipus de pregunta
+category: "energia",
+text: `Una residència universitària vol reduir el consum elèctric anual, que actualment és de \\(41 MW h\\). Per a fer-ho, vol canviar la iŀluminació per elements de baix consum i utilitzar detectors de presència en zones comunes. S’estima que l’estalvi en el consum elèctric serà del \\(12\\%\\). Si la comercialitzadora indica que el seu mix elèctric és de \\(360 g de CO2/(kW h)\\), quin estalvi anual d’emissions de CO2 aconseguirà la residència?`,
+options: [
+{ text: "12,99 tones de CO2", value: "a" },
+{ text: "14,76 tones de CO2", value: "b" },
+{ text: "1,771 tones de CO2", value: "c" },
+{ text: "17,71 tones de CO2", value: "d" }
+],
+correctAnswer: "c",
+steps: `
+<p>-Càlcul:</p>
+\\[
+E_{estalviada} = 41.000 \\text{ kWh} \\cdot 0,12 = 4.920 \\text{ kWh}
+\\]
+\\[
+\\text{Emissions Estalviades} = 4.920 \\text{ kWh} \\cdot 0,36 \\frac{\\text{kg}}{\\text{kWh}} = 1.771,2 \\text{ kg}
+\\]
+<p>Passem a tones: \\(1,771 \\text{ t}\\).</p>
+<br><br>
+           <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
+images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
     },
 ]
