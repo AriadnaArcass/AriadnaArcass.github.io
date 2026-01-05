@@ -469,6 +469,55 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         P_{diss} = 11{,}39\\,\\text{kW} - 5{,}5\\,\\text{kW} = 5{,}89\\,\\text{kW}
         \\]
          <br>`,
-    
+    },
+{
+type: "questions", // Tipus de pregunta
+category: "materials",
+text: `Una proveta de níquel té una secció circular de \\(10 mm de diàmetre\\) i una \\(longitud de 120 mm\\). El \\(mòdul elàstic del níquel és de 207 × 103 MPa\\), el seu \\(límit elàstic és de 138 MPa\\) i la seva \\(resistència al trencament és de 483 MPa\\). Es duu a terme un assaig de tracció aplicant una \\(força de 35 kN\\) a la proveta. Un cop es deixi d’aplicar-hi la càrrega, es pot afirmar que la proveta`,
+options: [
+{ text: "s’haurà trencat.", value: "a" },
+{ text: "s’haurà deformat plàsticament.", value: "b" },
+{ text: "tornarà a la seva longitud inicial.", value: "c" },
+{ text: "haurà augmentat de diàmetre.", value: "d" }
+],
+correctAnswer: "b",
+steps: `
+<p>-Càlcul tensió \\(\\sigma\\):</p>
+\\[
+A = \\pi \\cdot r^2 = \\pi \\cdot 25 \\approx 78,54 \\text{ mm}^2
+\\]
+\\[
+\\sigma = \\frac{F}{A} = \\frac{35.000}{78,54} = 445,6 \\text{ MPa}
+\\]
+<p>La tensió (445 MPa) és superior al límit elàstic (138 MPa) però inferior al de trencament (483 MPa).</p>
+           <br><br>
+           <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
+images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
+  },
+{
+type: "questions", // Tipus de pregunta
+category: "metrologia",
+text: `En un circuit elèctric, es connecten en sèrie dues resistències de \\(12 \\Omega\\) cadascuna i toleràncies de \\(\\pm 0,25\\% i \\pm 1\\%\\), respectivament. Tenint en compte aquesta informació, es pot afirmar que la resistència equivalent`,
+options: [
+{ text: "té un valor màxim de 24,24 Ω.", value: "a" },
+{ text: "té un valor mínim de 23,85 Ω.", value: "b" },
+{ text: "té un valor màxim de 24,3 Ω.", value: "c" },
+{ text: "té un valor mínim de 23,82 Ω.", value: "d" }
+],
+correctAnswer: "b",
+steps: `
+<p>-Càlcul valors extrems:</p>
+\\[
+R1 (mín): 12 \\cdot 0,9975 = 11,97 \\Omega.
+\\]
+\\[
+R2 (mín): 12 \\cdot 0,99 = 11,88 \\Omega.
+\\]
+\\[
+Total Mínim: 11,97 + 11,88 = 23,85 \\Omega.
+\\]
+           <br><br>
+           <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
+images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
     },
 ]
