@@ -840,10 +840,10 @@ type: "questions", // Tipus de pregunta
 category: "energia",
 text: `Un refugi de muntanya vol instaŀlar panells fotovoltaics per a proveir un consum màxim durant l’hivern de \\(150 kW h\\) mensuals. Determineu la superfície de panells necessària suposant una densitat de radiació els mesos d’hivern de \\(700 W/m2\\), un aprofitament solar de 4 hores al dia durant \\(30 dies\\) al mes i un rendiment de la instaŀlació del \\(8\\%\\).`,
 options: [
-{ text: "6,696 \\text{ m}^2", value: "a" },
-{ text: "44,8 \\text{ m}^2", value: "b" },
-{ text: "44,8 \\text{ m}^2", value: "c" },
-{ text: "22,32 \\text{ m}^2", value: "d" }
+{ text: "6,696 m2", value: "a" },
+{ text: "44,8 m2", value: "b" },
+{ text: "44,8 m2", value: "c" },
+{ text: "22,32 m2", value: "d" }
 ],
 correctAnswer: "d",
 steps: `
@@ -898,6 +898,32 @@ v = \\sqrt{2 \\cdot g \\cdot h} = \\sqrt{2 \\cdot 9,81 \\cdot 2,6147}
 \\[
 v = \\sqrt{51,3} \\approx 7,16 \\text{ m/s}
 \\]
+<br><br>
+           <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
+images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
+  },
+{
+type: "questions", // Tipus de pregunta
+category: "metrologia",
+text: `Si es té un ajust \\(12 H7/g6\\), la tolerància del forat és de \\( \\begin{pmatrix} 18 \\\\ 0 \\end{pmatrix} \\,\\mu\\text{m} \\) i la tolerància g6 de l’eix és de \\( \\begin{pmatrix} -6 \\\\ -17 \\end{pmatrix} \\,\\mu\\text{m} \\), es pot afirmar que`,
+options: [
+{ text: "el joc màxim és de 24 μm", value: "a" },
+{ text: "el joc mínim és de 17 μm", value: "b" },
+{ text: "el joc màxim és de 17 μm", value: "c" },
+{ text: "en aquest ajust no es pot produir serratge", value: "d" }
+],
+correctAnswer: "d",
+steps: `
+<p>Joc Màxim \\(J_{max}\\) = Forat Màxim - Eix Mínim</p>
+\\[
+J_{max} = (12 + 0,018) - (12 - 0,017) = 0,018 - (-0,017) = 0,035 mm \\(35 \\mu m\\)
+\\]
+<p>Aquesta dada no coincideix amb les opcions a/b/c directament, revisem l'OCR.</p>
+<p>Joc Mínim \\(J_{min}\\) = Forat Mínim - Eix Màxim</p>
+\\[
+J_{min} = 12,000 - (12 - 0,006) = 0,006 mm \\(6 \\mu m\\).
+\\]
+<p>Com que el forat sempre és més gran que l'eix (Forat mín 12.000 > Eix màx 11.994), sempre hi ha joc. Mai hi ha serratge.</p>
 <br><br>
            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
 images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
