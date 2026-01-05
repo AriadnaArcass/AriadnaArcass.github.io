@@ -976,5 +976,52 @@ E_{estalviada} = 41.000 \\text{ kWh} \\cdot 0,12 = 4.920 \\text{ kWh}
 <br><br>
            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
 images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
+   },
+  {
+        type: "exercicis", // Tipus de pregunta
+        category: "control",
+        text: `Es vol dissenyar el circuit que controli una alarma contra incendis. L’alarma s’ha de disparar quan es premi el polsador d’incendis, o bé quan es compleixin dues o més d’aquestes tres condicions: s’ha sobrepassat un llindar de temperatura, hi ha fum a l’habitació i/o la temperatura ha augmentat bruscament. Responeu a les qüestions que hi ha a continuació utilitzant les variables d’estat següents:
+        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/ss1ex2.png" alt="Imatge relacionada amb la pregunta" width="450"><br>
+               <br><strong>a)</strong> Escriviu la taula de veritat del sistema. [1 punts]
+               <br><strong>b)</strong> Determineu la funció lògica entre aquestes variables i, si escau, simplifiqueu-la. [1 punt]
+               <br><strong>c)</strong> Dibuixeu l’esquema de portes lògiques equivalent. [0,5 punts]
+               <br>`,
+        steps: `
+        <strong>a)Taula de veritat</strong>
+        <br>
+        <table>
+        <thead>
+        <tr>
+        <th>\\(p\\)</th>
+        <th>\\(f\\)</th>
+        <th>\\(l\\)</th>
+        <th>\\(t\\)</th>
+        <th>\\(a\\)</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+        <tr><td>0</td><td>0</td><td>1</td><td>0</td></tr>
+        <tr><td>0</td><td>1</td><td>0</td><td>1</td></tr>
+        <tr><td>0</td><td>1</td><td>1</td><td>0</td></tr>
+        <tr><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+        <tr><td>1</td><td>0</td><td>1</td><td>0</td></tr>
+        <tr><td>1</td><td>1</td><td>0</td><td>1</td></tr>
+        <tr><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+        </tbody>
+        </table>
+        <br>
+        <strong>b)Funció lògica</strong>
+        \\[
+        p = (f + t + p_1 + \\bar{v}) \\cdot (f + \\bar{t} + \\bar{v}) \\cdot (\\bar{f} + t + \\bar{v})
+        \\]
+        <p>Simplifiquem:</p>
+        \\[
+        p = (f \\cdot t) + \\bar{v} 
+        \\]
+        <strong>c)Esquema de portes lògiques</strong>
+        <br><br>
+        <img src="https://ariadnaarcass.github.io/selectivitat2021/ss1ex2c.png" alt="Imatge relacionada amb la pregunta" width="300">
+        <br>`,
     },
 ]
