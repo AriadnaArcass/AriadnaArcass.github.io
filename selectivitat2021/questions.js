@@ -379,7 +379,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         \\[
         \\sum M_O = 0
         \\]
-        <p>La força \\(F_{QS}\\) té una component vertical \\(F_{QS\\_y}\\) = F_{QS} \\cdot \\sin(30^\\circ).</p>
+        <p>La força \\(F_{QS}\\) té una component vertical \\(F_{QS\\_y}\\) = \\(F_{QS}\\) \\cdot \\sin(30^\\circ).</p>
         \\[
         (F_{QS} \\cdot \\sin 30^\\circ) \\cdot 4L - (m \\cdot g) \\cdot 6L = 0
         \\]
