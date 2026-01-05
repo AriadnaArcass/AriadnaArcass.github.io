@@ -454,32 +454,17 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         \\[
         P_{comb} = \\dot{m} \\cdot pc = 2,54 \\times 10^{-4} \\text{ kg/s} \\cdot 44,8 \\times 10^6 \\text{ J/kg} = 11.391 \\text{ W} = 11,39 \\text{ kW}
         \\]
-        <p>-Càlcul:</p>
-        <p>Potència solar rebuda (Entrada) = \\( I_{rad} \\cdot A = 1000\\,\\text{W/m}^2 \\cdot 1{,}45\\,\\text{m}^2 = 1450\\,\\text{W} \\)</p>
+        <p>-Rendiment:</p>
         \\[
-        \\eta = \\frac{194 \\text{ W}}{1450 \\text{ W}} = 0,1338 \\quad \\rightarrow \\quad 13,38\\%
+        \\eta_{mot} = \\frac{P_{mot}}{P_{comb}} = \\frac{7,457}{11,39} = 0,6547 \\quad \\rightarrow \\quad 65,47\\%
         \\]
-        <strong>d)Nombre mínim de plaques \\(n_p\\)</strong>
-        <p>-Càlcul:</p>
+        <strong>d)Potència total dissipada \\(P_{diss}\\)</strong>
+        <p>És la diferència entre l'energia total que entra (combustible) i l'energia útil final que surt (electricitat).</p>
         \\[
-        n_p = \\frac{\\text{Potència necessària}}{\\text{Potència per placa}} = \\frac{3.375 \text{ W}}{194 \\text{ W}} = 17,39
+        P_{diss} = P_{comb} - P_{elec}
         \\]
-        <p>Hem d'arrodonir cap amunt per garantir la potència.</p>
+        P_{diss} = 11,39 \\text{ kW} - 5,5 \\text{ kW} = 5,89 \\text{ kW}
         \\[
-        n_p = 18 \\text{ plaques}
-        \\]
-        <strong>e)Estalvi d'emissions \\(\\Delta m\\)</strong>
-        <p>Estalviem el 15% de l'energia anual.</p>
-        <p>-Càlcul:</p>
-        \\[
-        E_{estalviada} = 98.550 \\text{ kWh} \\cdot 0,15 = 14.782,5 \\text{ kWh}
-        \\]
-        \\[
-        \\Delta m_{CO2} = 14.782,5 \\text{ kWh} \\cdot 241 \\frac{\\text{g}}{\\text{kWh}} = 3.562.582,5 \\text{ g}
-        \\]
-        \\[
-        \\Delta m \\approx 3.562,6 \\text{ kg de } CO_2 \\text{ (o } 3,56 \\text{ tones)}
-        \\]
          <br>`,
     
     },
