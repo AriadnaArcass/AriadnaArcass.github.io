@@ -739,7 +739,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         text: `Un dron utilitza una bateria de tensió \\(U = 11,1 V\\) amb una capacitat de càrrega de \\(c = 5 200 mA h\\). Es connecten a la bateria 4 motors en paraŀlel que tenen un rendiment individual \\(ηmotor = 0,89\\). Inicialment la bateria està totalment carregada. En unes determinades condicions de vol els motors giren a \\(n = 10 000 min–1\\) (dos en sentit horari i dos en sentit antihorari) i cada motor subministra una potència \\(Psubm = 30 W\\). L’energia acumulada en una bateria ve donada per l’expressió \\(Ebat = c · U\\). Determineu:
                <br><strong>a)</strong> L’energia acumulada a la bateria \\(E_{bat}\\). [0,5 punts]
                <br><strong>b)</strong> La potència consumida per cada motor \\(P_{cons}\\). [0,5 punts]
-               <br><strong>c)</strong> L’energia consumida \\(E_{cons}\) i el temps t que el dron haurà estat en funcionament quan la bateria s’hagi descarregat un \\(5 %\\). [1 punts]
+               <br><strong>c)</strong> L’energia consumida \\(E_{cons}\\) i el temps t que el dron haurà estat en funcionament quan la bateria s’hagi descarregat un \\(5\\%\\). [1 punts]
                <br><strong>d)</strong> El parell \\(\\Gamma\\) a l’eix de cada motor. [0,5 punts]
                <br>`,
         steps: `
@@ -782,7 +782,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         text: `La resistència elèctrica d’un assecador de cabells \\(R = 30 Ω\\) és feta d’un fil conductor de resistivitat \\(ρ = 0,22 μΩ m\\) i diàmetre \\(d = 0,4 mm\\). L’assecador s’endolla a la xarxa de tensió \\(U = 230 V\\). Determineu:
                <br><strong>a)</strong> La longitud \\(L\\) del fil conductor. [0,5 punts]
                <br><strong>b)</strong> La potència elèctrica \\(P_{elec}\\) que consumeix l’assecador. [0,5 punts]
-               <br><strong>c)</strong> L’energia elèctrica consumida \\(E_{cons}\\) durant 10 minuts de funcionament. [0,5 punts]
+               <br><strong>c)</strong>L’energia elèctrica consumida \\(E_{cons}\\) durant 10 minuts de funcionament. [0,5 punts]
                <br><strong>d)</strong> El corrent \\(I\\) que circula per l’assecador. [0,5 punts]
                <br><strong>e)</strong> La potència elèctrica \\(P'_{elèctr}\\) si l’assecador s’alimentés a una tensió \\(U′ = 110 V\\) [0,5 punts]
                <br>`,
