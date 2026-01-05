@@ -396,14 +396,14 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         <p>La barra QS empeny la barra OP cap amunt, per tant, la barra OP empeny QS cap avall (compressió). Esforç: Compressió.</p>
         <strong>c)Forces a l'articulació O \\(F_H, F_V\\)</strong>
         <p>-Equilibri de forces:</p>
-        <p>Horitzontal (\\x\\):</p>
+        <p>Horitzontal (x):</p>
         \\[
         R_{Ox} - F_{QS\\_x} = 0 \\rightarrow R_{Ox} = F_{QS} \\cdot \\cos(30^\\circ).
         \\]
         \\[
         F_H = 2.354,4 \\cdot \\cos 30^\\circ = 2.038,97 \\text{ N}
         \\]
-        <p>Vertical (\\y\\):</p>
+        <p>Vertical (y):</p>
         \\[
         R_{Oy} + F_{QS\\_y} - mg = 0.
         \\]
@@ -464,7 +464,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         \\[
         P_{diss} = P_{comb} - P_{elec}
         \\]
-        \\P_{diss} = 11,39 \\text{ kW} - 5,5 \\text{ kW} = 5,89 \\text{ kW}
+        P_{diss} = 11,39 \\text{ kW} - 5,5 \\text{ kW} = 5,89 \\text{ kW}
         \\[
          <br>`,
     
