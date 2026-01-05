@@ -698,7 +698,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
                <br><strong>b)</strong> L’increment d’energia potencial \\(\\Delta E_p\\). [0,5 punts]
                <br><strong>c)</strong> L’energia de la bateria consumida \\(E_{cons}\\). [0,5 punts]
                <p>Després de fer aquest recorregut, el motorista baixa per la mateixa carretera fent servir únicament el fre motor i així torna a carregar la bateria. En aquest cas, el procés de regeneració té un rendiment \\(ηreg = 0,65\\). Si abans d’iniciar el recorregut de pujada la bateria estava al \\(100 %\\) de la seva capacitat, determineu:</p>
-               <br><strong>d)</strong> El percentatge d’energia E_% que queda a la bateria respecte de l’energia inicial després de recórrer els \\(24 km\\).. [1 punts]
+               <br><strong>d)</strong> El percentatge d’energia \\(E_{\\%}\\) que queda a la bateria respecte de l’energia inicial després de recórrer els \\(24 km\\). [1 punts]
                <br>`,
         steps: `
         <strong>a)Desnivell \\(\\Delta h\\). </strong>
@@ -739,39 +739,38 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         text: `Un dron utilitza una bateria de tensió \\(U = 11,1 V\\) amb una capacitat de càrrega de \\(c = 5 200 mA h\\). Es connecten a la bateria 4 motors en paraŀlel que tenen un rendiment individual \\(ηmotor = 0,89\\). Inicialment la bateria està totalment carregada. En unes determinades condicions de vol els motors giren a \\(n = 10 000 min–1\\) (dos en sentit horari i dos en sentit antihorari) i cada motor subministra una potència \\(Psubm = 30 W\\). L’energia acumulada en una bateria ve donada per l’expressió \\(Ebat = c · U\\). Determineu:
                <br><strong>a)</strong> L’energia acumulada a la bateria \\(E_{bat}\\). [0,5 punts]
                <br><strong>b)</strong> La potència consumida per cada motor \\(P_{cons}\\). [0,5 punts]
-               <p>Després de fer aquest recorregut, el motorista baixa per la mateixa carretera fent servir únicament el fre motor i així torna a carregar la bateria. En aquest cas, el procés de regeneració té un rendiment \\(ηreg = 0,65\\). Si abans d’iniciar el recorregut de pujada la bateria estava al \\(100 %\\) de la seva capacitat, determineu:</p>
-               <br><strong>d)</strong> El percentatge d’energia E_% que queda a la bateria respecte de l’energia inicial després de recórrer els \\(24 km\\).. [1 punts]
+               <br><strong>c)</strong> L’energia consumida \\(E_{cons}\) i el temps t que el dron haurà estat en funcionament quan la bateria s’hagi descarregat un \\(5 %\\). [1 punts]
+               <br><strong>d)</strong> El parell \\(\\Gamma\\) a l’eix de cada motor. [0,5 punts]
                <br>`,
         steps: `
-        <strong>a)Desnivell \\(\\Delta h\\). </strong>
+        <strong>a)Energia acumulada \\(E_{bat}\\) </strong>
         \\[
-        \\Delta h = s \\cdot \text{pendent} = 12.000 \\text{ m} \\cdot 0,05 = 600 \\text{ m}
+        E_{bat} = c \\cdot U = 5,2 \\text{ Ah} \\cdot 11,1 \\text{ V} = 57,72 \\text{ Wh}
         \\]
-        <strong>b)Increment energia potencial \\(\\Delta E_p\\)</strong>
+        <p>\\(En Joules: 57,72 \\cdot 3600 = 207.792 \\text{ J}\\)</p>
+        <strong>b)Potència consumida per motor \\(P_{cons}\\)</strong>
         \\[
-        \\Delta E_p = m \\cdot g \\cdot \\Delta h = 130 \\cdot 9,81 \\cdot 600 = 765.180 \\text{ J}
+        P_{cons\\_elec} = \\frac{P_{mec}}{\\eta} = \\frac{30 \\text{ W}}{0,89} = 33,71 \\text{ W}
         \\]
-        <p>Passem a Wh:</p>
+        <strong>c)Energia consumida i temps per descarregar un 5%</strong>
+        <p>Energia del 5%:</p>
         \\[
-        765.180 / 3600 = 212,55 \\text{ Wh}. 
+        E_{5\\%} = 57,72 \\text{ Wh} \\cdot 0,05 = 2,886 \\text{ Wh}
+        <p>Potència total consumida (4 motors):</p>
         \\]
-        <strong>c)Energia bateria consumida \\(E_{cons}\\)</strong>
-        <p>Com que \\(\\eta = E_{util} / E_{consumida}\\):</p> 
+        P_{total} = 4 \\cdot 33,71 \\text{ W} = 134,84 \\text{ W}
         \\[
-        E_{cons} = \\frac{\\Delta E_p}{\\eta_{glob}} = \\frac{212,55 \\text{ Wh}}{0,9} = 236,17 \\text{ Wh}
+        <p>Temps:</p>
+        \\[
+        t = \\frac{E}{P} = \\frac{2,886 \\text{ Wh}}{134,84 \\text{ W}} = 0,0214 \\text{ hores}
         \\]
-        <strong>d)Percentatge restant després de baixar \\(E_{\\%}\\)</strong>
-        <p>Baixada (Regeneració): L'energia potencial es recupera.</p>
         \\[
-        E_{recuperada} = \\Delta E_p \\cdot \\eta_{reg} = 212,55 \\cdot 0,65 = 138,16 \\text{ Wh}
+        t \\approx 77 \\text{ segons}
         \\]
-        <p>Balanç final: Energia final = \\(E_{inicial} - E_{pujada} + E_{baixada}\\)</p>
+        <strong>d)Parell a l'eix \\(\\Gamma\\)</strong>
+        <p>-Càlcul</p>
         \\[
-        E_{final} = 1.530 \\text{ Wh} - 236,17 \\text{ Wh} + 138,16 \\text{ Wh} = 1.431,99 \\text{ Wh}
-        \\]
-        <p>Percentatge:</p>
-        \\[
-        \\eta = \\frac{1.431,99}{1.530} = 0,9359 \\rightarrow 93,6\\%
+        \\omega = 10.000 \\cdot \\frac{2\\pi}{60} = 1.047,2 \\text{ rad/s}
         \\]
          <br>`,
     },
