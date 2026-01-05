@@ -747,7 +747,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         \\[
         E_{bat} = c \\cdot U = 5,2 \\text{ Ah} \\cdot 11,1 \\text{ V} = 57,72 \\text{ Wh}
         \\]
-        <p>\\(En Joules: 57,72 \\cdot 3600 = 207.792 \\text{ J}\\)</p>
+        <p>En Joules: \\(57,72 \\cdot 3600 = 207.792 \\text{ J}\\)</p>
         <strong>b)Potència consumida per motor \\(P_{cons}\\)</strong>
         \\[
         P_{cons\\_elec} = \\frac{P_{mec}}{\\eta} = \\frac{30 \\text{ W}}{0,89} = 33,71 \\text{ W}
@@ -756,6 +756,8 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         <p>Energia del 5%:</p>
         \\[
         E_{5\\%} = 57,72 \\text{ Wh} \\cdot 0,05 = 2,886 \\text{ Wh}
+        \\]
+        \\[
         <p>Potència total consumida (4 motors):</p>
         \\]
         P_{total} = 4 \\cdot 33,71 \\text{ W} = 134,84 \\text{ W}
