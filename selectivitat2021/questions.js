@@ -372,6 +372,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
                <br>`,
         steps: `
         <strong>a) Diagrama del cos lliure de la barra OP</strong>
+        <br><br>
         <img src="https://ariadnaarcass.github.io/selectivitat2021/js2ex5a.png" alt="Imatge relacionada amb la pregunta" width="300">
         <strong>b)Força \\(F_{QS}\\) i tipus d'esforç</strong>
         <p>-Càlcul:</p>
@@ -379,7 +380,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         \\[
         \\sum M_O = 0
         \\]
-        <p>La força \\(F_{QS}\\) té una component vertical \\(F_{QS\\_y}\\) = \\(F_{QS}\\) \\cdot \\sin(30^\\circ).</p>
+        <p>La força \\( F_{QS} \\) té una component vertical \\( F_{QS_y} = F_{QS} \\cdot \\sin(30^\\circ) \\).</p>
         \\[
         (F_{QS} \\cdot \\sin 30^\\circ) \\cdot 4L - (m \\cdot g) \\cdot 6L = 0
         \\]
@@ -463,7 +464,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         \\[
         P_{diss} = P_{comb} - P_{elec}
         \\]
-        P_{diss} = 11,39 \\text{ kW} - 5,5 \\text{ kW} = 5,89 \\text{ kW}
+        \\P_{diss} = 11,39 \\text{ kW} - 5,5 \\text{ kW} = 5,89 \\text{ kW}
         \\[
          <br>`,
     
