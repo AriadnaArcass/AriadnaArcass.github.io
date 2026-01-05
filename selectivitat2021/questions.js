@@ -834,5 +834,72 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         P' = \\frac{U'^2}{R} = \\frac{110^2}{30} = \\frac{12.100}{30} = 403,3 \\text{ W}
         \\]
          <br>`,
+     },
+{
+type: "questions", // Tipus de pregunta
+category: "energia",
+text: `Un refugi de muntanya vol instaŀlar panells fotovoltaics per a proveir un consum màxim durant l’hivern de \\(150 kW h\\) mensuals. Determineu la superfície de panells necessària suposant una densitat de radiació els mesos d’hivern de \\(700 W/m2\\), un aprofitament solar de 4 hores al dia durant \\(30 dies\\) al mes i un rendiment de la instaŀlació del \\(8\\%\\).`,
+options: [
+{ text: "6,696 \\text{ m}^2", value: "a" },
+{ text: "44,8 \\text{ m}^2", value: "b" },
+{ text: "44,8 \\text{ m}^2", value: "c" },
+{ text: "22,32 \\text{ m}^2", value: "d" }
+],
+correctAnswer: "d",
+steps: `
+<p>-Fórmula:</p>
+<p>L'energia generada ha de cobrir el consum.</p>
+\\[
+E_{gen} = I \\cdot S \\cdot t_{total} \\cdot \\eta
+\\]
+<p>On \\(t_{total} = 4 \\text{ h/dia} \\cdot 30 \\text{ dies} = 120 \\text{ h}\\).</p>
+<p>-Càlcul:</p>
+\\[
+150.000 \\text{ Wh} = 700 \\frac{\\text{W}}{\\text{m}^2} \\cdot S \\cdot 120 \\text{ h} \\cdot 0,08
+\\]
+\\[
+150.000 = 6.720 \\cdot S
+\\]
+\\[
+S = \\frac{150.000}{6.720} = 22,321 \\text{ m}^2
+\\]
+<br><br>
+           <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
+images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
+  },
+{
+type: "questions", // Tipus de pregunta
+category: "energia",
+text: `Una persona muntada en un patinet avança per una baixada de \\(30 m\\) de longitud i de \\(5°\\) de pendent. Parteix del repòs i no prem el fre en cap moment. La massa del conjunt format per la persona i el patinet és de \\(82 kg\\). A quina velocitat anirà el conjunt al final de la baixada si es negligeixen totes les pèrdues?`,
+options: [
+{ text: "7,161 m/s", value: "a" },
+{ text: "5,424 m/s", value: "b" },
+{ text: "24,26 m/s", value: "c" },
+{ text: "51,28 m/s", value: "d" }
+],
+correctAnswer: "a",
+steps: `
+<p>-Fórmula:</p>
+<p>L'energia potencial es transforma en cinètica.</p>
+\\[
+E_{pot} = E_{cin}
+\\]
+\\[
+m \\cdot g \\cdot h = \\frac{1}{2} \\cdot m \\cdot v^2 \\quad \\Rightarrow \\quad g \\cdot h = \\frac{v^2}{2}
+\\]
+<p>Primer calculem l'altura \\(h\\) del desnivell:</p>
+\\[
+h = d \\cdot \\sin(\\alpha) = 30 \\cdot \\sin(5^{\\circ}) \\approx 2,6147 \\text{ m}
+\\]
+<p>-Càlcul:</p>
+\\[
+v = \\sqrt{2 \\cdot g \\cdot h} = \\sqrt{2 \\cdot 9,81 \\cdot 2,6147}
+\\]
+\\[
+v = \\sqrt{51,3} \\approx 7,16 \\text{ m/s}
+\\]
+<br><br>
+           <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
+images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
     },
 ]
