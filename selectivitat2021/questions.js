@@ -916,12 +916,12 @@ correctAnswer: "d",
 steps: `
 <p>Joc Màxim \\(J_{max}\\) = Forat Màxim - Eix Mínim</p>
 \\[
-J_{max} = (12 + 0,018) - (12 - 0,017) = 0,018 - (-0,017) = 0,035 mm \\(35 \\mu m\\)
+J_{max} = (12 + 0,018) - (12 - 0,017) = 0,018 - (-0,017) = 0,035 mm = 35 \\mu m
 \\]
 <p>Aquesta dada no coincideix amb les opcions a/b/c directament, revisem l'OCR.</p>
 <p>Joc Mínim \\(J_{min}\\) = Forat Mínim - Eix Màxim</p>
 \\[
-J_{min} = 12,000 - (12 - 0,006) = 0,006 mm \\(6 \\mu m\\).
+J_{min} = 12,000 - (12 - 0,006) = 0,006 mm = 6 \\mu m.
 \\]
 <p>Com que el forat sempre és més gran que l'eix (Forat mín 12.000 > Eix màx 11.994), sempre hi ha joc. Mai hi ha serratge.</p>
 <br><br>
