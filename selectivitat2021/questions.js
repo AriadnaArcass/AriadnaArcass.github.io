@@ -417,6 +417,70 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         F_V = 392,4 \\text{ N (cap avall)}
         \\]
         <br>`,
+    },
+  {
+        type: "exercicis", // Tipus de pregunta
+        category: "energia",
+        text: `S’utilitza un petit generador elèctric dièsel per a subministrar electricitat a llocs on no arriba el corrent elèctric. El sistema es compon d’un motor dièsel (amb una velocitat de gir del motor \\(n = 3 000 min–1)\\) i un alternador monofàsic units directament per un eix comú. El gasoil utilitzat té un poder calorífic \\(pc = 44,8 MJ/kg\\) i una densitat \\(ρgasoil = 0,85 kg/L\\). La potència subministrada pel motor dièsel és \\(Pmot = 7,457 kW\\), i la subministrada per l’alternador \\(Pelèctr = 5,5 kW\\). El sistema disposa d’un dipòsit de combustible de volum \\(V= 14 L\\) que garanteix \\(t = 13 h\\) d’autonomia en les condicions descrites. Determineu:
+               <br><strong>a)</strong> El rendiment de l’alternador \\(\\eta_{alt}\\). [0,5 punts]
+               <br><strong>b)</strong> El consum del motor dièsel \\(c_{gasoil}\\) en g/h.  [0,5 punt]
+               <br><strong>c)</strong> El rendiment del motor \\(\\eta_{mot}\\). [1 punts]
+               <br><strong>d)</strong> La potència total dissipada \\(P_{diss}\\) pel conjunt. [0,5 punts]
+               <br>`,
+        steps: `
+        <strong>a)Rendiment de l'alternador \\(\\eta_{alt}\\)</strong>
+        <p>-Fórmula:</p>
+        \\[
+        \\eta = P_{sortida} / P_{entrada} \\text {(l'entrada de l'alternador és la sortida del motor)}
+        \\]
+        <p>-Càlcul</p>
+        \\[
+        \\eta_{alt} = \\frac{P_{elec}}{P_{mot}} = \\frac{5,5}{7,457} = 0,7375 \\quad \\rightarrow \\quad 73,75\\%
+        \\]
+        <strong>b)Consum del motor \\(c_{gasoil}\\) en g/h</strong>
+        <p>-Massa total combustible:</p>
+        \\[
+        m_{total} = V \\cdot \\rho = 14 \\text{ L} \\cdot 0,85 \\text{ kg/L} = 11,9 \\text{ kg} = 11.900 \\text{ g}
+        \\]
+        <p>-Consum horari:</p>
+        \\[
+        c_{gasoil} = \\frac{m_{total}}{t} = \\frac{11.900 \\text{ g}}{13 \\text{ h}} = 915,38 \\text{ g/h}
+        \\]
+        <strong>c) Rendiment del motor \\(\\eta_{mot}\\)</strong>
+        <p>Potència calorífica aportada \\(P_{comb}\\): Primer passem el consum a kg/s:</p>
+        \\[
+        \\dot{m} = \\frac{11,9 \\text{ kg}}{13 \\cdot 3600 \\text{ s}} = 2,54 \\times 10^{-4} \\text{ kg/s}
+        \\]
+        \\[
+        P_{comb} = \\dot{m} \\cdot pc = 2,54 \\times 10^{-4} \\text{ kg/s} \\cdot 44,8 \\times 10^6 \\text{ J/kg} = 11.391 \\text{ W} = 11,39 \\text{ kW}
+        \\]
+        <p>-Càlcul:</p>
+        <p>Potència solar rebuda (Entrada) = \\( I_{rad} \\cdot A = 1000\\,\\text{W/m}^2 \\cdot 1{,}45\\,\\text{m}^2 = 1450\\,\\text{W} \\)</p>
+        \\[
+        \\eta = \\frac{194 \\text{ W}}{1450 \\text{ W}} = 0,1338 \\quad \\rightarrow \\quad 13,38\\%
+        \\]
+        <strong>d)Nombre mínim de plaques \\(n_p\\)</strong>
+        <p>-Càlcul:</p>
+        \\[
+        n_p = \\frac{\\text{Potència necessària}}{\\text{Potència per placa}} = \\frac{3.375 \text{ W}}{194 \\text{ W}} = 17,39
+        \\]
+        <p>Hem d'arrodonir cap amunt per garantir la potència.</p>
+        \\[
+        n_p = 18 \\text{ plaques}
+        \\]
+        <strong>e)Estalvi d'emissions \\(\\Delta m\\)</strong>
+        <p>Estalviem el 15% de l'energia anual.</p>
+        <p>-Càlcul:</p>
+        \\[
+        E_{estalviada} = 98.550 \\text{ kWh} \\cdot 0,15 = 14.782,5 \\text{ kWh}
+        \\]
+        \\[
+        \\Delta m_{CO2} = 14.782,5 \\text{ kWh} \\cdot 241 \\frac{\\text{g}}{\\text{kWh}} = 3.562.582,5 \\text{ g}
+        \\]
+        \\[
+        \\Delta m \\approx 3.562,6 \\text{ kg de } CO_2 \\text{ (o } 3,56 \\text{ tones)}
+        \\]
+         <br>`,
     
     },
 ]
