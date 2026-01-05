@@ -757,11 +757,10 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         \\[
         E_{5\\%} = 57,72 \\text{ Wh} \\cdot 0,05 = 2,886 \\text{ Wh}
         \\]
-        \\[
         <p>Potència total consumida (4 motors):</p>
-        \\]
-        P_{total} = 4 \\cdot 33,71 \\text{ W} = 134,84 \\text{ W}
         \\[
+        P_{total} = 4 \\cdot 33,71 \\text{ W} = 134,84 \\text{ W}
+        \\]
         <p>Temps:</p>
         \\[
         t = \\frac{E}{P} = \\frac{2,886 \\text{ Wh}}{134,84 \\text{ W}} = 0,0214 \\text{ hores}
@@ -821,7 +820,10 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         \\[
         E = P \\cdot t = 1,763 \\text{ kW} \\cdot 0,166 \\text{ h} = 0,294 \\text{ kWh}
         \\]
-        <p>O en Joules: \\(1763,3 \\text{ W} \\cdot 600 \\text{ s} \\approx 1,06 \\text{ MJ})</p>
+        <p>O en Joules:</p>
+        \\[
+        1763,3 \\text{ W} \\cdot 600 \\text{ s} \\approx 1,06 \\text{ MJ}
+        \\]
         <strong>d)Corrent \\(I\\)</strong>
         \\[
         I = \\frac{U}{R} = \\frac{230}{30} = 7,67 \\text{ A}
