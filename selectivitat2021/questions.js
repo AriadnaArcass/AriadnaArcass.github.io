@@ -637,4 +637,100 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         <img src="https://ariadnaarcass.github.io/selectivitat2021/js5ex2c.png" alt="Imatge relacionada amb la pregunta" width="300">
         <br>`,
     },
+  {
+        type: "exercicis", // Tipus de pregunta
+        category: "energia",
+        text: `Una central de carbó té \\(n = 3\\) grups de turbines de vapor amb una potència \\(P_turb = 362 MW\\) cada un i utilitza carbó del tipus lignit amb un poder calorífic \\(pc_c = 28 400 kJ/kg\\) i una densitat \\(ρ = 1 050 kg/m3\\). La central està en funcionament les \\(24 hores\\) del dia i té un rendiment \\(ηc = 0,236\\). Determineu:
+               <br><strong>a)</strong> L’energia diària consumida \\(E_{cons}\\) que cal aportar a la central. [1 punts]
+               <br><strong>b)</strong> La massa de carbó \\m_c\\ diària necessària perquè funcioni.  [0,5 punt]
+               <p>S’estima que si la central treballés amb querosè (de poder calorífic \\(pc_q = 43 400 kJ/kg)\\) n’utilitzaria \\(m_q = 6 177 × 103 kg\\) diaris i mantindria constant la potència subministrada per cada turbina. Determineu, en aquest cas:</p>
+               <br><strong>c)</strong> El nou rendiment de la central \\(\\eta_q\\). [1 punts]
+               <br>`,
+        steps: `
+        <strong>a)Energia diària consumida \\(E_{cons}\\)</strong>
+        <p>-Energia elèctrica produïda (sortida):</p>
+        \\[
+        E_{elec} = 1.086 \\text{ MW} \\cdot 24 \\text{ h} = 26.064 \\text{ MWh}
+        \\]
+        <p>-Energia primària necessària (entrada):</p<
+        \\[
+        E_{cons} = \\frac{E_{elec}}{\\eta} = \\frac{26.064}{0,236} = 110.440,6 \\text{ MWh}
+        \\]
+        <p>En Joules \\(1 \\text{ MWh} = 3,6 \\times 10^9 \\text{ J}\\):</p>
+        \\[
+        E_{cons} = 3,97 \\times 10^{14} \\text{ J}
+        \\]
+        <strong>b)Massa de carbó \\(m_c\\)</strong>
+        <p>-Càlculs:</p>
+        \\[
+        m_c = \\frac{E_{cons} \\text{ (en kJ)}}{pc}
+        \\]
+        \\[
+        E_{cons} \\text{ (kJ)} = 110.440.677 \\text{ kWh} \\cdot 3.600 \\text{ kJ/kWh} = 3,975 \\times 10^{11} \\text{ kJ}
+        \\]
+        \\[
+        m_c = \\frac{3,975 \\times 10^{11}}{28.400} = 13.996.478 \\text{ kg} \\approx 14.000 \\text{ tones}
+        \\]
+        <strong>c) Nou rendiment amb Querosè \\(\\eta_q\\)</strong>
+        <p>Nou combustible:</p> 
+        \\[
+        m_q = 6,177 \\times 10^6 \\text{ kg}, pc_q = 43.400 \\text{ kJ/kg}.
+        \\]
+        <p>Energia entrada nova:</p> 
+        \\[
+        E_{in\\_q} = 6,177 \\times 10^6 \\cdot 43.400 = 2,68 \\times 10^{11} \\text{ kJ}
+        \\]
+        <p>Energia sortida (es manté constant segons enunciat):</p> 
+        \\[
+        E_{out} = 26.064 \\text{ MWh} \\cdot 3.600 = 9,38 \\times 10^{10} \\text{ kJ}
+        \\]
+        <p>Nou rendiment:</p> 
+        \\[
+        \\eta_q = \\frac{9,38 \\times 10^{10}}{2,68 \\times 10^{11}} = 0,35 \\quad \\rightarrow \\quad 35\\%
+        \\]
+         <br>`,
+    },
+  {
+        type: "exercicis", // Tipus de pregunta
+        category: "energia",
+        text: `Un motorista utilitza una moto elèctrica per a recórrer una distància \\(s = 12 km\\) per una carretera de pendent ascendent i constant del \\(5 %\\). El recorregut es fa a velocitat constant i la moto disposa d’una bateria d’energia \\(E_bat = 1,53 kW h\\) (la bateria té un comportament ideal). La massa del conjunt format per la moto i el motorista és \\(m = 130 kg\\). En aquesta situació, el sistema té un rendiment \\(ηglob = 0,9\\). Si les pèrdues causades pel rodolament i per l’aerodinàmica es poden negligir, determineu:
+               <br><strong>a)</strong> El desnivell de la carretera \\(\\Delta h\\). [0,5 punt]
+               <br><strong>b)</strong> L’increment d’energia potencial \\(\\Delta E_p\\). [0,5 punts]
+               <br><strong>c)</strong> L’energia de la bateria consumida \\(E_{cons}\\). [0,5 punts]
+               <p>Després de fer aquest recorregut, el motorista baixa per la mateixa carretera fent servir únicament el fre motor i així torna a carregar la bateria. En aquest cas, el procés de regeneració té un rendiment \\(ηreg = 0,65\\). Si abans d’iniciar el recorregut de pujada la bateria estava al \\(100 %\\) de la seva capacitat, determineu:</p>
+               <br><strong>d)</strong> El percentatge d’energia E_% que queda a la bateria respecte de l’energia inicial després de recórrer els \\(24 km\\).. [1 punts]
+               <br>`,
+        steps: `
+        <strong>a)Desnivell \\(\\Delta h\\). </strong>
+        \\[
+        \\Delta h = s \\cdot \text{pendent} = 12.000 \\text{ m} \\cdot 0,05 = 600 \\text{ m}
+        \\]
+        <strong>b)Increment energia potencial \\(\\Delta E_p\\)</strong>
+        \\[
+        \\Delta E_p = m \\cdot g \\cdot \\Delta h = 130 \\cdot 9,81 \\cdot 600 = 765.180 \\text{ J}
+        \\]
+        <p>Passem a Wh:</p>
+        \\[
+        765.180 / 3600 = 212,55 \\text{ Wh}. 
+        \\]
+        <strong>c)Energia bateria consumida \\(E_{cons}\\)</strong>
+        <p>Com que \\(\\eta = E_{util} / E_{consumida}\\):</p> 
+        \\[
+        E_{cons} = \\frac{\\Delta E_p}{\\eta_{glob}} = \\frac{212,55 \\text{ Wh}}{0,9} = 236,17 \\text{ Wh}
+        \\]
+        <strong>d)Percentatge restant després de baixar \\(E_{\\%}\\)</strong>
+        <p>Baixada (Regeneració): L'energia potencial es recupera.</p>
+        \\[
+        E_{recuperada} = \\Delta E_p \\cdot \\eta_{reg} = 212,55 \\cdot 0,65 = 138,16 \\text{ Wh}
+        \\]
+        <p>Balanç final: Energia final = \\(E_{inicial} - E_{pujada} + E_{baixada}\\)</p>
+        \\[
+        E_{final} = 1.530 \\text{ Wh} - 236,17 \\text{ Wh} + 138,16 \\text{ Wh} = 1.431,99 \\text{ Wh}
+        \\]
+        <p>Percentatge:</p>
+        \\[
+        \\eta = \\frac{1.431,99}{1.530} = 0,9359 \\rightarrow 93,6\\%
+        \\]
+         <br>`,
+    },
 ]
