@@ -465,8 +465,9 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         \\[
         P_{diss} = P_{comb} - P_{elec}
         \\]
-        \\P_{diss} = 11{,}39\\,\\text{kW} - 5{,}5\\,\\text{kW} = 5{,}89\\,\\text{kW}  
         \\[
+        \\(P_{diss} = 11{,}39\\,\\text{kW} - 5{,}5\\,\\text{kW} = 5{,}89\\,\\text{kW}\\) 
+        \\]
          <br>`,
     
     },
