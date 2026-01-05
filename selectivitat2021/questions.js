@@ -373,67 +373,50 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         steps: `
         <strong>a) Diagrama del cos lliure de la barra OP</strong>
         <img src="https://ariadnaarcass.github.io/selectivitat2021/js2ex5a.png" alt="Imatge relacionada amb la pregunta" width="300">
+        <strong>b)Força \\(F_{QS}\\) i tipus d'esforç</strong>
         <p>-Càlcul:</p>
+        <p>Sumatori de moments respecte al punt O (per eliminar les incògnites de la reacció a O).</p>
         \\[
-        \\omega_{mot} = 1415 \\frac{\\text{rev}}{\\text{min}} \\cdot \\frac{2\\pi}{60} \\approx 148,18 \\text{ rad/s}
+        \\sum M_O = 0
+        \\]
+        <p>La força \\(F_{QS}\\) té una component vertical \\(F_{QS\\_y}\\) = F_{QS} \\cdot \\sin(30^\\circ).</p>
+        \\[
+        (F_{QS} \\cdot \\sin 30^\\circ) \\cdot 4L - (m \\cdot g) \\cdot 6L = 0
         \\]
         \\[
-        \\Gamma_{mot} = \\frac{P_{mot}}{\\omega_{mot}} = \\frac{550}{148,18} = 3,71 \\text{ Nm}
-        \\]
-        <strong>b)Parell a l'eix de sortida del reductor \\(\\Gamma_{red}\\)</strong>
-        <p>El reductor augmenta el parell i redueix la velocitat, però perdem energia pel rendiment.</p>
-        <p>-Fórmules:</p>
-        \\[
-        \\omega_{red} = \\omega_{mot} \\cdot \\tau_{red}
+        F_{QS} \\cdot 0,5 \\cdot 4L = 784,8 \\cdot 6L
         \\]
         \\[
-        P_{red\\_sortida} = P_{mot} \\cdot \\eta_{red}
+        F_{QS} \\cdot 2L = 4708,8 \\cdot L \\quad (\\text{Les L se simplifiquen})
         \\]
         \\[
-        \\Gamma_{red} = \\frac{P_{red\\_sortida}}{\\omega_{red}}
+        F_{QS} = \\frac{4708,8}{2} = 2.354,4 \\text{ N}
         \\]
-        <p>-Càlcul:</p>
+        <p>La barra QS empeny la barra OP cap amunt, per tant, la barra OP empeny QS cap avall (compressió). Esforç: Compressió.</p>
+        <strong>c)Forces a l'articulació O \\(F_H, F_V\\)</strong>
+        <p>-Equilibri de forces:</p>
+        <p>Horitzontal (\\x\\):</p>
         \\[
-        \\omega_{red} = 148,18 \\cdot 0,0689 = 10,21 \\text{ rad/s}
-        \\]
-        \\[
-        P_{red\\_sortida} = 550 \\cdot 0,96 = 528 \\text{ W}
-        \\]
-        \\[
-        \\Gamma_{red} = \\frac{528}{10,21} = 51,71 \\text{ Nm}
-        \\]
-        <strong>c)Velocitat de la politja petita \\(n_d\\)</strong>
-        <p>La politja petita està connectada directament a l'eix de sortida del reductor.</p>
-        <p>-Fórmula:</p>
-        \\[
-        n_d = n_{mot} \\cdot \\tau_{red} 
-        \\]
-        <p>-Càlcul:</p>
-        \\[
-        n_d = 1415 \\cdot 0,0689 = 97,49 \\text{ min}^{-1}
-        \\]
-        <strong>d)Velocitat del bombo \\(n_{bombo}\\)</strong>
-        <p>-Fórmula:</p>
-        <p>Relació de transmissió per politges:</p>
-        \\[
-        n_1 \\cdot d = n_2 \\cdot D
-        \\]
-        <p>-Càlcul:</p>
-        \\[
-        n_{bombo} = n_d \\cdot \\frac{d}{D} = 97,49 \\cdot \\frac{63}{500} = 12,28 \\text{ min}^{-1}
-        \\]
-        <strong>e)Parell a l'eix del bombo \\(T_{bombo}\\)</strong>
-        <p>Considerem la corretja ideal (sense pèrdues de potència entre politges)</p>
-        \\[
-        P_{bombo} = P_{red\\_sortida} = 528 \\text{ W}
-        \\]
-        <p>-Càlcul:</p>
-        \\[
-        \\omega_{bombo} = 12,28 \\cdot \\frac{2\\pi}{60} = 1,286 \\text{ rad/s}
+        R_{Ox} - F_{QS\\_x} = 0 \\rightarrow R_{Ox} = F_{QS} \\cdot \\cos(30^\\circ).
         \\]
         \\[
-        T_{bombo} = \\frac{528}{1,286} = 410,57 \\text{ Nm}
+        F_H = 2.354,4 \\cdot \\cos 30^\\circ = 2.038,97 \\text{ N}
+        \\]
+        <p>Vertical (\\y\\):</p>
+        \\[
+        R_{Oy} + F_{QS\\_y} - mg = 0.
+        \\]
+        \\[
+        R_{Oy} + (2.354,4 \\cdot 0,5) - 784,8 = 0
+        \\]
+        \\[
+        R_{Oy} + 1177,2 - 784,8 = 0 \\rightarrow R_{Oy} = -392,4 \\text{ N}
+        \\]
+        <p>El signe negatiu indica que la força vertical a O realment va cap avall (l'articulació estira la barra avall perquè no roti cap amunt pel pivotatge a Q).</p>
+        \\[
+        F_V = 392,4 \\text{ N (cap avall)}
         \\]
         <br>`,
+    
     },
 ]
