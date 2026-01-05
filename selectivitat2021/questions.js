@@ -565,7 +565,7 @@ steps: `
 <br><br>
            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
 images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
-  ,
+},
 {
 type: "questions", // Tipus de pregunta
 category: "materials",
@@ -697,6 +697,48 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
                <br><strong>a)</strong> El desnivell de la carretera \\(\\Delta h\\). [0,5 punt]
                <br><strong>b)</strong> L’increment d’energia potencial \\(\\Delta E_p\\). [0,5 punts]
                <br><strong>c)</strong> L’energia de la bateria consumida \\(E_{cons}\\). [0,5 punts]
+               <p>Després de fer aquest recorregut, el motorista baixa per la mateixa carretera fent servir únicament el fre motor i així torna a carregar la bateria. En aquest cas, el procés de regeneració té un rendiment \\(ηreg = 0,65\\). Si abans d’iniciar el recorregut de pujada la bateria estava al \\(100 %\\) de la seva capacitat, determineu:</p>
+               <br><strong>d)</strong> El percentatge d’energia E_% que queda a la bateria respecte de l’energia inicial després de recórrer els \\(24 km\\).. [1 punts]
+               <br>`,
+        steps: `
+        <strong>a)Desnivell \\(\\Delta h\\). </strong>
+        \\[
+        \\Delta h = s \\cdot \text{pendent} = 12.000 \\text{ m} \\cdot 0,05 = 600 \\text{ m}
+        \\]
+        <strong>b)Increment energia potencial \\(\\Delta E_p\\)</strong>
+        \\[
+        \\Delta E_p = m \\cdot g \\cdot \\Delta h = 130 \\cdot 9,81 \\cdot 600 = 765.180 \\text{ J}
+        \\]
+        <p>Passem a Wh:</p>
+        \\[
+        765.180 / 3600 = 212,55 \\text{ Wh}. 
+        \\]
+        <strong>c)Energia bateria consumida \\(E_{cons}\\)</strong>
+        <p>Com que \\(\\eta = E_{util} / E_{consumida}\\):</p> 
+        \\[
+        E_{cons} = \\frac{\\Delta E_p}{\\eta_{glob}} = \\frac{212,55 \\text{ Wh}}{0,9} = 236,17 \\text{ Wh}
+        \\]
+        <strong>d)Percentatge restant després de baixar \\(E_{\\%}\\)</strong>
+        <p>Baixada (Regeneració): L'energia potencial es recupera.</p>
+        \\[
+        E_{recuperada} = \\Delta E_p \\cdot \\eta_{reg} = 212,55 \\cdot 0,65 = 138,16 \\text{ Wh}
+        \\]
+        <p>Balanç final: Energia final = \\(E_{inicial} - E_{pujada} + E_{baixada}\\)</p>
+        \\[
+        E_{final} = 1.530 \\text{ Wh} - 236,17 \\text{ Wh} + 138,16 \\text{ Wh} = 1.431,99 \\text{ Wh}
+        \\]
+        <p>Percentatge:</p>
+        \\[
+        \\eta = \\frac{1.431,99}{1.530} = 0,9359 \\rightarrow 93,6\\%
+        \\]
+         <br>`,
+    },
+  {
+        type: "exercicis", // Tipus de pregunta
+        category: "energia",
+        text: `Un dron utilitza una bateria de tensió \\(U = 11,1 V\\) amb una capacitat de càrrega de \\(c = 5 200 mA h\\). Es connecten a la bateria 4 motors en paraŀlel que tenen un rendiment individual \\(ηmotor = 0,89\\). Inicialment la bateria està totalment carregada. En unes determinades condicions de vol els motors giren a \\(n = 10 000 min–1\\) (dos en sentit horari i dos en sentit antihorari) i cada motor subministra una potència \\(Psubm = 30 W\\). L’energia acumulada en una bateria ve donada per l’expressió \\(Ebat = c · U\\). Determineu:
+               <br><strong>a)</strong> L’energia acumulada a la bateria \\(E_{bat}\\). [0,5 punts]
+               <br><strong>b)</strong> La potència consumida per cada motor \\(P_{cons}\\). [0,5 punts]
                <p>Després de fer aquest recorregut, el motorista baixa per la mateixa carretera fent servir únicament el fre motor i així torna a carregar la bateria. En aquest cas, el procés de regeneració té un rendiment \\(ηreg = 0,65\\). Si abans d’iniciar el recorregut de pujada la bateria estava al \\(100 %\\) de la seva capacitat, determineu:</p>
                <br><strong>d)</strong> El percentatge d’energia E_% que queda a la bateria respecte de l’energia inicial després de recórrer els \\(24 km\\).. [1 punts]
                <br>`,
