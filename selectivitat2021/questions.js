@@ -829,7 +829,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         I = \\frac{U}{R} = \\frac{230}{30} = 7,67 \\text{ A}
         \\]
         <strong>e)Potència a 110 V \\(P'\\)</strong>
-        <p>La resistència \\(R\\) és constant \\(30 \\Omega\\).</p<
+        <p>La resistència \\(R\\) és constant \\(30 \\Omega\\).</p>
         \\[
         P' = \\frac{U'^2}{R} = \\frac{110^2}{30} = \\frac{12.100}{30} = 403,3 \\text{ W}
         \\]
