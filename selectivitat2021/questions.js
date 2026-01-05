@@ -723,7 +723,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         \\[
         E_{recuperada} = \\Delta E_p \\cdot \\eta_{reg} = 212,55 \\cdot 0,65 = 138,16 \\text{ Wh}
         \\]
-        <p>Balanç final: Energia final = \\(E_{inicial} - E_{pujada} + E_{baixada}\\)</p>
+        <p>Balanç final: \\(Energia_{final} = E_{inicial} - E_{pujada} + E_{baixada}\\)</p>
         \\[
         E_{final} = 1.530 \\text{ Wh} - 236,17 \\text{ Wh} + 138,16 \\text{ Wh} = 1.431,99 \\text{ Wh}
         \\]
