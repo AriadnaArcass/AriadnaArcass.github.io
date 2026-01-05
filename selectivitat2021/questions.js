@@ -163,7 +163,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         category: "control",
         text: `En una línia de producció hi ha una estació de treball on es realitzen operacions de tallat. El sistema de seguretat vol evitar que l’operari es trobi prop de l’eina de tall; amb aquesta finalitat, s’han instaŀlat quatre polsadors: dos de situats a mitja altura (que s’accionen amb les mans) i dos de situats al terra (que s’accionen amb els peus). Per a realitzar l’operació de tallat, cal que l’operari premi a la vegada almenys un polsador de mitja altura amb la mà i un del terra amb el peu. Responeu a les qüestions que hi ha a continuació utilitzant les variables d’estat següents:
         <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/js2ex2.png" alt="Imatge relacionada amb la pregunta" width="450"><br>
-               <br><strong>a)</strong> Escriviu la taula de veritat del sistema. [0,5 punts]
+               <br><strong>a)</strong> Escriviu la taula de veritat del sistema. [1 punts]
                <br><strong>b)</strong> Determineu la funció lògica entre aquestes variables i, si escau, simplifiqueu-la. [1 punt]
                <br><strong>c)</strong> Dibuixeu l’esquema de portes lògiques equivalent. [0,5 punts]
                <br>`,
@@ -590,5 +590,51 @@ M_{Co} = 56,66 \\cdot 0,63 = 35,7 \\text{ g}
 <br><br>
            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
 images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
+  },
+  {
+        type: "exercicis", // Tipus de pregunta
+        category: "control",
+        text: `El sistema d’obertura automàtica de portes d’emergència està format per tres detectors: un detector de fum, un de temperatura i un de tensió elèctrica de la xarxa. La porta s’obre si es detecta fum i un augment brusc de la temperatura, o si la tensió d’alimentació passa a ser nuŀla. Responeu a les qüestions que hi ha a continuació utilitzant les variables d’estat següents:
+        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/js5ex2.png" alt="Imatge relacionada amb la pregunta" width="450"><br>
+               <br><strong>a)</strong> Elaboreu la taula de veritat del sistema. [1 punts]
+               <br><strong>b)</strong> Determineu la funció lògica entre aquestes variables i, si escau, simplifiqueu-la. [1 punt]
+               <br><strong>c)</strong> Dibuixeu l’esquema de portes lògiques equivalent. [0,5 punts]
+               <br>`,
+        steps: `
+        <strong>a)Taula de veritat</strong>
+        <br>
+        <table>
+        <thead>
+        <tr>
+        <th>\\(f\\)</th>
+        <th>\\(t\\)</th>
+        <th>\\(v\\)</th>
+        <th>\\(p\\)</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+        <tr><td>0</td><td>0</td><td>1</td><td>0</td></tr>
+        <tr><td>0</td><td>1</td><td>0</td><td>1</td></tr>
+        <tr><td>0</td><td>1</td><td>1</td><td>0</td></tr>
+        <tr><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+        <tr><td>1</td><td>0</td><td>1</td><td>0</td></tr>
+        <tr><td>1</td><td>1</td><td>0</td><td>1</td></tr>
+        <tr><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+        </tbody>
+        </table>
+        <br>
+        <strong>b)Funció lògica</strong>
+        \\[
+        p = (f + t + p_1 + \\bar{v}) \\cdot (f + \\bar{t} + \\bar{v}) \\cdot (\\bar{f} + t + \\bar{v})
+        \\]
+        <p>Simplifiquem:</p>
+        \\[
+        p = (f \\cdot t) + \\bar{v} 
+        \\]
+        <strong>c)Esquema de portes lògiques</strong>
+        <br><br>
+        <img src="https://ariadnaarcass.github.io/selectivitat2021/js5ex2c.png" alt="Imatge relacionada amb la pregunta" width="300">
+        <br>`,
     },
 ]
