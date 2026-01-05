@@ -519,5 +519,76 @@ Total Mínim: 11,97 + 11,88 = 23,85 \\Omega.
            <br><br>
            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
 images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
+  },
+{
+type: "questions", // Tipus de pregunta
+category: "energia",
+text: `El conductor d’un cotxe pot decidir si utilitza com a combustible gasolina o gas liquat del petroli (GLP). Quan fa servir gasolina consumeix \\(6,3 L/100 km\\) i emet \\(149 g de CO2 per kilòmetre\\) recorregut, i quan fa servir GLP consumeix \\(7,0 L/100 km\\) i emet \\(114 g de CO2 per kilòmetre\\) recorregut. Segons el combustible utilitzat, quina és la diferència en la petjada de carboni, expressada en grams de CO2 per litre de combustible?`,
+options: [
+{ text: "736,5 g/L", value: "a" },
+{ text: "2 365 g/L", value: "b" },
+{ text: "1 629 g/L", value: "c" },
+{ text: "3 994 g/L", value: "d" }
+],
+correctAnswer: "a",
+steps: `
+<p>-Càlculs:</p>
+\\[
+Gasolina: 149 \\text{ g/km} \\div 0,063 \\text{ L/km} = 2.365,08 \\text{ g } CO_2/L.
+\\]
+\\[
+GLP: 114 \\text{ g/km} \\div 0,070 \\text{ L/km} = 1.628,57 \\text{ g } CO_2/L.
+\\]
+\\[
+Diferència: 2.365 - 1.628,5 = 736,5 \\text{ g/L}.
+\\]
+           <br><br>
+           <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
+images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
+  },
+{
+type: "questions", // Tipus de pregunta
+category: "energia",
+text: `El motor d’una motocicleta desenvolupa una potència efectiva màxima de \\(7,8 kW a 7 750 min–1\\). Quin parell subministra en aquest moment?`,
+options: [
+{ text: "9,611 N m", value: "a" },
+{ text: "1,997 N m", value: "b" },
+{ text: "16,02 N m", value: "c" },
+{ text: "60,39 N m", value: "d" }
+],
+correctAnswer: "a",
+steps: `
+<p>-Càlcul:</p>
+\\[
+\\Gamma = \\frac{P}{\\omega} = \\frac{7800}{7750 \\cdot \\frac{2\\pi}{60}} = \\frac{7800}{811,57} = 9,61 \\text{ Nm}
+\\]
+<br><br>
+           <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
+images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
+  ,
+{
+type: "questions", // Tipus de pregunta
+category: "materials",
+text: `Els aliatges crom-cobalt són molt utilitzats en les pròtesis dentals. En un aliatge amb un 63 % de cobalt (Co), un \\(30 %\\) de crom (Cr), un \\(5 %\\) de molibdè (Mo) i la resta del percentatge d’altres components (Si, Mn, C), quina quantitat de Co es necessita si s’usen \\(17 g\\) de Cr?`,
+options: [
+{ text: "56,6 g", value: "a" },
+{ text: "3,97 g", value: "b" },
+{ text: "35,7 g", value: "c" },
+{ text: "17,0 g", value: "d" }
+],
+correctAnswer: "c",
+steps: `
+<p>-Càlcul:</p>
+<p>Si 17 g són el 30%, la massa total de l'aliatge és:</p>
+\\[
+M_{total} = \\frac{17}{0,30} = 56,66 \\text{ g}
+\\]
+<p>Massa de Cobalt (63% del total):</p>
+\\[
+M_{Co} = 56,66 \\cdot 0,63 = 35,7 \\text{ g}
+\\]
+<br><br>
+           <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
+images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
     },
 ]
