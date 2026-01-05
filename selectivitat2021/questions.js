@@ -374,6 +374,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         <strong>a) Diagrama del cos lliure de la barra OP</strong>
         <br><br>
         <img src="https://ariadnaarcass.github.io/selectivitat2021/js2ex5a.png" alt="Imatge relacionada amb la pregunta" width="300">
+        <br>
         <strong>b)Força \\(F_{QS}\\) i tipus d'esforç</strong>
         <p>-Càlcul:</p>
         <p>Sumatori de moments respecte al punt O (per eliminar les incògnites de la reacció a O).</p>
