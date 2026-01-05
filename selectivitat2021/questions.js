@@ -364,21 +364,15 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
   {
         type: "exercicis", // Tipus de pregunta
         category: "principis",
-        text: `Una persona de massa m = 80 kg utilitza l’estructura de barres de la figura per a fer exercicis de gimnàstica a casa. L’estructura té articulacions a la paret pels punts O i S. La barra QS està unida a la barra OP mitjançant una articulació. En la situació d’estudi, la persona es penja del punt P (sense que els peus toquin a terra) i s’hi manté en repòs. 
+        text: `Una persona de massa \\(m = 80 kg\\) utilitza l’estructura de barres de la figura per a fer exercicis de gimnàstica a casa. L’estructura té articulacions a la paret pels punts O i S. La barra QS està unida a la barra OP mitjançant una articulació. En la situació d’estudi, la persona es penja del punt P (sense que els peus toquin a terra) i s’hi manté en repòs. 
         <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/js2ex5.png" alt="Imatge relacionada amb la pregunta" width="250"><br>
-<br><strong>a)</strong> Parell a l'eix del motor \\( \\Gamma_{mot} \\). [0,5 punts]
-<br><strong>b)</strong> Parell a l'eix de sortida del reductor \\( \\Gamma_{red} \\). [0,5 punts]
-<br><strong>c)</strong> Velocitat de la politja petita \\( n_d \\). [0,5 punts]
-<br><strong>d)</strong> Velocitat del bombo \\( n_{bombo} \\). [0,5 punts]
-<br><strong>e)</strong> Parell a l'eix del bombo \\( T_{bombo} \\). [0,5 punts]
+<br><strong>a)</strong> Dibuixeu el diagrama de cos lliure de la barra OP. [0,5 punts]
+<br><strong>b)</strong> La força \\(F_{QS}\\) a la qual està sotmesa la barra QS. A quin tipus d’esforç està sotmesa aquesta barra?  [1 punts]
+<br><strong>c)</strong> Les forces horitzontal \\(F_H\\) i vertical \\(F_V\\) a l’articulació O. [1 punts]
                <br>`,
         steps: `
-        <strong>a) Parell a l'eix del motor \\(\\Gamma_{mot}\\)</strong>
-        <p>- Fórmula:</p>
-        \\[
-        P = \\Gamma \\cdot \\omega
-        \\]
-        <p>Cal passar \\( n \\) a rad/s.</p>
+        <strong>a) Diagrama del cos lliure de la barra OP</strong>
+        <img src="https://ariadnaarcass.github.io/selectivitat2021/js2ex5a.png" alt="Imatge relacionada amb la pregunta" width="300">
         <p>-Càlcul:</p>
         \\[
         \\omega_{mot} = 1415 \\frac{\\text{rev}}{\\text{min}} \\cdot \\frac{2\\pi}{60} \\approx 148,18 \\text{ rad/s}
