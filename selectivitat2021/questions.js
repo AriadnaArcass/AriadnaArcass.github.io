@@ -473,7 +473,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
 {
 type: "questions", // Tipus de pregunta
 category: "materials",
-text: `Una proveta de níquel té una secció circular de \\(10 mm de diàmetre\\) i una \\(longitud de 120 mm\\). El \\(mòdul elàstic del níquel és de 207 × 103 MPa\\), el seu \\(límit elàstic és de 138 MPa\\) i la seva \\(resistència al trencament és de 483 MPa\\). Es duu a terme un assaig de tracció aplicant una \\(força de 35 kN\\) a la proveta. Un cop es deixi d’aplicar-hi la càrrega, es pot afirmar que la proveta`,
+text: `Una proveta de níquel té una secció circular de \\(10 mm\\) de diàmetre i una longitud de \\(120 mm\\). El mòdul elàstic del níquel és de \\(207 × 103 MPa\\), el seu límit elàstic és de \\(138 MPa\\) i la seva resistència al trencament és de \\(483 MPa\\). Es duu a terme un assaig de tracció aplicant una força de \\(35 kN\\) a la proveta. Un cop es deixi d’aplicar-hi la càrrega, es pot afirmar que la proveta`,
 options: [
 { text: "s’haurà trencat.", value: "a" },
 { text: "s’haurà deformat plàsticament.", value: "b" },
@@ -767,10 +767,67 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         \\[
         t \\approx 77 \\text{ segons}
         \\]
-        <strong>d)Parell a l'eix \\(\\Gamma\\)</strong>
-        <p>-Càlcul</p>
+        <strong>d) Parell a l'eix \\(\\Gamma\\)</strong>
         \\[
         \\omega = 10.000 \\cdot \\frac{2\\pi}{60} = 1.047,2 \\text{ rad/s}
+        \\]
+        \\[
+        \\Gamma = \\frac{P_{mec}}{\\omega} = \\frac{30}{1.047,2} = 0,0286 \\text{ Nm}
+        \\]
+         <br>`,
+    },
+  {
+        type: "exercicis", // Tipus de pregunta
+        category: "maquines",
+        text: `La resistència elèctrica d’un assecador de cabells \\(R = 30 Ω\\) és feta d’un fil conductor de resistivitat \\(ρ = 0,22 μΩ m\\) i diàmetre \\(d = 0,4 mm\\). L’assecador s’endolla a la xarxa de tensió \\(U = 230 V\\). Determineu:
+               <br><strong>a)</strong> La longitud \\(L\\) del fil conductor. [0,5 punts]
+               <br><strong>b)</strong> La potència elèctrica \\(P_{elec}\\) que consumeix l’assecador. [0,5 punts]
+               <br><strong>c)</strong> L’energia elèctrica consumida \\(E_{cons}\\) durant 10 minuts de funcionament. [0,5 punts]
+               <br><strong>d)</strong> El corrent \\(I\\) que circula per l’assecador. [0,5 punts]
+               <br><strong>e)</strong> La potència elèctrica \\(P'_{elèctr}\\) si l’assecador s’alimentés a una tensió \\(U′ = 110 V\\) [0,5 punts]
+               <br>`,
+        steps: `
+        <strong>a)Longitud del fil \\(L\\).</strong>
+        <p>-Secció:</p>
+        \\[
+        S = \\pi \\cdot (d/2)^2 = \\pi \\cdot (2 \\times 10^{-4})^2 = 1,256 \\times 10^{-7} \\text{ m}^2.
+        \\]
+        <p>-Fórmula:</p>
+        \\[
+        R = \\rho \\cdot \\frac{L}{S} \\rightarrow L = \\frac{R \\cdot S}{\\rho}.
+        \\]
+        <p>-Càlcul:</p>
+        \\[
+        L = \\frac{30 \\cdot 1,256 \\times 10^{-7}}{0,22 \\times 10^{-6}} = 17,13 \\text{ m}
+        \\]
+        <strong>b)Potència \\(P_{elec}\\)</strong>
+        \\[
+        P = \\frac{U^2}{R} = \\frac{230^2}{30} = 1.763,3 \\text{ W} \\approx 1,76 \\text{ kW}
+        \\]
+        <strong>c)Energia en 10 minuts \\(E_{cons}\\)</strong>
+        \\[
+        t = 10 \\text{ min} = \\frac{1}{6} \\text{ h}
+        \\]
+        <p>Potència total consumida (4 motors):</p>
+        \\]
+        P_{total} = 4 \\cdot 33,71 \\text{ W} = 134,84 \\text{ W}
+        \\[
+        <p>Temps:</p>
+        \\[
+        t = \\frac{E}{P} = \\frac{2,886 \\text{ Wh}}{134,84 \\text{ W}} = 0,0214 \\text{ hores}
+        \\]
+        \\[
+        E = P \\cdot t = 1,763 \\text{ kW} \\cdot 0,166 \\text{ h} = 0,294 \\text{ kWh}
+        \\]
+        <p>(O en Joules: $1763,3 \\text{ W} \\cdot 600 \\text{ s} \\approx 1,06 \\text{ MJ})</p>
+        <strong>d)Corrent \\(I\\)</strong>
+        \\[
+        I = \\frac{U}{R} = \\frac{230}{30} = 7,67 \\text{ A}
+        \\]
+        <strong>e)Potència a 110 V \\(P'\\)</strong>
+        <p>La resistència $R$ és constant \\(30 \\Omega\\).</p<
+        \\[
+        P' = \\frac{U'^2}{R} = \\frac{110^2}{30} = \\frac{12.100}{30} = 403,3 \\text{ W}
         \\]
          <br>`,
     },
