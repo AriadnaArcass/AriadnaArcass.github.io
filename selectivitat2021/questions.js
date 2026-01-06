@@ -1183,4 +1183,56 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         \\]
          <br>`,
     },
+  {
+        type: "exercicis", // Tipus de pregunta
+        category: "enrgia",
+        text: `El sistema públic d’iŀluminació municipal d’una vila està format per \\(n = 308\\) punts de llum, que estan encesos, de mitjana, \\(t = 11 hores\\) al dia. Cada punt de llum utilitza una bombeta de vapor de sodi a alta pressió (VSAP) de potència \\(PVSAP = 100 W\\). La tarifa fixada per la companyia elèctrica marca un cost de l’electricitat \\(celectr = 0,1370 €/(kW h)\\). A més, l’Ajuntament ha d’assumir un cost anual associat al manteniment d’aquest sistema \\(cmant = 14 000 €\\). Determineu:
+               <br><strong>a)</strong> El consum anual d’energia de l’enllumenat públic \\(E_{VSAP}\\) i els diners anuals que l’Ajuntament paga a la companyia elèctrica \\(c_{VSAP}\\). [1 punts]
+               <p>L’Ajuntament vol canviar tots els punts de llum per uns de nous que utilitzaran bombetes de tecnologia led de potència \\(Pled = 36 W\\). Cada llum té un cost unitari de \\(cllum = 500 €\\) (incloent-hi la bombeta). El cost de la instaŀlació del nou enllumenat s’estima en \\(cinst = 43 000 €\\). En aquesta instaŀlació es pot negligir el cost de manteniment. Determineu:</p>
+               <br><strong>b)</strong> El nou consum elèctric \\(E_{LED}\\) i els diners que anualment s’estalviaria cestalvi l’Ajuntament. [1 punts]
+               <br><strong>c)</strong> El cost total de la inversió \\(C_{inv}\\). En quants anys Δt es recuperaria la inversió feta?. [0,5 punts]
+               <br>`,
+        steps: `
+        <strong>a)Consum i cost anual VSAP</strong>
+        <p>Energia anual \\(E_{VSAP}\\):</p>
+        \\[
+        P_{total} = 308 \\cdot 100 \\text{ W} = 30.800 \\text{ W} = 30,8 \\text{ kW}
+        \\]
+        <p>Hores anuals = \\(11 \\text{ h/dia} \\cdot 365 \\text{ dies} = 4.015 \\text{ h}\\).</p>
+        \\[
+        E_{VSAP} = 30,8 \\text{ kW} \\cdot 4.015 \\text{ h} = 123.662 \\text{ kWh}
+        \\]
+        <p>Cost energètic anual \\(C_{VSAP\\_llum}\\):</p>
+        \\[
+        Cost = 123.662 \\cdot 0,1370 = 16.941,69 \\text{ €}
+        \\]
+        <strong>b)Consum LED i Estalvi total./strong>
+        <p>Energia anual \\(E_{LED}\\):</p>
+        \\[
+        P_{total\\_LED} = 308 \\cdot 36 \\text{ W} = 11.088 \\text{ W} = 11,088 \\text{ kW}
+        \\]
+        \\[
+        E_{LED} = 11,088 \\cdot 4.015 = 44.518,32 \\text{ kWh}
+        \\]
+        <p>Cost energètic LED:</p>
+        \\[
+        Cost_{elec\\_LED} = 44.518,32 \\cdot 0,1370 = 6.099,01 \\text{ €}
+        \\]
+        <p>Estalvi total anual \\(C_{estalvi}\\):</p>
+        <p>L'estalvi prové de l'electricitat I del manteniment (que passa a ser 0).Estalvi \\(Elec = $16.941,69 - 6.099,01 = 10.842,68 \\text{ €}\\).Estalvi Manteniment = \\(14.000 \\text{ €}\\).</p>
+        \\[
+        Estalvi_{total} = 10.842,68 + 14.000 = 24.842,68 \\text{ €/any}
+        \\]
+        <strong>c) Inversió i amortització \\(\\Delta t\\)</strong>
+        <p>Cost Inversió \\(C_{inv}\\):</p>
+        <p>Material: \\(308 \\text{ unitats} \\cdot 500 \\text{ €/u} = 154.000 \\text{ €}\\). Instal·lació: \\(43.000 \\text{ €}\\).</p>
+        \\[
+        C_{inv} = 154.000 + 43.000 = 197.000 \\text{ €}
+        \\]
+        <p>Temps de retorn \\(\\Delta t\\):</p>
+        \\[
+        \\Delta t = \\frac{C_{inv}}{Estalvi_{anual}} = \\frac{197.000}{24.842,68} \\approx 7,93 \\text{ anys}
+        \\]
+         <br>`,
+    },
 ]
