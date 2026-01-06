@@ -1044,7 +1044,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
                <br>`,
         steps: `
         <strong>a)Diagrama Tensió-Deformació.</strong>
-        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/ss1ex3a.png" alt="Imatge relacionada amb la pregunta" width="450"><br>
+        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/ss1ex3a.png" alt="Imatge relacionada amb la pregunta" width="250"><br>
         <strong>b)Mòdul d'elasticitat \\(E\\).</strong>
         <p>Es calcula amb el pendent de la zona lineal Llei de Hooke: \\(\\sigma = E \\cdot e\\). Agafem el primer punt no nul \\(e=0,001, \\sigma=69\\):</p>
         \\[
@@ -1069,6 +1069,61 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         \\]
         <strong>d)Recuperació a 300 MPa</strong>
         <p>Mirem la taula: A 300 MPa la deformació és 0,02. El límit elàstic aparent és al voltant de 276 MPa (on deixa de ser lineal). Com que 300 MPa > Límit Elàstic, la proveta ha patit deformació plàstica. No, no recuperarà la longitud inicial. Quedarà amb una deformació permanent.</p>
+         <br>`,
+    },
+  {
+        type: "exercicis", // Tipus de pregunta
+        category: "energia",
+        text: `Els bombers utilitzen un ventilador contra incendis que permet eliminar el fum i refredar grans volums d’aire. Les hèlices del ventilador tenen un diàmetre \\(d = 420 mm\\) i la sortida d’aire es fa a un cabal \\(q = 33 660 m3/h\\). El ventilador està accionat per un motor de quatre temps de potència \\(Pmot = 3,58 kW\\) que gira a \\(n = 3 600 min–1\\). El combustible és gasoil de poder calorífic \\(pc = 44,8 MJ/kg\\) i densitat \\(ρgasoil = 0,85 kg/L\\), i el motor té un consum \\(c = 1,4 L/h\\). El factor d’emissions del gasoil és \\(FE = 2,87 kg CO2/L\\). Determineu:
+               <br><strong>a)</strong> La potència consumida pel motor \\(P_{cons}\\). [1 punts]
+               <br><strong>b)</strong> El rendiment del motor \\(\\eta\\).  [0,5 punts]
+               <br><strong>c)</strong> La velocitat del punt extrem de la pala de l’hèlice. [0,5 punts]
+               <br><strong>d)</strong> Les emissions de gasos amb efecte d’hivernacle \\(CO_2 m_{CO2}\\) que emetrà en \\(t = 20 min\\) de funcionament. [0,5 punts]
+               <br>`,
+        steps: `
+        <strong>a) Potència consumida pel motor \\(P_{cons}\\)</strong>
+        <p>És la potència tèrmica aportada pel combustible. Primer passem el consum volumètric a consum màssic:</p>
+        \\[
+        \\dot{m} = c \\cdot \\rho = 1,4 \\frac{\\text{L}}{\\text{h}} \\cdot 0,85 \\frac{\\text{kg}}{\\text{L}} = 1,19 \\frac{\\text{kg}}{\\text{h}}
+        \\]
+        <p>Passem a kg/s per obtenir Wats:</p>
+        \\[
+        \\dot{m}_{s} = \\frac{1,19}{3600} \\approx 3,305 \\cdot 10^{-4} º\text{ kg/s}
+        \\]
+        <p>Calculem la potència amb el poder calorífic:</p>
+        \\[
+        P_{cons} = \\dot{m}_{s} \\cdot p_c = 3,305 \\cdot 10^{-4} \\text{ kg/s} \\cdot 44,8 \\cdot 10^6 \\frac{\\text{J}}{\\text{kg}}
+        \\]
+        \\[
+        P_{cons} = 14.808,8 \\text{ W} \\approx 14,81 \\text{ kW}
+        \\]
+        <strong>b)Rendiment del motor \\(\\eta\\)</strong>
+        <p>-Fórmula:</p>
+        \\[
+        \\eta = \\frac{P_{mot} \\text{ (útil sortida)}}{P_{cons} \\text{ (tèrmica entrada)}}
+        \\]
+        \\[
+        \\eta = \\frac{3,58 \\text{ kW}}{14,81 \\text{ kW}} = 0,2417 \\quad \\Rightarrow \\quad 24,17\\%
+        \\]
+        <strong>c)Velocitat punt extrem pala \\(v\\)</strong>
+        <p>És la velocitat lineal a la perifèria. Radi \\(r = 0,42 / 2 = 0,21 m\\).</p>
+        <p>-Velocitat angular:</p>
+        \\[
+        \\omega = 3.600 \\frac{\\text{rev}}{\\text{min}} \\cdot \\frac{2\\pi}{60} = 376,99 \\text{ rad/s}
+        \\]
+        <p>-Velocitat lineal:</p>
+        \\[
+        v = \\omega \\cdot r = 376,99 \\cdot 0,21 = 79,17 \\text{ m/s}
+        \\]
+        <strong>d) Emissions de \\(CO_2\\) en \\(20 min\\)</strong>
+        <p>-Consum combustible en 20 min:</p>
+        \\[
+        V_{total} = 1,4 \\text{ L/h} \\cdot \\frac{20}{60} \\text{ h} = 0,4667 \\text{ L}
+        \\]
+        <p>-Emissions</p>
+        \\[
+        m_{CO2} = V_{total} \\cdot FE = 0,4667 \\text{ L} \\cdot 2,87 \\frac{\\text{kg}}{\\text{L}} \\approx 1,34 \\text{ kg CO}_2
+        \\]
          <br>`,
     },
 ]
