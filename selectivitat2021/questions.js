@@ -1140,7 +1140,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         steps: `
         <strong>a)Diagrama de cos lliure.</strong>
         <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/ss1ex5a.png" alt="Imatge relacionada amb la pregunta" width="250"><br>
-        <strong>b)Expressió de \\(h\\) en funció de \\(x\\)./strong>
+        <strong>b)Expressió de \\(h\\) en funció de \\(x\\).>/strong>
         <p>Mirem el triangle format per la posició de la porta.</p>
         <p>La distància entre el punt P i el punt M és la meitat de la porta: \\(L\\).L'altura vertical entre P i M és \\(h\\).La distància horitzontal entre la guia vertical (on està M) i P és \\(x\\).</p>
         <p>Aplicant Pitàgores al triangle rectangle:</p>
@@ -1154,7 +1154,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         <p>Podem utilitzar el sumatori de moments. Triem el punt M (Centre de Massa) per fer moments, ja que anul·lem el Pes i la Normal \\(N_M\\).</p>
         <p>Forces que creen moment respecte M:</p>
         <p>Força \\(F\\) (a P): Braç de palanca vertical = \\(h\\). Sentit horari (positiu). Moment: \\(F \\cdot h\\).</p>
-        <p>Normal a P \\(\\N_P\\): Braç de palanca horitzontal = \\(x\\). Sentit antihorari (negatiu). Moment: \\(-N_P \\cdot x\\).</p>
+        <p>Normal a P \\(N_P\\): Braç de palanca horitzontal = \\(x\\). Sentit antihorari (negatiu). Moment: \\(-N_P \\cdot x\\).</p>
         <p>-Equilibri de moments:</p>
         \\[
         F \\cdot h - N_P \\cdot x = 0 \\Rightarrow F = N_P \\frac{x}{h}.
@@ -1186,9 +1186,9 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
   {
         type: "exercicis", // Tipus de pregunta
         category: "enrgia",
-        text: `El sistema públic d’iŀluminació municipal d’una vila està format per \\(n = 308\\) punts de llum, que estan encesos, de mitjana, \\(t = 11 hores\\) al dia. Cada punt de llum utilitza una bombeta de vapor de sodi a alta pressió (VSAP) de potència \\(PVSAP = 100 W\\). La tarifa fixada per la companyia elèctrica marca un cost de l’electricitat \\(celectr = 0,1370 €/(kW h)\\). A més, l’Ajuntament ha d’assumir un cost anual associat al manteniment d’aquest sistema \\(cmant = 14 000 €\\). Determineu:
+        text: `El sistema públic d’iŀluminació municipal d’una vila està format per \\(n = 308\\) punts de llum, que estan encesos, de mitjana, \\(t = 11 hores\\) al dia. Cada punt de llum utilitza una bombeta de vapor de sodi a alta pressió (VSAP) de potència \\(PVSAP = 100 W\\). La tarifa fixada per la companyia elèctrica marca un cost de l’electricitat \\( c_{electr} = 0{,}1370\\,€/(\\text{kWh}) \\). A més, l’Ajuntament ha d’assumir un cost anual associat al manteniment d’aquest sistema \\( c_{mant} = 14\\,000\\,€ \\). Determineu:
                <br><strong>a)</strong> El consum anual d’energia de l’enllumenat públic \\(E_{VSAP}\\) i els diners anuals que l’Ajuntament paga a la companyia elèctrica \\(c_{VSAP}\\). [1 punts]
-               <p>L’Ajuntament vol canviar tots els punts de llum per uns de nous que utilitzaran bombetes de tecnologia led de potència \\(Pled = 36 W\\). Cada llum té un cost unitari de \\(cllum = 500 €\\) (incloent-hi la bombeta). El cost de la instaŀlació del nou enllumenat s’estima en \\(cinst = 43 000 €\\). En aquesta instaŀlació es pot negligir el cost de manteniment. Determineu:</p>
+               <p>L’Ajuntament vol canviar tots els punts de llum per uns de nous que utilitzaran bombetes de tecnologia LED de potència \\( P_{led} = 36\\,\\text{W} \\). Cada llum té un cost unitari de \\( c_{llum} = 500\\,€ \\) (incloent-hi la bombeta). El cost de la instal·lació del nou enllumenat s’estima en \\( c_{inst} = 43\\,000\\,€ \\). En aquesta instal·lació es pot negligir el cost de manteniment. Determineu:</p>
                <br><strong>b)</strong> El nou consum elèctric \\(E_{LED}\\) i els diners que anualment s’estalviaria cestalvi l’Ajuntament. [1 punts]
                <br><strong>c)</strong> El cost total de la inversió \\(C_{inv}\\). En quants anys Δt es recuperaria la inversió feta?. [0,5 punts]
                <br>`,
@@ -1219,13 +1219,22 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         Cost_{elec\\_LED} = 44.518,32 \\cdot 0,1370 = 6.099,01 \\text{ €}
         \\]
         <p>Estalvi total anual \\(C_{estalvi}\\):</p>
-        <p>L'estalvi prové de l'electricitat I del manteniment (que passa a ser 0).Estalvi \\(Elec = $16.941,69 - 6.099,01 = 10.842,68 \\text{ €}\\).Estalvi Manteniment = \\(14.000 \\text{ €}\\).</p>
+        <p>L'estalvi prové de l'electricitat I del manteniment (que passa a ser 0).</p>
+        <p>Estalvi \\(Elec = $16.941,69 - 6.099,01 = 10.842,68 \\text{ €}\\).</p>
+        <p>Estalvi Manteniment = \\(14.000 \\text{ €}\\).</p>
         \\[
         Estalvi_{total} = 10.842,68 + 14.000 = 24.842,68 \\text{ €/any}
         \\]
         <strong>c) Inversió i amortització \\(\\Delta t\\)</strong>
         <p>Cost Inversió \\(C_{inv}\\):</p>
-        <p>Material: \\(308 \\text{ unitats} \\cdot 500 \\text{ €/u} = 154.000 \\text{ €}\\). Instal·lació: \\(43.000 \\text{ €}\\).</p>
+        <p>Material:</p>
+        \\[
+        308 \\text{ unitats} \\cdot 500 \\text{ €/u} = 154.000 \\text{ €}.
+        \\]
+        <p>Instal·lació:</p> 
+        \\[
+        43.000 \\text{ €}.
+        \\]
         \\[
         C_{inv} = 154.000 + 43.000 = 197.000 \\text{ €}
         \\]
