@@ -1185,10 +1185,10 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
     },
   {
         type: "exercicis", // Tipus de pregunta
-        category: "enrgia",
-        text: `El sistema públic d’il·luminació municipal d’una vila està format per \\( n = 308 \\) punts de llum, que estan encesos, de mitjana, \\( t = 11 hores\\) al dia. Cada punt de llum utilitza una bombeta VSAP de potència \\( P_{VSAP} = 100 W \\). La tarifa és \\(P_{elec} = 0,1370 €/(kW h)\\). El cost de manteniment és \\(c_{mant} = 14 000 €\\). Determineu:
+        category: "energia",
+        text: `El sistema públic d’il·luminació municipal d’una vila està format per \\( n = 308 \\) punts de llum, que estan encesos, de mitjana, \\( t = 11 hores\\) al dia. Cada punt de llum utilitza una bombeta VSAP de potència \\( P_{VSAP} = 100 W \\). La tarifa és \\(P_{elec}\\) = 0,1370 €/(kW h). El cost de manteniment és \\(c_{mant}\\) = 14 000 €). Determineu:
                <br><strong>a)</strong> El consum anual d’energia de l’enllumenat públic \\(E_{VSAP}\\) i els diners anuals que l’Ajuntament paga a la companyia elèctrica \\(c_{VSAP}\\). [1 punts]
-               <p>L’Ajuntament vol canviar tots els punts de llum per uns de nous que utilitzaran bombetes de tecnologia LED de potència \\( P_{led} = 36 W \\). Cada llum té un cost unitari de \\( c_{llum} = 500 €\\) (incloent-hi la bombeta). El cost de la instal·lació del nou enllumenat s’estima en \\( c_{inst} = 43,000 € \\). En aquesta instal·lació es pot negligir el cost de manteniment. Determineu:</p>
+               <p>L’Ajuntament vol canviar tots els punts de llum per uns de nous que utilitzaran bombetes de tecnologia LED de potència \\( P_{led}\\) = 36 W. Cada llum té un cost unitari de \\( c_{llum}\\) = 500 € (incloent-hi la bombeta). El cost de la instal·lació del nou enllumenat s’estima en \\( c_{inst}\\) = 43,000 €. En aquesta instal·lació es pot negligir el cost de manteniment. Determineu:</p>
                <br><strong>b)</strong> El nou consum elèctric \\(E_{LED}\\) i els diners que anualment s’estalviaria cestalvi l’Ajuntament. [1 punts]
                <br><strong>c)</strong> El cost total de la inversió \\(C_{inv}\\). En quants anys Δt es recuperaria la inversió feta?. [0,5 punts]
                <br>`,
