@@ -1031,5 +1031,44 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         <br><br>
         <img src="https://ariadnaarcass.github.io/selectivitat2021/ss1ex2c.png" alt="Imatge relacionada amb la pregunta" width="300">
         <br>`,
+     },
+  {
+        type: "exercicis", // Tipus de pregunta
+        category: "materials",
+        text: `La taula següent mostra els valors que s’han registrat en un assaig de tracció amb una proveta de longitud \\(L0 = 125 mm\\) i de diàmetre \\(d = 8 mm\\).
+        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/ss1ex3.png" alt="Imatge relacionada amb la pregunta" width="450"><br>
+               <br><strong>a)</strong> Dibuixeu el diagrama tensió-deformació. [0,5 punts]
+               <br><strong>b)</strong> Calculeu el mòdul d’elasticitat \\(E\\) del material [0,5 punts]
+               <br><strong>c)</strong> Determineu la força \\(F\\) que cal aplicar per a sotmetre la proveta a una tensió \\(\\sigma=200 MPa\\). Quin increment de longitud ΔL experimentarà la proveta? [1 punts]
+               <br><strong>d)</strong> Si se sotmet la proveta a una tensió de 300 MPa, recuperarà la longitud inicial? [0,5 punts]
+               <br>`,
+        steps: `
+        <strong>a)Diagrama Tensió-Deformació.</strong>
+        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/ss1ex3a.png" alt="Imatge relacionada amb la pregunta" width="450"><br>
+        <strong>b)Mòdul d'elasticitat \\(E\\).</strong>
+        <p>Es calcula amb el pendent de la zona lineal Llei de Hooke: \\(\\sigma = E \\cdot e\\). Agafem el primer punt no nul \\(e=0,001, \\sigma=69\\):</p>
+        \\[
+        E = \\frac{\\sigma}{e} = \\frac{69 \\text{ MPa}}{0,001} = 69.000 \\text{ MPa} = 69 \\text{ GPa}
+        \\]
+        <p>(Verifiquem amb el següent punt: \\(138 / 0,002 = 69.000\\). Correcte).</p>
+        <strong>c)Força i increment de longitud a 200 MPa</strong>
+        <p>Força \\(F\\):</p>
+        \\[
+        F = \\sigma \\cdot A = 200 \\frac{\\text{N}}{\\text{mm}^2} \\cdot 50,265 \\text{ mm}^2 = 10.053 \\text{ N} \\approx 10,05 \\text{ kN}
+        \\]
+        <p>Increment de longitud \\(\\Delta L\\): Primer comprovem si \\(200 MPa\\) està a la zona elàstica. El límit de proporcionalitat a la taula arriba a \\(276 MPa\\). Com que \\(200 < 276\\), és elàstic. Utilitzem la llei de Hooke per trobar la deformació \\(e\\):</p>
+        \\[
+        e = \\frac{\\sigma}{E} = \\frac{200}{69.000} \\approx 0,002898
+        \\]
+        <p>Ara calculem l'allargament:</p>
+        \\[
+        e = \\frac{\\Delta L}{L_0} \\quad \\Rightarrow \\quad \\Delta L = e \\cdot L_0
+        \\]
+        \\[
+        \\Delta L = 0,002898 \\cdot 125 \\text{ mm} \\approx 0,362 \\text{ mm}
+        \\]
+        <strong>d)Recuperació a 300 MPa</strong>
+        <p>Mirem la taula: A 300 MPa la deformació és 0,02. El límit elàstic aparent és al voltant de 276 MPa (on deixa de ser lineal). Com que 300 MPa > Límit Elàstic, la proveta ha patit deformació plàstica. No, no recuperarà la longitud inicial. Quedarà amb una deformació permanent.</p>
+         <br>`,
     },
 ]
