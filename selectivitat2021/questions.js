@@ -1126,4 +1126,61 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         \\]
          <br>`,
     },
+  {
+        type: "exercicis", // Tipus de pregunta
+        category: "principis",
+        text: `La figura mostra una porta de garatge abatible de longitud 2L. Per a obrir-la i tancar-la, es guia horitzontalment el seu punt més alt P, al qual s’aplica una força F. El centre d’inèrcia de la porta es troba en el seu punt mitjà i es força el desplaçament vertical d’aquest punt gràcies a una guia. Es consideren negligibles totes les friccions.
+        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/ss1ex5.png" alt="Imatge relacionada amb la pregunta" width="450"><br>
+               <br><strong>a)</strong> Dibuixeu el diagrama de cos lliure de la porta. [0,5 punts]
+               <br><strong>b)</strong> Trobeu l’expressió de la coordenada \\(h\\) en funció de \\(x\\) [0,5 punts]
+               <p>La porta es manté en repòs en una posició genèrica \\(x\\). Determineu, en funció de \\(x\\):</p>
+               <br><strong>c)</strong> La força \\(F\\) que cal fer per a mantenir la porta oberta. [1 punts]
+               <br><strong>d)</strong> Les forces normals a cadascuna de les guies. [0,5 punts]
+               <br>`,
+        steps: `
+        <strong>a)Diagrama de cos lliure.</strong>
+        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/ss1ex5a.png" alt="Imatge relacionada amb la pregunta" width="250"><br>
+        <strong>b)Expressió de \\(h\\) en funció de \\(x\\)./strong>
+        <p>Mirem el triangle format per la posició de la porta.</p>
+        <p>La distància entre el punt P i el punt M és la meitat de la porta: \\(L\\).L'altura vertical entre P i M és \\(h\\).La distància horitzontal entre la guia vertical (on està M) i P és \\(x\\).</p>
+        <p>Aplicant Pitàgores al triangle rectangle:</p>
+        \\[
+        L^2 = x^2 + h^2
+        \\]
+        \\[
+        h = \\sqrt{L^2 - x^2}
+        \\]
+        <strong>c) Força \\(F\\) per mantenir l'equilibri:</strong>
+        <p>Podem utilitzar el sumatori de moments. Triem el punt M (Centre de Massa) per fer moments, ja que anul·lem el Pes i la Normal \\(N_M\\).</p>
+        <p>Forces que creen moment respecte M:</p>
+        <p>Força \\(F\\) (a P): Braç de palanca vertical = \\(h\\). Sentit horari (positiu). Moment: \\(F \\cdot h\\).</p>
+        <p>Normal a P \\(\\N_P\\): Braç de palanca horitzontal = \\(x\\). Sentit antihorari (negatiu). Moment: \\(-N_P \\cdot x\\).</p>
+        <p>-Equilibri de moments:</p>
+        \\[
+        F \\cdot h - N_P \\cdot x = 0 \\Rightarrow F = N_P \\frac{x}{h}.
+        \\]
+        <p>Per trobar \\(N_P\\), fem sumatori de forces verticals \\(\\sum F_y = 0\\):</p>
+        \\[
+        N_P (amunt) - mg (avall) = 0 \\Rightarrow N_P = m \\cdot g.
+        \\]
+        <p>Substituïm \\(N_P\\) a l'equació de moments:</p>
+        \\[
+        F = m \\cdot g \\cdot \\frac{x}{h}
+        \\]
+        <p>Com que \\(h = \\sqrt{L^2 - x^2}\\), l'expressió final és:</p>
+        \\[
+        F = m \\cdot g \\cdot \\frac{x}{\\sqrt{L^2 - x^2}}
+        \\]
+        <strong>d) Forces normals a les guies:</strong>
+        <p>Ja hem trobat \\(N_P\\) (guia horitzontal) a l'apartat anterior:</p>
+        \\[
+        N_P = m \\cdot g
+        \\]
+        <p>Per trobar \\(N_M\\) (guia vertical), fem sumatori de forces horitzontals \\(\\sum F_x = 0\\):</p>
+        <p>\\(F\\) (dreta) - \\(N_M\\) (esquerra) = 0 \\Rightarrow N_M = F.</p>
+        \\[
+        N_M = m \\cdot g \\cdot \\frac{x}{h}
+        \\]
+         <br>`,
+    },
 ]
