@@ -1206,7 +1206,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         \\[
         Cost = 123.662 \\cdot 0,1370 = 16.941,69 \\text{ €}
         \\]
-        <strong>b)Consum LED i Estalvi total./strong>
+        <strong>b)Consum LED i Estalvi total.</strong>
         <p>Energia anual \\(E_{LED}\\):</p>
         \\[
         P_{total\\_LED} = 308 \\cdot 36 \\text{ W} = 11.088 \\text{ W} = 11,088 \\text{ kW}
@@ -1220,7 +1220,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         \\]
         <p>Estalvi total anual \\(C_{estalvi}\\):</p>
         <p>L'estalvi prové de l'electricitat I del manteniment (que passa a ser 0).</p>
-        <p>Estalvi \\(Elec = $16.941,69 - 6.099,01 = 10.842,68 \\text{ €}\\).</p>
+        <p>Estalvi = \\(Elec = $16.941,69 - 6.099,01 = 10.842,68 \\text{ €}\\).</p>
         <p>Estalvi Manteniment = \\(14.000 \\text{ €}\\).</p>
         \\[
         Estalvi_{total} = 10.842,68 + 14.000 = 24.842,68 \\text{ €/any}
