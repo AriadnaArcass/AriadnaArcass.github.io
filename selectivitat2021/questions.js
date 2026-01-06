@@ -1000,24 +1000,32 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         </tr>
         </thead>
         <tbody>
-        <tr><td>0</td><td>0</td><td>0</td><td>1</td></tr>
-        <tr><td>0</td><td>0</td><td>1</td><td>0</td></tr>
-        <tr><td>0</td><td>1</td><td>0</td><td>1</td></tr>
-        <tr><td>0</td><td>1</td><td>1</td><td>0</td></tr>
-        <tr><td>1</td><td>0</td><td>0</td><td>1</td></tr>
-        <tr><td>1</td><td>0</td><td>1</td><td>0</td></tr>
-        <tr><td>1</td><td>1</td><td>0</td><td>1</td></tr>
-        <tr><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+        <tr><td>0</td><td>0</td><td>0</td><td>0<td>0</td></tr>
+        <tr><td>0</td><td>0</td><td>0</td><td>1<td>0</td></tr>
+        <tr><td>0</td><td>0</td><td>1</td><td>0<td>0</td></tr>
+        <tr><td>0</td><td>0</td><td>1</td><td>1<td>0</td></tr>
+        <tr><td>0</td><td>1</td><td>0</td><td>0<td>1</td></tr>
+        <tr><td>0</td><td>1</td><td>0</td><td>1<td>0</td></tr>
+        <tr><td>0</td><td>1</td><td>1</td><td>0<td>1</td></tr>
+        <tr><td>0</td><td>1</td><td>1</td><td>1<td>1</td></tr>
+        <tr><td>1</td><td>0</td><td>0</td><td>0<td>0</td></tr>
+        <tr><td>1</td><td>0</td><td>0</td><td>1<td>1</td></tr>
+        <tr><td>1</td><td>0</td><td>1</td><td>0<td>1</td></tr>
+        <tr><td>1</td><td>0</td><td>1</td><td>1<td>1</td></tr>
+        <tr><td>1</td><td>1</td><td>0</td><td>0<td>1</td></tr>
+        <tr><td>1</td><td>1</td><td>0</td><td>1<td>1</td></tr>
+        <tr><td>1</td><td>1</td><td>1</td><td>0<td>1</td></tr>
+        <tr><td>1</td><td>1</td><td>1</td><td>1<td>1</td></tr>
         </tbody>
         </table>
         <br>
         <strong>b)Funció lògica</strong>
         \\[
-        p = (f + t + p_1 + \\bar{v}) \\cdot (f + \\bar{t} + \\bar{v}) \\cdot (\\bar{f} + t + \\bar{v})
+        a = (p + f + l + t) \\cdot (p + f + l + \\bar{t}) \\cdot (p + \\bar{f} + l + t)
         \\]
         <p>Simplifiquem:</p>
         \\[
-        p = (f \\cdot t) + \\bar{v} 
+        a = p + (f \\cdot l) + (f \\cdot t) + (l \\cdot t)
         \\]
         <strong>c)Esquema de portes lògiques</strong>
         <br><br>
