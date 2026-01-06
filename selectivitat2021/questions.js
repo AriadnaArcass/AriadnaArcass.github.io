@@ -1140,7 +1140,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         steps: `
         <strong>a)Diagrama de cos lliure.</strong>
         <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/ss1ex5a.png" alt="Imatge relacionada amb la pregunta" width="250"><br>
-        <strong>b)Expressió de \\(h\\) en funció de \\(x\\).>/strong>
+        <strong>b)Expressió de \\(h\\) en funció de \\(x\\).</strong>
         <p>Mirem el triangle format per la posició de la porta.</p>
         <p>La distància entre el punt P i el punt M és la meitat de la porta: \\(L\\).L'altura vertical entre P i M és \\(h\\).La distància horitzontal entre la guia vertical (on està M) i P és \\(x\\).</p>
         <p>Aplicant Pitàgores al triangle rectangle:</p>
