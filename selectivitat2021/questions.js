@@ -1130,7 +1130,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         type: "exercicis", // Tipus de pregunta
         category: "principis",
         text: `La figura mostra una porta de garatge abatible de longitud 2L. Per a obrir-la i tancar-la, es guia horitzontalment el seu punt més alt P, al qual s’aplica una força F. El centre d’inèrcia de la porta es troba en el seu punt mitjà i es força el desplaçament vertical d’aquest punt gràcies a una guia. Es consideren negligibles totes les friccions.
-        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/ss1ex5.png" alt="Imatge relacionada amb la pregunta" width="450"><br>
+        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/ss1ex5.png" alt="Imatge relacionada amb la pregunta" width="250"><br>
                <br><strong>a)</strong> Dibuixeu el diagrama de cos lliure de la porta. [0,5 punts]
                <br><strong>b)</strong> Trobeu l’expressió de la coordenada \\(h\\) en funció de \\(x\\) [0,5 punts]
                <p>La porta es manté en repòs en una posició genèrica \\(x\\). Determineu, en funció de \\(x\\):</p>
