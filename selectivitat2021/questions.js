@@ -216,14 +216,14 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         \\]
         <strong>c)Esquema de portes lògiques</strong>
         <br><br>
-        <img src="https://ariadnaarcass.github.io/selectivitat2021/2021js2ex2c.png" alt="Imatge relacionada amb la pregunta" width="300">
+        <img src="https://ariadnaarcass.github.io/selectivitat2021/images/2021js2ex2c.png" alt="Imatge relacionada amb la pregunta" width="300">
         <br>`,
        },
   {
         type: "exercicis", // Tipus de pregunta
         category: "motors",
         text: `Un bombo de maceració serveix per a barrejar la carn amb els productes que la conserven. Per a fer-lo funcionar, es fa girar el bombo (1) al voltant d’un eix horitzontal per mitjà d’una corretja (2) accionada per un motor reductor (3). El motor subministra una potència \\(Pmot = 0,55 kW\\) i gira a \\(nmot = 1 415 min–1\\). El reductor té un rendiment \\(ηred = 0,96\\) i una relació de transmissió \\(τ = ωred/ωmot = 68,9 × 10–3\\). L’eix del reductor fa girar la politja de diàmetre \\(d = 63 mm\\), la qual, mitjançant una corretja ideal que no llisca, fa girar la segona politja de diàmetre \\(D = 500 mm\\). L’eix d’aquesta última politja es connecta directament al bombo de maceració. Determineu:
-        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/2021js2ex3.png" alt="Imatge relacionada amb la pregunta" width="250"><br>
+        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/images/2021js2ex3.png" alt="Imatge relacionada amb la pregunta" width="250"><br>
 <br><strong>a)</strong> Parell a l'eix del motor \\( \\Gamma_{mot} \\). [0,5 punts]
 <br><strong>b)</strong> Parell a l'eix de sortida del reductor \\( \\Gamma_{red} \\). [0,5 punts]
 <br><strong>c)</strong> Velocitat de la politja petita \\( n_d \\). [0,5 punts]
@@ -365,7 +365,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         type: "exercicis", // Tipus de pregunta
         category: "principis",
         text: `Una persona de massa \\(m = 80 kg\\) utilitza l’estructura de barres de la figura per a fer exercicis de gimnàstica a casa. L’estructura té articulacions a la paret pels punts O i S. La barra QS està unida a la barra OP mitjançant una articulació. En la situació d’estudi, la persona es penja del punt P (sense que els peus toquin a terra) i s’hi manté en repòs. 
-        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/js2ex5.png" alt="Imatge relacionada amb la pregunta" width="250"><br>
+        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/images/2021js2ex5.png" alt="Imatge relacionada amb la pregunta" width="250"><br>
 <br><strong>a)</strong> Dibuixeu el diagrama de cos lliure de la barra OP. [0,5 punts]
 <br><strong>b)</strong> La força \\(F_{QS}\\) a la qual està sotmesa la barra QS. A quin tipus d’esforç està sotmesa aquesta barra?  [1 punts]
 <br><strong>c)</strong> Les forces horitzontal \\(F_H\\) i vertical \\(F_V\\) a l’articulació O. [1 punts]
@@ -373,7 +373,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         steps: `
         <strong>a) Diagrama del cos lliure de la barra OP</strong>
         <br><br>
-        <img src="https://ariadnaarcass.github.io/selectivitat2021/js2ex5a.png" alt="Imatge relacionada amb la pregunta" width="300">
+        <img src="https://ariadnaarcass.github.io/selectivitat2021/images/2021js2ex5a.png" alt="Imatge relacionada amb la pregunta" width="300">
         <br>
         <strong>b)Força \\(F_{QS}\\) i tipus d'esforç</strong>
         <p>-Càlcul:</p>
@@ -595,7 +595,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         type: "exercicis", // Tipus de pregunta
         category: "control",
         text: `El sistema d’obertura automàtica de portes d’emergència està format per tres detectors: un detector de fum, un de temperatura i un de tensió elèctrica de la xarxa. La porta s’obre si es detecta fum i un augment brusc de la temperatura, o si la tensió d’alimentació passa a ser nuŀla. Responeu a les qüestions que hi ha a continuació utilitzant les variables d’estat següents:
-        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/js5ex2.png" alt="Imatge relacionada amb la pregunta" width="450"><br>
+        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/images/2021js5ex2.png" alt="Imatge relacionada amb la pregunta" width="450"><br>
                <br><strong>a)</strong> Elaboreu la taula de veritat del sistema. [1 punts]
                <br><strong>b)</strong> Determineu la funció lògica entre aquestes variables i, si escau, simplifiqueu-la. [1 punt]
                <br><strong>c)</strong> Dibuixeu l’esquema de portes lògiques equivalent. [0,5 punts]
@@ -634,7 +634,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         \\]
         <strong>c)Esquema de portes lògiques</strong>
         <br><br>
-        <img src="https://ariadnaarcass.github.io/selectivitat2021/js5ex2c.png" alt="Imatge relacionada amb la pregunta" width="300">
+        <img src="https://ariadnaarcass.github.io/selectivitat2021/images/2021js5ex2c.png" alt="Imatge relacionada amb la pregunta" width="300">
         <br>`,
     },
   {
@@ -981,7 +981,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         type: "exercicis", // Tipus de pregunta
         category: "control",
         text: `Es vol dissenyar el circuit que controli una alarma contra incendis. L’alarma s’ha de disparar quan es premi el polsador d’incendis, o bé quan es compleixin dues o més d’aquestes tres condicions: s’ha sobrepassat un llindar de temperatura, hi ha fum a l’habitació i/o la temperatura ha augmentat bruscament. Responeu a les qüestions que hi ha a continuació utilitzant les variables d’estat següents:
-        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/ss1ex2.png" alt="Imatge relacionada amb la pregunta" width="450"><br>
+        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/images/2021ss1ex2.png" alt="Imatge relacionada amb la pregunta" width="450"><br>
                <br><strong>a)</strong> Escriviu la taula de veritat del sistema. [1 punts]
                <br><strong>b)</strong> Determineu la funció lògica entre aquestes variables i, si escau, simplifiqueu-la. [1 punt]
                <br><strong>c)</strong> Dibuixeu l’esquema de portes lògiques equivalent. [0,5 punts]
@@ -1029,14 +1029,14 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         \\]
         <strong>c)Esquema de portes lògiques</strong>
         <br><br>
-        <img src="https://ariadnaarcass.github.io/selectivitat2021/ss1ex2c.png" alt="Imatge relacionada amb la pregunta" width="300">
+        <img src="https://ariadnaarcass.github.io/selectivitat2021/images/2021ss1ex2c.png" alt="Imatge relacionada amb la pregunta" width="300">
         <br>`,
      },
   {
         type: "exercicis", // Tipus de pregunta
         category: "materials",
         text: `La taula següent mostra els valors que s’han registrat en un assaig de tracció amb una proveta de longitud \\(L0 = 125 mm\\) i de diàmetre \\(d = 8 mm\\).
-        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/ss1ex3.png" alt="Imatge relacionada amb la pregunta" width="450"><br>
+        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/images/2021ss1ex3.png" alt="Imatge relacionada amb la pregunta" width="450"><br>
                <br><strong>a)</strong> Dibuixeu el diagrama tensió-deformació. [0,5 punts]
                <br><strong>b)</strong> Calculeu el mòdul d’elasticitat \\(E\\) del material [0,5 punts]
                <br><strong>c)</strong> Determineu la força \\(F\\) que cal aplicar per a sotmetre la proveta a una tensió \\(\\sigma=200 MPa\\). Quin increment de longitud ΔL experimentarà la proveta? [1 punts]
@@ -1044,7 +1044,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
                <br>`,
         steps: `
         <strong>a)Diagrama Tensió-Deformació.</strong>
-        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/ss1ex3a.png" alt="Imatge relacionada amb la pregunta" width="250"><br>
+        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/images/2021ss1ex3a.png" alt="Imatge relacionada amb la pregunta" width="250"><br>
         <strong>b)Mòdul d'elasticitat \\(E\\).</strong>
         <p>Es calcula amb el pendent de la zona lineal Llei de Hooke: \\(\\sigma = E \\cdot e\\). Agafem el primer punt no nul \\(e=0,001, \\sigma=69\\):</p>
         \\[
@@ -1130,7 +1130,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
         type: "exercicis", // Tipus de pregunta
         category: "principis",
         text: `La figura mostra una porta de garatge abatible de longitud 2L. Per a obrir-la i tancar-la, es guia horitzontalment el seu punt més alt P, al qual s’aplica una força F. El centre d’inèrcia de la porta es troba en el seu punt mitjà i es força el desplaçament vertical d’aquest punt gràcies a una guia. Es consideren negligibles totes les friccions.
-        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/ss1ex5.png" alt="Imatge relacionada amb la pregunta" width="250"><br>
+        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/images/2021ss1ex5.png" alt="Imatge relacionada amb la pregunta" width="250"><br>
                <br><strong>a)</strong> Dibuixeu el diagrama de cos lliure de la porta. [0,5 punts]
                <br><strong>b)</strong> Trobeu l’expressió de la coordenada \\(h\\) en funció de \\(x\\) [0,5 punts]
                <p>La porta es manté en repòs en una posició genèrica \\(x\\). Determineu, en funció de \\(x\\):</p>
@@ -1139,7 +1139,7 @@ images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pre
                <br>`,
         steps: `
         <strong>a)Diagrama de cos lliure.</strong>
-        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/ss1ex5a.png" alt="Imatge relacionada amb la pregunta" width="250"><br>
+        <br><br><img src="https://ariadnaarcass.github.io/selectivitat2021/images/2021ss1ex5a.png" alt="Imatge relacionada amb la pregunta" width="250"><br>
         <strong>b)Expressió de \\(h\\) en funció de \\(x\\).</strong>
         <p>Mirem el triangle format per la posició de la porta.</p>
         <p>La distància entre el punt P i el punt M és la meitat de la porta: \\(L\\).L'altura vertical entre P i M és \\(h\\).La distància horitzontal entre la guia vertical (on està M) i P és \\(x\\).</p>
